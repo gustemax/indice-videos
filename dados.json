@@ -28,7 +28,23 @@
     { "cat": "Ferramentas / Setup", "title": "O Novo Modelo do Google + Antigravity | Acabaram de Mudar o RAG para Sempre", "author": "Enzo Barbatto", "id": "nvC7B9To_mo" },
     { "cat": "Ferramentas / Setup", "title": "How to use AntiGravity better than 99% of people", "author": "Enzo Barbatto", "id": "DIqLI5Vgacc" },
     { "cat": "Automação / WhatsApp", "title": "Criei um Agente de IA no WhatsApp em 20 Minutos com Claude Code", "author": "Eduardo Carezia", "id": "XknqMFCb9zg" },
-    { "cat": "Automação / WhatsApp", "title": "Meta Mudou Tudo! Como Criar o Novo App da API WhatsApp", "author": "Comunidade ZDG", "id": "Mo9tDcvP9Tc" }
+    { "cat": "Automação / WhatsApp", "title": "Meta Mudou Tudo! Como Criar o Novo App da API WhatsApp", "author": "Comunidade ZDG", "id": "Mo9tDcvP9Tc" },
+    { "cat": "Ferramentas / Setup", "title": "Configurar credenciais do Google no n8n em 5 minutos (2025)", "author": "Lucas Lopes", "id": "Bah3EsHdqvM" },
+    { "cat": "Claude Code + Produtividade", "title": "Como construir o cérebro secundário definitivo com IA (Obsidian + Claude Code)", "author": "Lucas Lopes", "id": "e67yj93RMlc" },
+    { "cat": "Ferramentas / Setup", "title": "Como usar o Google Antigravity melhor que 99% das pessoas! (4 hacks)", "author": "Empreendedor Serial", "id": "LnOhoJ6GDqw" },
+    { "cat": "Monetização com IA", "title": "Criei um Sistema de Membros com IA usando Claude Code", "author": "Thalena Lima - IA & Automações", "id": "7qSzdiZDtCo" },
+    { "cat": "Agentes de IA", "title": "Google Gemini File Search - O Guia DEFINITIVO para Criar Agentes RAG no n8n", "author": "Thalena Lima - IA & Automações", "id": "TbwIzb7wVGM" },
+    { "cat": "Monetização com IA", "title": "CRIANDO produto no CLAUDE e vendendo na CAKTO (na prática)", "author": "Cakto", "id": "VZm94pTrlZQ" },
+    { "cat": "Monetização com IA", "title": "I Asked Claude To Make Me As Much Money As Possible", "author": "Sabrina Ramonov 🍄", "id": "AP-fOOmm02g" },
+    { "cat": "Monetização com IA", "title": "Venda Landing Pages/Sites de R$1.500 Criadas em 10 Minutos com IA (DINHEIRO COM I.A)", "author": "Rob Boliver - Como usar o CANVA", "id": "vXnRX65p5B0" },
+    { "cat": "Ferramentas / Setup", "title": "Duas IAs Criaram Esse App SOZINHAS: Eu só assisti (Google Stitch + Antigravity é INSANO)", "author": "Matheus Battisti - Hora de Codar", "id": "Mt4dH9MqYEw" },
+    { "cat": "Ferramentas / Setup", "title": "As NOVAS Skills do Antigravity são INSANAS", "author": "Chiara Costa", "id": "syRsWFgjFY0" },
+    { "cat": "Ferramentas / Setup", "title": "Aulão Openclaw com Bruno Okamoto", "author": "Bruno Okamoto", "id": "sjyFkm73lmM" },
+    { "cat": "Agentes de IA", "title": "COMO CRIAR teu TIME DE AGENTES de IA do zero no Claude Code (o passo a passo que pediram)", "author": "Ratos de IA", "id": "f6-RL16UYlg" },
+    { "cat": "Monetização com IA", "title": "CLONE produtos em 24h: Nova IA CHOCA mercado", "author": "Software House Exponencial", "id": "ROwDPAPhZHI" },
+    { "cat": "Monetização com IA", "title": "Claude Code + Nano Banana 2 = Insane $10,000 Websites", "author": "Jack Roberts", "id": "TZUTe7s11-I" },
+    { "cat": "Ferramentas / Setup", "title": "Intensivão de Claude Code + Antigravity - Construindo seu Primeiro APP em Menos de 58 minutos", "author": "Eduardo Carezia - Automatiza AI", "id": "LZU_IFwtm1A" },
+    { "cat": "Claude Code + Produtividade", "title": "I Let OpenClaw Handle My Emails and Tasks (Full Setup)", "author": "Nathan Sebhastian", "id": "MBpsdnB5YJ0" }
   ],
   "canais": [
     {
@@ -183,6 +199,60 @@
       "corBg": "rgba(163,230,53,0.12)",
       "desc": "IA descomplicada — Machine Learning, Deep Learning, ChatGPT, Gemini e agentes de IA na prática.",
       "url": "https://www.youtube.com/@canalsandeco"
+    },
+    {
+      "nome": "Matheus | IA Coding",
+      "handle": "@oMatheusdaIA",
+      "iniciais": "MC",
+      "cor": "#22c55e",
+      "corBg": "rgba(34,197,94,0.12)",
+      "desc": "🚀 Crie apps e automatize tarefas com IA!Aqui você aprende a criar aplicativos sem código, usar IA para otimizar processos e lançar seu SaaS em menos tempo p...",
+      "url": "https://www.youtube.com/@oMatheusdaIA"
+    },
+    {
+      "nome": "Thalena Lima - IA & Automações",
+      "handle": "@thalena-lima",
+      "iniciais": "TL",
+      "cor": "#ef4444",
+      "corBg": "rgba(239,68,68,0.12)",
+      "desc": "O canal que vai transformar o seu negócio com Inteligência Artificial e Automação!Aqui você aprende, na prática, como aplicar IA e automações para escalar re...",
+      "url": "https://www.youtube.com/@thalena-lima"
+    },
+    {
+      "nome": "IronIA Artificial",
+      "handle": "@IronIAArtificial",
+      "iniciais": "IA",
+      "cor": "#14b8a6",
+      "corBg": "rgba(20,184,166,0.12)",
+      "desc": "Domine Inteligência Artificial e saia na frente da concorrência!No IronIA Artificial, você aprende a usar IA de forma prática para:✅ Economizar horas de trab...",
+      "url": "https://www.youtube.com/@IronIAArtificial"
+    },
+    {
+      "nome": "Cakto",
+      "handle": "@Caktocanal",
+      "iniciais": "CK",
+      "cor": "#ff7a59",
+      "corBg": "rgba(255,122,89,0.12)",
+      "desc": "Compartilhe seus vídeos com amigos, familiares e todo o mundo",
+      "url": "https://www.youtube.com/@Caktocanal"
+    },
+    {
+      "nome": "Sabrina Ramonov 🍄",
+      "handle": "@sabrina_ramonov",
+      "iniciais": "SR",
+      "cor": "#38bdf8",
+      "corBg": "rgba(56,189,248,0.12)",
+      "desc": "👇 FREE AI Prompts, Playbooks, & Agents👇I'm Sabrina Ramonov. I'm on a mission to teach 1 million people AI. I'm also the solo founder of Blotato.com. It's a...",
+      "url": "https://www.youtube.com/@sabrina_ramonov"
+    },
+    {
+      "nome": "Nathan Sebhastian",
+      "handle": "@NathanSebhastian",
+      "iniciais": "NS",
+      "cor": "#f59e0b",
+      "corBg": "rgba(245,158,11,0.12)",
+      "desc": "My name is Nathan. I am a software developer with 10 years of experience.I help you learn how to code and use AI tools so that you can build great products, ...",
+      "url": "https://www.youtube.com/@NathanSebhastian"
     }
   ]
 }
