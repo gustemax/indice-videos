@@ -510,6 +510,7 @@ const catStyles = {
 };
 
 let videos = [];
+let canais = [];
 let activeFilter = "Todos";
 let searchVal = "";
 
@@ -543,6 +544,33 @@ function buildFilters() {
   });
 }
 
+function normalizeText(str) {
+  return (str || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+}
+
+function getRelatedChannels(filteredVideos) {
+  if (!searchVal.trim()) return canais;
+
+  const authors = filteredVideos.map(v => normalizeText(v.author));
+
+  return canais.filter(c => {
+    const channelName = normalizeText(c.nome);
+    const channelHandle = normalizeText(c.handle);
+
+    return authors.some(author =>
+      author === channelName ||
+      author.includes(channelName) ||
+      channelName.includes(author) ||
+      author.includes(channelHandle.replace("@", "")) ||
+      channelHandle.includes(author)
+    );
+  });
+}
+
 function render() {
   const q = searchVal.toLowerCase();
   const filtered = videos.filter(v => {
@@ -550,9 +578,11 @@ function render() {
     const matchSearch = !q || v.title.toLowerCase().includes(q) || v.author.toLowerCase().includes(q) || v.cat.toLowerCase().includes(q);
     return matchCat && matchSearch;
   });
+  const relatedChannels = getRelatedChannels(filtered);
 
   countBar.innerHTML = `Exibindo <b>${filtered.length}</b> de ${videos.length} vídeos`;
   gridEl.innerHTML = "";
+  renderCanais(relatedChannels);
 
   if (!filtered.length) {
     gridEl.innerHTML = '<div class="empty">Nenhum vídeo encontrado.</div>';
@@ -584,9 +614,19 @@ function render() {
 }
 
 function renderCanais(canais) {
-  channelsCountBar.innerHTML = `Total de <b>${canais.length}</b> canais`;
+  const hasSearch = !!searchVal.trim();
+  const sortedChannels = [...canais].sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR", { sensitivity: "base" }));
+  channelsCountBar.innerHTML = hasSearch
+    ? `Canais relacionados: <b>${sortedChannels.length}</b>`
+    : `Total de <b>${sortedChannels.length}</b> canais`;
   canaisGrid.innerHTML = "";
-  canais.forEach(c => {
+
+  if (!sortedChannels.length) {
+    canaisGrid.innerHTML = '<div class="empty">Nenhum canal relacionado encontrado.</div>';
+    return;
+  }
+
+  sortedChannels.forEach(c => {
     const a = document.createElement("a");
     a.className = "channel-card";
     a.href = c.url;
@@ -627,10 +667,10 @@ fetch("dados.json")
   .then(r => r.json())
   .then(data => {
     videos = data.videos;
+    canais = data.canais;
     totalCount.textContent = videos.length;
     buildFilters();
     render();
-    renderCanais(data.canais);
   })
   .catch(() => {
     gridEl.innerHTML = '<div class="empty">Erro ao carregar dados.json. Verifique se o arquivo está na mesma pasta.</div>';
