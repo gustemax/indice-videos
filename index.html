@@ -340,6 +340,98 @@
   }
   .modal-footer a:hover { color: var(--accent); }
 
+  .modal-info {
+    padding: 1.25rem;
+    border-top: 1px solid var(--border);
+    display: grid;
+    gap: 1rem;
+  }
+  .modal-info-block {
+    display: grid;
+    gap: 0.5rem;
+  }
+  .modal-info-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .modal-info-text {
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--text);
+    white-space: pre-wrap;
+  }
+  .modal-info-text.clamped {
+    max-height: 8.2rem;
+    overflow: hidden;
+    position: relative;
+  }
+  .modal-info-text.clamped::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2.5rem;
+    background: linear-gradient(to bottom, rgba(22,22,22,0), rgba(22,22,22,1));
+    pointer-events: none;
+  }
+  .modal-info-empty {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .modal-expand-btn {
+    width: fit-content;
+    padding: 6px 10px;
+    border: 1px solid var(--border2);
+    background: transparent;
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .modal-expand-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .modal-expand-btn.hidden {
+    display: none;
+  }
+  .modal-links {
+    display: grid;
+    gap: 0.65rem;
+  }
+  .modal-link-item {
+    display: grid;
+    gap: 0.3rem;
+    padding: 0.75rem 0.85rem;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+  }
+  .modal-link-index {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .modal-link-item a {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--text);
+    text-decoration: none;
+    word-break: break-all;
+    transition: color 0.15s;
+  }
+  .modal-link-item a:hover { color: var(--accent); }
+
   /* CANAIS */
   .section-label {
     font-family: 'DM Mono', monospace;
@@ -493,6 +585,17 @@
     <div class="modal-body">
       <iframe id="modal-iframe" allowfullscreen allow="autoplay; encrypted-media"></iframe>
     </div>
+    <div class="modal-info">
+      <div class="modal-info-block">
+        <div class="modal-info-label">Descrição</div>
+        <div class="modal-info-text" id="modal-description"></div>
+        <button class="modal-expand-btn hidden" id="modal-description-toggle" type="button">Ver mais</button>
+      </div>
+      <div class="modal-info-block">
+        <div class="modal-info-label">Links da descrição</div>
+        <div class="modal-links" id="modal-links"></div>
+      </div>
+    </div>
     <div class="modal-footer">
       <a id="modal-yt-link" href="#" target="_blank">↗ Abrir no YouTube</a>
     </div>
@@ -524,9 +627,13 @@ const iframe     = document.getElementById("modal-iframe");
 const modalTitle = document.getElementById("modal-title");
 const modalAuthor= document.getElementById("modal-author");
 const modalLink  = document.getElementById("modal-yt-link");
+const modalDescription = document.getElementById("modal-description");
+const modalDescriptionToggle = document.getElementById("modal-description-toggle");
+const modalLinks = document.getElementById("modal-links");
 const closeBtn   = document.getElementById("close-btn");
 const canaisGrid = document.getElementById("canais-grid");
 const channelsCountBar = document.getElementById("channels-count-bar");
+let isDescriptionExpanded = false;
 
 function buildFilters() {
   filtersEl.innerHTML = "";
@@ -642,11 +749,50 @@ function renderCanais(canais) {
   });
 }
 
+function extractLinks(text) {
+  return [...new Set(((text || "").match(/https?:\/\/[^\s)]+/g) || []))];
+}
+
+function updateDescriptionState() {
+  const description = modalDescription.textContent.trim();
+  const shouldClamp = description && description !== "Não há descrição para este vídeo." && description.length > 420;
+
+  modalDescription.classList.toggle("clamped", shouldClamp && !isDescriptionExpanded);
+  modalDescriptionToggle.classList.toggle("hidden", !shouldClamp);
+  modalDescriptionToggle.textContent = isDescriptionExpanded ? "Ver menos" : "Ver mais";
+}
+
 function openModal(v) {
+  const links = extractLinks(v.desc);
+  isDescriptionExpanded = false;
   modalTitle.textContent  = v.title;
   modalAuthor.textContent = v.author;
   iframe.src = `https://www.youtube.com/embed/${v.id}?autoplay=1`;
   modalLink.href = `https://youtube.com/watch?v=${v.id}`;
+  modalDescription.textContent = v.desc?.trim() || "Não há descrição para este vídeo.";
+  modalLinks.innerHTML = "";
+  updateDescriptionState();
+
+  if (links.length) {
+    links.forEach((url, index) => {
+      const item = document.createElement("div");
+      const label = document.createElement("div");
+      const a = document.createElement("a");
+      item.className = "modal-link-item";
+      label.className = "modal-link-index";
+      label.textContent = `Link ${index + 1}`;
+      a.href = url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = `↗ ${url}`;
+      item.appendChild(label);
+      item.appendChild(a);
+      modalLinks.appendChild(item);
+    });
+  } else {
+    modalLinks.innerHTML = '<div class="modal-info-empty">Não há links complementares na descrição.</div>';
+  }
+
   overlay.classList.add("open");
   document.body.style.overflow = "hidden";
 }
@@ -657,6 +803,10 @@ function closeModal() {
   document.body.style.overflow = "";
 }
 
+modalDescriptionToggle.onclick = () => {
+  isDescriptionExpanded = !isDescriptionExpanded;
+  updateDescriptionState();
+};
 closeBtn.onclick = closeModal;
 overlay.onclick  = (e) => { if (e.target === overlay) closeModal(); };
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });

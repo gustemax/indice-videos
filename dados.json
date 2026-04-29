@@ -1,299 +1,599 @@
 {
-  "videos": [
-    { "cat": "Agentes de IA", "title": "PAPERCLIP: Crie uma Empresa de Agentes de IA em Minutos", "author": "Aly IA Lab", "id": "JdAf01NzaQo" },
-    { "cat": "Agentes de IA", "title": "Paperclip AI Tutorial: How to Build a Zero-Human Company", "author": "Metics Media", "id": "XXplTbQR9to" },
-    { "cat": "Agentes de IA", "title": "Montei uma EMPRESA Inteira de Agentes de IA (Paperclip + Claude Code)", "author": "Matheus Battisti", "id": "Ap_5wtWWEC0" },
-    { "cat": "Agentes de IA", "title": "HERMES DO ZERO! Instalação e Configuração Tutorial Completo", "author": "Aly IA Lab", "id": "Uc8NNrrovD4" },
-    { "cat": "Agentes de IA", "title": "Create your own AIOX — Claude Code, Ralph, BMAD and XOIA", "author": "Érico Renato | Automação Digital e IA", "id": "G2KcYWSyIbI" },
-    { "cat": "Agentes de IA", "title": "Gemini's New File Search Just Leveled Up RAG Agents (10x Cheaper)", "author": "Nate Herk | AI Automation", "id": "irg-2IfAjpo" },
-    { "cat": "Claude Code + Produtividade", "title": "Second AI Brain: Gain SUPER POWERS (Claude Code + Obsidian)", "author": "Ana Jords", "id": "8NOxb2WV95I" },
-    { "cat": "Claude Code + Produtividade", "title": "You're Using the Wrong Claude Code... Karpathy Proved It.", "author": "Maestros da IA", "id": "temIJPLw0jo" },
-    { "cat": "Claude Code + Produtividade", "title": "Harness: The Evolution of Skills in Claude Code", "author": "Well Pires", "id": "AzUp3iglg7A" },
-    { "cat": "Claude Code + Produtividade", "title": "Andrej Karpathy Just 10x'd Everyone's Claude Code", "author": "Nate Herk | AI Automation", "id": "sboNwYmH3AY" },
-    { "cat": "Claude Code + Produtividade", "title": "Agentes de IA são FIRULA? Marketing inteiro no Claude Code com Skills", "author": "Ratos de IA", "id": "5LyNOEOsVcU" },
-    { "cat": "Claude Code + Produtividade", "title": "Essa skill do Claude Code faz designs IRRESISTÍVEIS", "author": "Deborah Folloni", "id": "OuAfWKSyAco" },
-    { "cat": "Edição de Vídeo com IA", "title": "Como Editar e fazer Motion Graphics no Claude Code (Remotion)", "author": "Fernando Valon", "id": "ntHLmj-GqF0" },
-    { "cat": "Edição de Vídeo com IA", "title": "CLAUDE CODE edited my videos all by itself", "author": "Mateus Castro IA", "id": "cqu3Uj57Cdc" },
-    { "cat": "Edição de Vídeo com IA", "title": "Como EDITAR VÍDEOS com o CLAUDE CODE (Cortes + Motion)", "author": "Rafa Voss", "id": "SjlKBdgWrZ4" },
-    { "cat": "Edição de Vídeo com IA", "title": "Seedance 2.0 Officially Public! Full Prompting Tutorial (Claude + Higgsfield)", "author": "Rourke Heath", "id": "tYJQusOS2jI" },
-    { "cat": "Edição de Vídeo com IA", "title": "Turn NotebookLM into Videos with YOUR Face (NO FILMING!)", "author": "Jonathan's Jam", "id": "JPP82B7-U0c" },
-    { "cat": "Monetização com IA", "title": "Ganhe R$10.000/mês com LowTickets criados com Claude Code", "author": "Guilherme Franklim", "id": "nwaiD-HCAAA" },
-    { "cat": "Monetização com IA", "title": "Essa Ferramenta Acha Clientes pra Você de Graça Todo Mês", "author": "Victor Peixoto", "id": "9de9i8-1oAg" },
-    { "cat": "Ferramentas / Setup", "title": "Como usar o ANTIGRAVITY com LLMs infinitas de GRAÇA (Tutorial Completo)", "author": "Julio | Lucrar com IA", "id": "__vSrFlvHuY" },
-    { "cat": "Ferramentas / Setup", "title": "Ao INVÉS de CONTRATAR DESIGNER Use Isso: CLAUDE DESIGN", "author": "Tiago Lemos", "id": "R1tqXpmNhls" },
-    { "cat": "Ferramentas / Setup", "title": "This AI from Meta Creates Content and Optimizes Your Ads on its Own (Manus 2026)", "author": "Filipe Detrey", "id": "lQgoPBrrdE0" },
-    { "cat": "Ferramentas / Setup", "title": "HAS CLAUDE GONE CRAZY? He's creating content BETTER than humans", "author": "Rafael Mota – Sala Ninja IA", "id": "TBBOv4U6SgE" },
-    { "cat": "Ferramentas / Setup", "title": "Tchau OpenClaw! Criei meu agente pessoal usando o Antigravity do zero", "author": "Ratos de IA", "id": "c0nJB1y-SQI" },
-    { "cat": "Ferramentas / Setup", "title": "O Fim dos Agentes de IA: Conheça os Fluxos Agênticos (Google Antigravity)", "author": "Enzo Barbatto", "id": "Lsoci3HRD1A" },
-    { "cat": "Ferramentas / Setup", "title": "O Novo Modelo do Google + Antigravity | Acabaram de Mudar o RAG para Sempre", "author": "Enzo Barbatto", "id": "nvC7B9To_mo" },
-    { "cat": "Ferramentas / Setup", "title": "How to use AntiGravity better than 99% of people", "author": "Enzo Barbatto", "id": "DIqLI5Vgacc" },
-    { "cat": "Automação / WhatsApp", "title": "Criei um Agente de IA no WhatsApp em 20 Minutos com Claude Code", "author": "Eduardo Carezia", "id": "XknqMFCb9zg" },
-    { "cat": "Automação / WhatsApp", "title": "Meta Mudou Tudo! Como Criar o Novo App da API WhatsApp", "author": "Comunidade ZDG", "id": "Mo9tDcvP9Tc" },
-    { "cat": "Ferramentas / Setup", "title": "Configurar credenciais do Google no n8n em 5 minutos (2025)", "author": "Lucas Lopes", "id": "Bah3EsHdqvM" },
-    { "cat": "Claude Code + Produtividade", "title": "Como construir o cérebro secundário definitivo com IA (Obsidian + Claude Code)", "author": "Lucas Lopes", "id": "e67yj93RMlc" },
-    { "cat": "Ferramentas / Setup", "title": "Como usar o Google Antigravity melhor que 99% das pessoas! (4 hacks)", "author": "Empreendedor Serial", "id": "LnOhoJ6GDqw" },
-    { "cat": "Monetização com IA", "title": "Criei um Sistema de Membros com IA usando Claude Code", "author": "Thalena Lima - IA & Automações", "id": "7qSzdiZDtCo" },
-    { "cat": "Agentes de IA", "title": "Google Gemini File Search - O Guia DEFINITIVO para Criar Agentes RAG no n8n", "author": "Thalena Lima - IA & Automações", "id": "TbwIzb7wVGM" },
-    { "cat": "Monetização com IA", "title": "CRIANDO produto no CLAUDE e vendendo na CAKTO (na prática)", "author": "Cakto", "id": "VZm94pTrlZQ" },
-    { "cat": "Monetização com IA", "title": "I Asked Claude To Make Me As Much Money As Possible", "author": "Sabrina Ramonov 🍄", "id": "AP-fOOmm02g" },
-    { "cat": "Monetização com IA", "title": "Venda Landing Pages/Sites de R$1.500 Criadas em 10 Minutos com IA (DINHEIRO COM I.A)", "author": "Rob Boliver - Como usar o CANVA", "id": "vXnRX65p5B0" },
-    { "cat": "Ferramentas / Setup", "title": "Duas IAs Criaram Esse App SOZINHAS: Eu só assisti (Google Stitch + Antigravity é INSANO)", "author": "Matheus Battisti - Hora de Codar", "id": "Mt4dH9MqYEw" },
-    { "cat": "Ferramentas / Setup", "title": "As NOVAS Skills do Antigravity são INSANAS", "author": "Chiara Costa", "id": "syRsWFgjFY0" },
-    { "cat": "Ferramentas / Setup", "title": "Aulão Openclaw com Bruno Okamoto", "author": "Bruno Okamoto", "id": "sjyFkm73lmM" },
-    { "cat": "Agentes de IA", "title": "COMO CRIAR teu TIME DE AGENTES de IA do zero no Claude Code (o passo a passo que pediram)", "author": "Ratos de IA", "id": "f6-RL16UYlg" },
-    { "cat": "Monetização com IA", "title": "CLONE produtos em 24h: Nova IA CHOCA mercado", "author": "Software House Exponencial", "id": "ROwDPAPhZHI" },
-    { "cat": "Monetização com IA", "title": "Claude Code + Nano Banana 2 = Insane $10,000 Websites", "author": "Jack Roberts", "id": "TZUTe7s11-I" },
-    { "cat": "Ferramentas / Setup", "title": "Intensivão de Claude Code + Antigravity - Construindo seu Primeiro APP em Menos de 58 minutos", "author": "Eduardo Carezia - Automatiza AI", "id": "LZU_IFwtm1A" },
-    { "cat": "Claude Code + Produtividade", "title": "I Let OpenClaw Handle My Emails and Tasks (Full Setup)", "author": "Nathan Sebhastian", "id": "MBpsdnB5YJ0" },
-    { "cat": "Monetização com IA", "title": "Make Instagram Carousels in N8N and Make.com", "author": "Sabrina Ramonov 🍄", "id": "NYlBiLywsNU" },
-    { "cat": "Automação / WhatsApp", "title": "N8N + WhatsApp: Agente de AGENDAMENTOS com Google Calendar! ! Tutorial Completo Passo a Passo 2026", "author": "Guilherme Lazarotto - Tecnologia & Automação", "id": "eQSJLHSz3WU" },
-    { "cat": "Monetização com IA", "title": "Como eu construí uma agência de 1 pessoa com Claude Code em 2 dias", "author": "Well Pires ", "id": "U4-lKJ41aMs" },
-    { "cat": "Monetização com IA", "title": "Clone Any Youtube channel with CLAUDE CODE | No coding needed)", "author": "Jacksons AI", "id": "MJmoSxSPeRY" },
-    { "cat": "Ferramentas / Setup", "title": "Como criar sites animados com IA (Claude Design + Claude Code)", "author": "Chiara Costa", "id": "TmY9ipQLLC8" }
-  ],
-  "canais": [
-    {
-      "nome": "Guilherme Franklim",
-      "handle": "@franklimgui",
-      "iniciais": "GF",
-      "cor": "#e8ff5a",
-      "corBg": "rgba(232,255,90,0.12)",
-      "desc": "Marketing digital, vendas, IA, tráfego pago, automações e estratégias que realmente geram resultado.",
-      "url": "https://www.youtube.com/@franklimgui/videos"
-    },
-    {
-      "nome": "Aly IA Lab",
-      "handle": "@AlyIALab",
-      "iniciais": "AL",
-      "cor": "#a78bfa",
-      "corBg": "rgba(167,139,250,0.12)",
-      "desc": "Ferramentas de IA testadas na prática — do iniciante ao avançado, para trabalho e rotina diária.",
-      "url": "https://www.youtube.com/@AlyIALab/videos"
-    },
-    {
-      "nome": "Erick Castilio",
-      "handle": "@erickcastilio",
-      "iniciais": "EC",
-      "cor": "#34d399",
-      "corBg": "rgba(52,211,153,0.12)",
-      "desc": "n8n, IA e automação para negócios — conteúdo prático sobre como aplicar automações em empresas reais.",
-      "url": "https://www.youtube.com/@erickcastilio"
-    },
-    {
-      "nome": "Felipe Borges — Fala IA!",
-      "handle": "@FelipeBorgesFalaIA",
-      "iniciais": "FB",
-      "cor": "#60a5fa",
-      "corBg": "rgba(96,165,250,0.12)",
-      "desc": "Agentes de IA, automação e estratégias de aquisição de clientes — tutoriais práticos e cases reais.",
-      "url": "https://www.youtube.com/@FelipeBorgesFalaIA/videos"
-    },
-    {
-      "nome": "Rafael Mota – Sala Ninja IA",
-      "handle": "@SalaNinja",
-      "iniciais": "SN",
-      "cor": "#fb923c",
-      "corBg": "rgba(251,146,60,0.12)",
-      "desc": "Sites, lojas e ferramentas de IA na prática — Claude Code, Vibe Coding, automações e WordPress com IA.",
-      "url": "https://www.youtube.com/@SalaNinja/videos"
-    },
-    {
-      "nome": "Ratos de IA",
-      "handle": "@ratosdeia",
-      "iniciais": "RI",
-      "cor": "#f472b6",
-      "corBg": "rgba(244,114,182,0.12)",
-      "desc": "Resumo semanal do que rolou com IA — novidades, ferramentas e dicas que impactam negócios e trabalho.",
-      "url": "https://www.youtube.com/@ratosdeia"
-    },
-    {
-      "nome": "Nate Herk | AI Automation",
-      "handle": "@nateherk",
-      "iniciais": "NH",
-      "cor": "#86efac",
-      "corBg": "rgba(134,239,172,0.12)",
-      "desc": "Automações com IA para negócios — workflows, n8n e Claude Code para economizar tempo e escalar operações.",
-      "url": "https://www.youtube.com/@nateherk"
-    },
-    {
-      "nome": "Érico Renato | Automação Digital e IA",
-      "handle": "@ericorenato.automacao",
-      "iniciais": "ER",
-      "cor": "#67e8f9",
-      "corBg": "rgba(103,232,249,0.12)",
-      "desc": "n8n, Make, Claude, agentes de IA e automação de processos digitais para negócios reais.",
-      "url": "https://www.youtube.com/@ericorenato.automacao"
-    },
-    {
-      "nome": "Rourke Heath",
-      "handle": "@RourkeHeath",
-      "iniciais": "RH",
-      "cor": "#fbbf24",
-      "corBg": "rgba(251,191,36,0.12)",
-      "desc": "IA generativa, geração de vídeo e tutoriais de ferramentas como Seedance, Higgsfield e Claude.",
-      "url": "https://www.youtube.com/@RourkeHeath"
-    },
-    {
-      "nome": "Se Mexa",
-      "handle": "@semexabr",
-      "iniciais": "SM",
-      "cor": "#c084fc",
-      "corBg": "rgba(192,132,252,0.12)",
-      "desc": "Como trabalhar na internet com IA — canais dark, canais de autoridade e ferramentas para criadores de conteúdo.",
-      "url": "https://www.youtube.com/@semexabr/videos"
-    },
-    {
-      "nome": "Cris Tecnologia",
-      "handle": "@cristecnologia",
-      "iniciais": "CT",
-      "cor": "#f9a8d4",
-      "corBg": "rgba(249,168,212,0.12)",
-      "desc": "Tudo sobre inteligências artificiais — novidades, ferramentas e como usar IA no dia a dia.",
-      "url": "https://www.youtube.com/@cristecnologia"
-    },
-    {
-      "nome": "Willian IA",
-      "handle": "@willian.design",
-      "iniciais": "WI",
-      "cor": "#6ee7b7",
-      "corBg": "rgba(110,231,183,0.12)",
-      "desc": "Design e IA — criação visual com inteligência artificial para projetos profissionais.",
-      "url": "https://www.youtube.com/@willian.design/videos"
-    },
-    {
-      "nome": "Deborah Folloni",
-      "handle": "@deborahfolloni",
-      "iniciais": "DF",
-      "cor": "#fd8a8a",
-      "corBg": "rgba(253,138,138,0.12)",
-      "desc": "Vibe Coding, Claude Code, Lovable e ferramentas no-code/AI — Forbes Under 30, fundadora goepic.dev.",
-      "url": "https://www.youtube.com/@deborahfolloni/videos"
-    },
-    {
-      "nome": "James Kelly",
-      "handle": "@JamesKellyStudio",
-      "iniciais": "JK",
-      "cor": "#93c5fd",
-      "corBg": "rgba(147,197,253,0.12)",
-      "desc": "Estúdio profissional para criadores de conteúdo — posicionamento, setup e produção para YouTube.",
-      "url": "https://www.youtube.com/@JamesKellyStudio/videos"
-    },
-    {
-      "nome": "ABRAhub Studio",
-      "handle": "@abrahubstudio",
-      "iniciais": "AB",
-      "cor": "#fcd34d",
-      "corBg": "rgba(252,211,77,0.12)",
-      "desc": "Transforme prompts em vídeos, vídeos em views e views em dinheiro — produção de conteúdo com IA.",
-      "url": "https://www.youtube.com/@abrahubstudio/videos"
-    },
-    {
-      "nome": "Enzo Barbatto",
-      "handle": "@EnzoSparo",
-      "iniciais": "EB",
-      "cor": "#6d9dff",
-      "corBg": "rgba(109,157,255,0.12)",
-      "desc": "Automatize seu negócio sem programar — curadoria das melhores automações com n8n, Antigravity e IA.",
-      "url": "https://www.youtube.com/@EnzoSparo"
-    },
-    {
-      "nome": "Sandeco Channel",
-      "handle": "@canalsandeco",
-      "iniciais": "SC",
-      "cor": "#a3e635",
-      "corBg": "rgba(163,230,53,0.12)",
-      "desc": "IA descomplicada — Machine Learning, Deep Learning, ChatGPT, Gemini e agentes de IA na prática.",
-      "url": "https://www.youtube.com/@canalsandeco"
-    },
-    {
-      "nome": "Matheus | IA Coding",
-      "handle": "@oMatheusdaIA",
-      "iniciais": "MC",
-      "cor": "#22c55e",
-      "corBg": "rgba(34,197,94,0.12)",
-      "desc": "🚀 Crie apps e automatize tarefas com IA!Aqui você aprende a criar aplicativos sem código, usar IA para otimizar processos e lançar seu SaaS em menos tempo p...",
-      "url": "https://www.youtube.com/@oMatheusdaIA"
-    },
-    {
-      "nome": "Thalena Lima - IA & Automações",
-      "handle": "@thalena-lima",
-      "iniciais": "TL",
-      "cor": "#ef4444",
-      "corBg": "rgba(239,68,68,0.12)",
-      "desc": "O canal que vai transformar o seu negócio com Inteligência Artificial e Automação!Aqui você aprende, na prática, como aplicar IA e automações para escalar re...",
-      "url": "https://www.youtube.com/@thalena-lima"
-    },
-    {
-      "nome": "IronIA Artificial",
-      "handle": "@IronIAArtificial",
-      "iniciais": "IA",
-      "cor": "#14b8a6",
-      "corBg": "rgba(20,184,166,0.12)",
-      "desc": "Domine Inteligência Artificial e saia na frente da concorrência!No IronIA Artificial, você aprende a usar IA de forma prática para:✅ Economizar horas de trab...",
-      "url": "https://www.youtube.com/@IronIAArtificial"
-    },
-    {
-      "nome": "Cakto",
-      "handle": "@Caktocanal",
-      "iniciais": "CK",
-      "cor": "#ff7a59",
-      "corBg": "rgba(255,122,89,0.12)",
-      "desc": "Compartilhe seus vídeos com amigos, familiares e todo o mundo",
-      "url": "https://www.youtube.com/@Caktocanal"
-    },
-    {
-      "nome": "Sabrina Ramonov 🍄",
-      "handle": "@sabrina_ramonov",
-      "iniciais": "SR",
-      "cor": "#38bdf8",
-      "corBg": "rgba(56,189,248,0.12)",
-      "desc": "👇 FREE AI Prompts, Playbooks, & Agents👇I'm Sabrina Ramonov. I'm on a mission to teach 1 million people AI. I'm also the solo founder of Blotato.com. It's a...",
-      "url": "https://www.youtube.com/@sabrina_ramonov"
-    },
-    {
-      "nome": "Nathan Sebhastian",
-      "handle": "@NathanSebhastian",
-      "iniciais": "NS",
-      "cor": "#f59e0b",
-      "corBg": "rgba(245,158,11,0.12)",
-      "desc": "My name is Nathan. I am a software developer with 10 years of experience.I help you learn how to code and use AI tools so that you can build great products, ...",
-      "url": "https://www.youtube.com/@NathanSebhastian"
-    },
-    {
-      "nome": "Matheus Battisti - Hora de Codar",
-      "handle": "@MatheusBattisti",
-      "iniciais": "MB",
-      "cor": "#0ea5e9",
-      "corBg": "rgba(14,165,233,0.12)",
-      "desc": "Seja bem-vindo ao meu canal! =)Para conhecer meus treinamentos, acesse: https://app.horadecodar.com.br/",
-      "url": "https://www.youtube.com/@MatheusBattisti"
-    },
-    {
-      "nome": "Metics Media",
-      "handle": "@MeticsMedia",
-      "iniciais": "ME",
-      "cor": "#84cc16",
-      "corBg": "rgba(132,204,22,0.12)",
-      "desc": "Welcome to Metics Media – your go-to source for in-depth tutorials on the best website builders and online platforms. Whether you're creating your first webs...",
-      "url": "https://www.youtube.com/@MeticsMedia"
-    },
-    {
-      "nome": "Maestros da IA",
-      "handle": "@maestrosdaia",
-      "iniciais": "MI",
-      "cor": "#f97316",
-      "corBg": "rgba(249,115,22,0.12)",
-      "desc": "👋 Olá! Somos os Maestros da IA — um canal feito para quem quer dominar a automação e a inteligência artificial no dia a dia dos negócios, mesmo sem saber pr...",
-      "url": "https://www.youtube.com/@maestrosdaia"
-    },
-    {
-      "nome": "Well Pires",
-      "handle": "@WellPiresAI",
-      "iniciais": "WP",
-      "cor": "#06b6d4",
-      "corBg": "rgba(6,182,212,0.12)",
-      "desc": "Criador por natureza, impulsionado por IA. Minha missão é tornar a criação de sistemas muito mais prática e rápida para todos, usando IA para: Automação, Des...",
-      "url": "https://www.youtube.com/@WellPiresAI"
-    }
-  ]
+    "videos":  [
+                   {
+                       "cat":  "Agentes de IA",
+                       "title":  "PAPERCLIP: Crie uma Empresa de Agentes de IA em Minutos",
+                       "author":  "Aly IA Lab",
+                       "id":  "JdAf01NzaQo",
+                       "desc":  "Aprenda como instalar e usar o PaperClip para criar empresas de agentes de inteligência artificial! \n\n💚 Contrate sua VPS com a Hostinger e instale o PaperClip em poucos minutos! Use o link: https://www.hostg.xyz/SHJFa (afiliado) e cupom ALYIALAB para 10% de desconto nos planos de 12 e 24 meses!\n\n💚 Vire membro do canal e tenha acesso a VÍDEOS E DESCONTOS EXCLUSIVOS: https://www.youtube.com/channel/UCkrPppuMEwe-f0VcQmZTapg/join\n\n00:00 O que é PaperClip\n02:03 Exemplo de uso do PaperClip IA\n04:04 Contratando VPS para instalar Paperclip\n08:17 Configurando o Paperclip\n11:34 Como usar o painel do Paperclip\n15:00 Personalizando agentes \n19:05 Gastos de tokens do Paperclip\n\n------\n\nQuem é Alyssa Prado, criadora do Aly IA LAB? \n\nBem-vindo(a) ao Aly IA LAB! Sou Alyssa Prado, formada em Ciências da Computação e apaixonada por inteligência artificial. Neste canal, compartilho meu conhecimento pela IA, buscando mostrar como podemos aproveitar ao máximo suas ferramentas no nosso dia a dia e trabalho. Se você também deseja descobrir como tornar a inteligência artificial útil para suas rotinas diárias e para o seu trabalho, você está no lugar certo! Através de tutoriais, dicas e truques, vou te ensinar a utilizar as melhores ferramentas de IA. \n\n(Esse texto foi escrito pelo chatgpt)"
+                   },
+                   {
+                       "cat":  "Agentes de IA",
+                       "title":  "Paperclip AI Tutorial: How to Build a Zero-Human Company",
+                       "author":  "Metics Media",
+                       "id":  "XXplTbQR9to",
+                       "desc":  "Full Paperclip AI tutorial: setup a zero-human company on a server with OpenAI Codex, Claude, or OpenClaw. Hire a CEO agent, connect search and email APIs, and watch it deliver real work to your inbox. 10% off included.\n✅ Hostinger VPS (Exclusive Discount): https://meticsmedia.com/paperclip-VGM\n\nIn this tutorial you\u0027ll learn how to:\n✔️ Deploy Paperclip AI on a Hostinger VPS using the one-click Docker template\n✔️ Connect OpenAI Codex via device auth in the terminal (or use a Claude/Anthropic API key instead)\n✔️ Create a zero-human AI company and hire your first CEO agent\n✔️ Tour the Paperclip dashboard — inbox, org chart, issues, and the Kanban board\n✔️ Configure agent heartbeats, monthly budgets, and autonomous hiring\n✔️ Connect external tools such as the Brave Search API and the Resend email API\n✔️ Store API keys as secure agent-level secrets using environment variables\n✔️ Assign issues to your AI agents and receive real output delivered to your inbox\n\n🔗 Links Mentioned in Video\nChatGPT: https://chatgpt.com\nBrave Search API: https://brave.com/search/api\nResend: https://resend.com\n\n📍 Exclusive Deals \u0026 Discounts: https://meticsmedia.com/deals\n\n⏱️ Timestamps\n00:00 Intro\n00:29 What Is Paperclip?\n02:25 Get Your Server Running\n08:06 Create Your Company\n17:32 Give Your Agents Tools\n22:41 Put Your Company to Work\n\n📄 Disclosure\nSome of the links are affiliate links. If you make a purchase through them, we earn a small commission at no extra cost to you. This helps us keep our videos free for everyone."
+                   },
+                   {
+                       "cat":  "Agentes de IA",
+                       "title":  "Montei uma EMPRESA Inteira de Agentes de IA (Paperclip + Claude Code)",
+                       "author":  "Matheus Battisti",
+                       "id":  "Ap_5wtWWEC0",
+                       "desc":  "E se você pudesse contratar uma equipe inteira de funcionários de IA, definir a meta da empresa, e deixar eles trabalhando 24 horas por dia na sua VPS gerando conteúdo enquanto você dorme? CEO, Pesquisador, Redator, Especialista em SEO e Editor. Cada um com cargo, hierarquia, orçamento e responsabilidades. É o conceito do Paperclip, um orquestrador de empresas de IA que bateu 46 mil stars no GitHub em poucas semanas. Open source, MIT, gratuito.\n\n🔴 Formação Vibe Coding (Antigravity, Claude Code e +):  https://app.horadecodar.com.br/lp/formacao-vibe-coding?utm_source=yt_paperclip\n\n🟪 Hospedagem que eu indico: https://www.hostinger.com/matheushoradecodar (use o cupom HORADECODAR para ter +10% de desconto)\n\n📘 Guia Engenharia de Prompt: https://app.horadecodar.com.br/ebookpages/guia-engenharia-de-prompt\n\nA frase oficial do projeto explica melhor que qualquer descrição: se OpenClaw é um funcionário, Paperclip é a empresa. Você não gerencia tasks, você gerencia metas. Os agentes se organizam sozinhos pra atingir essas metas. Funciona em 3 passos simples: define a meta da empresa, contrata o time escolhendo agentes e providers, aprova orçamentos e dá go. Os agentes acordam em horários agendados, checam o trabalho pendente e agem.\n \nO Paperclip cuida de tudo que falta quando você tenta orquestrar vários agentes manualmente. Org chart real com hierarquia e quem reporta pra quem. Heartbeats agendados pra cada agente acordar nos horários certos. Cost control com orçamento mensal por agente que para automaticamente quando atinge o limite. Governance onde você é o board, aprova contratações e sobrescreve estratégia. Tickets rastreáveis com auditoria completa de cada decisão e chamada de ferramenta. Multi-empresa pra rodar várias organizações isoladas na mesma instalação.\n \nA instalação roda em qualquer VPS Linux com Node.js 20 e pnpm. Uma linha de npx paperclipai onboard sobe o servidor com Postgres embutido. Acesso pelo browser via SSH tunnel ou URL exposta. No vídeo uso uma VPS da Hostinger com Ubuntu porque o Paperclip só faz sentido rodando 24h. Os heartbeats precisam de servidor sempre ligado, senão a empresa não trabalha.\n \nA demo é uma empresa de conteúdo de IA chamada AI Daily News. A meta é publicar 1 artigo de blog por dia sobre uma novidade relevante de IA com pelo menos 800 palavras, otimizado pra SEO em português brasileiro. Contrato 5 funcionários: o CEO que define estratégia e aprova artigos antes de publicar. O Pesquisador que busca novidades de IA do dia, escolhe a mais relevante e prepara briefing. O Redator que escreve o artigo baseado no briefing. O SEO Specialist que otimiza título, meta description, headings e palavras-chave. O Editor que revisa gramática, faz fact-check e aprova versão final.\n \nCada agente tem cargo, descrição, chefe definido na hierarquia, heartbeat configurado e orçamento mensal. Mostro a empresa rodando ao vivo. O CEO acordando primeiro e criando ticket pro Pesquisador. O Pesquisador buscando notícias com web search e escolhendo a melhor. O Redator pegando o briefing e escrevendo o artigo. O SEO ajustando títulos e meta descriptions. O Editor revisando e aprovando. Todo o ciclo de produção de conteúdo automatizado por agentes de IA conversando entre si.\n \nCada decisão fica registrada em ticket com conversa threaded, chamadas de ferramentas visíveis e histórico completo. Auditoria total. Quando algo dá errado você abre o ticket e vê exatamente o que aconteceu, qual agente decidiu o quê e por quê. O dashboard de cost control mostra orçamento gasto por agente em tempo real e para automaticamente quando atinge o limite. Resolve o maior medo de quem deixa agentes rodando autônomos: a fatura no fim do mês.\n \nMostro também como acessar a empresa do celular pra aprovar artigos de qualquer lugar (com aviso importante de segurança porque o Paperclip não tem auth nativo, recomendo Tailscale ou Cloudflare Tunnel autenticado). Comparo Paperclip vs OpenClaw vs Claude Code sozinho explicando quando usar cada um. Não são concorrentes: o Paperclip USA OpenClaw e Claude Code como funcionários. É uma camada acima.\n \n🔗 Links do vídeo:\n▸ Paperclip GitHub: https://github.com/paperclipai/paperclip\n\n\nEntre no nosso servidor de Discord e me siga nas redes:\n\n🟣 Discord Hora de Codar: https://discord.gg/Veq4mvsWwk\n🔴 Instagram: https://www.instagram.com/horadecodar/\n🔷 Telegram: https://t.me/horadecodar\n\nTIMESTAMPS\n\n00:00 O que é Paperclip?\n01:06 Recursos e diferenciais do Paperclip\n05:15 Configurando o Paperclip\n13:05 Criando uma empresa dentro do Paperclip\n20:18 Contratando novos funcionários (Agentes de IA) no Paperclip\n22:47 Minhas considerações sobre o Paperclip"
+                   },
+                   {
+                       "cat":  "Agentes de IA",
+                       "title":  "HERMES DO ZERO! Instalação e Configuração Tutorial Completo",
+                       "author":  "Aly IA Lab",
+                       "id":  "Uc8NNrrovD4",
+                       "desc":  "Aprenda como instalar e configurar o Hermes, nova plataforma de agentes de inteligência artificial que pode revolucionar o seu dia-a-dia no trabalho ou na vida pessoal.\n\n💚 Contrate sua VPS com a Hostinger para instalar o Hermes com UM CLIQUE! Use o link: https://www.hostg.xyz/SHJKw (afiliado) + cupom ALYIALAB para 10% de desconto nos planos de 12 ou 24 meses!\n\n💚 Vire membro do canal e tenha acesso a VÍDEOS E DESCONTOS EXCLUSIVOS: https://www.youtube.com/channel/UCkrPppuMEwe-f0VcQmZTapg/join\n\n00:00 Por que usar o Hermes?\n01:32 Vantagens do Hermes\n02:14 Onde instalar o Hermes: computador ou VPS?\n03:25 Contratando VPS com desconto\n06:25 Instalando Hermes com um clique\n07:28 Configurações iniciais do Hermes\n11:40 Integrando Telegram com Hermes\n14:00 Instalando outro modelo de linguagem no Hermes\n16:01 Instalando skills no Hermes\n19:35 Criando múltiplos agentes no Hermes\n\n------\n\nQuem é Alyssa Prado, criadora do Aly IA LAB? \n\nBem-vindo(a) ao Aly IA LAB! Sou Alyssa Prado, formada em Ciências da Computação e apaixonada por inteligência artificial. Neste canal, compartilho meu conhecimento pela IA, buscando mostrar como podemos aproveitar ao máximo suas ferramentas no nosso dia a dia e trabalho. Se você também deseja descobrir como tornar a inteligência artificial útil para suas rotinas diárias e para o seu trabalho, você está no lugar certo! Através de tutoriais, dicas e truques, vou te ensinar a utilizar as melhores ferramentas de IA. \n\n(Esse texto foi escrito pelo chatgpt)"
+                   },
+                   {
+                       "cat":  "Agentes de IA",
+                       "title":  "Create your own AIOX — Claude Code, Ralph, BMAD and XOIA",
+                       "author":  "Érico Renato | Automação Digital e IA",
+                       "id":  "G2KcYWSyIbI",
+                       "desc":  "Neste vídeo eu te mostro como criar o seu próprio framework de desenvolvimento de agentes, do zero — e te apresento o XOIA, uma abordagem alternativa, mais leve, flexível e controlável.\n\n🚀 E o melhor: o framework que mostro no vídeo já está disponível para você estudar, clonar e evoluir.\n\n📦 Repositório oficial do framework XOIA\n\n👉 https://github.com/ericorenato/xoia\n\nUse, estude, modifique e evolua.\nSe você quer entender como agentes realmente funcionam por baixo do capô, esse repositório é ouro.\n\n🎓 Curso Gratuito de Claude Code (Comandos, Skills, Hooks e Rules)\n\nSe você quer dominar desenvolvimento com Claude Code e construir agentes de forma profissional:\n\n👉 https://comunidade.ericorenato.com.br/c/claude-code-comandos-skills-hooks-e-rules\n\nÉ um curso completo, gratuito e direto ao ponto.\n\n🚀 Quer ir além e viver de automação e IA?\n\nNo AutoNext eu ensino:\n✔️ Automação avançada\n✔️ Vibe Stack\n✔️ N8N, Make, IA, agentes\n✔️ Arquitetura real de sistemas\n\n👉 https://ericorenato.com.br\n\n🤝 Entre no Grupo VIP do WhatsApp\n\n👉 https://chat.whatsapp.com/GDZqKxceppSGm7A9QDo9Xu\n\n☁️ Hospedagem Profissional para Projetos\n\nSe você precisa rodar N8N, agentes, SaaS ou servidores próprios:\n\n👉 https://br.staycloud.com.br/ericoautonext\n\n🎟️ Cupons exclusivos:\n• ERICOAUTONEXT30 → 30% OFF no primeiro mês\n• ERICOAUTONEXT10 → 10% OFF recorrente\n\nSeja membro deste canal e ganhe benefícios:\nhttps://www.youtube.com/channel/UC74wkDQrjksENiCBkB7cUGg/join"
+                   },
+                   {
+                       "cat":  "Agentes de IA",
+                       "title":  "Gemini\u0027s New File Search Just Leveled Up RAG Agents (10x Cheaper)",
+                       "author":  "Nate Herk | AI Automation",
+                       "id":  "irg-2IfAjpo",
+                       "desc":  "Full courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=geminis-new-file-search-just-leveled-up-rag\nAll my FREE resources: https://www.skool.com/ai-automation-society/about?el=geminis-new-file-search-just-leveled-up-rag\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\n\nIn this video I walk you through how to use Gemini\u0027s new File Search API to take your n8n RAG agents to the next level. This setup is super simple and does not require any coding. You can drop in a document, let Gemini handle all of the indexing and storage for a very cheap price, and start running powerful RAG agents right away.\n\nThe best part is that you can store your documents for free and then plug your AI agents into the File Search API so they can search through everything. It makes building RAG systems easier than ever before.\n\nI also cover a few important things to think about before you start. It is a game changer, but it is not magic. There are a few details that matter for accuracy and performance, and I walk you through those so you know how to get reliable results.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n00:00 What is Gemini File Search\n03:26 What We’re Building in n8n\n04:42 Setting up the Gemini API Authentication\n07:38 Uploading the File to Gemini File Store\n10:31 Setting up RAG Agent\n13:29 Analyzing Search Results\n14:34 Running Evaluation on 3 PDFs\n15:49 Final Considerations\n17:49 Want to Master RAG Agents in n8n?"
+                   },
+                   {
+                       "cat":  "Claude Code + Produtividade",
+                       "title":  "Second AI Brain: Gain SUPER POWERS (Claude Code + Obsidian)",
+                       "author":  "Ana Jords",
+                       "id":  "8NOxb2WV95I",
+                       "desc":  "90% dos setups de segundo cérebro com IA que você vê por aí são armadilhas bonitinhas que te fazem perder tempo. Neste vídeo eu mostro o sistema real que eu uso todo dia pra rodar meu negócio com Obsidian + Claude Code, separando exatamente o que é seu do que é da IA.\n\nVocê vai entender por que instalar Obsidian, conectar uma IA e criar umas pastas NÃO é um segundo cérebro. E vai sair daqui com o framework dos 3 fluxos (seu segundo cérebro, o ambiente da IA, e o fluxo integrado) que diferencia quem usa a IA de quem é usado por ela.\n\n🧠 O QUE VOCÊ VAI APRENDER\n\n▸ Por que 99% dos vídeos sobre segundo cérebro com IA param no setup (e isso é um erro)\n▸ A diferença entre acumular notas geradas por IA e ter um sistema que muda resultados\n▸ Os 3 fluxos obrigatórios: seu cérebro autoral, o ambiente da IA e o fluxo integrado\n▸ Os 4 tipos de notas (permanentes, literatura, gerenciadas por IA, geradas por IA) - e qual delas a IA NUNCA deve escrever\n▸ A estrutura da pasta do Claude Code dentro do Obsidian: skills, logs, memória, specs, agentes, templates, briefings\n▸ Por que Zettelkasten + PARA + IA é a combinação que multiplica conhecimento\n▸ A provocação sobre o futuro: o que sobra do seu segundo cérebro quando a IA resolver o problema de memória e contexto\n\n🔑 FERRAMENTAS/LINKS MENCIONADOS\n\n▸ Obsidian - editor de notas local em Markdown (gratuito)\n▸ Claude Code - IA que executa no seu dispositivo de forma autônoma\n▸ Método PARA (Tiago Forte)\n▸ Sistema Zettelkasten\n▸ Meu outro vídeo sobre OBSIDIAN:/Segundo cérebro https://www.youtube.com/watch?v=a9awpswtW0A\u0026t=199s\n\n🎯 PRA QUEM É ESSE VÍDEO\n\nCriadores, founders, estudantes e qualquer pessoa que quer usar IA pra multiplicar conhecimento - e não só gerar pastas abandonadas no computador.\n\nEu uso a HOSTINGER para hospedagem e criação de sites. \n👉 Cupom \"ANAJORDS\" = 10% OFF\n👉 https://hostinger.com.br/anajords\n\nAnalise seu perfil gratuitamente e descubra como aplicar a metodologia que já ajudou milhares de empreendedores a construírem negócios lucrativos usando o digital ↓ \n👉 https://click.anajords.com/analise-mc\n\n🧡 Me siga no instagram:  http://instagram.com/anajords\n\n⏱️ CAPÍTULOS\n\n00:00 O problema do segundo cérebro com IA hoje\n02:00 O que é Obsidian e por que ele vence o Notion pra IA\n04:30 O arroz com feijão que todo mundo repete (e não resolve)\n06:30 Lógica de sistema: input, transformação, output, feedback\n07:30 Os 3 fluxos obrigatórios (seu cérebro, IA, integrado)\n10:00 A IA é bibliotecária, nunca autora\n12:00 Minha estrutura real no Obsidian (PARA + Zettelkasten)\n14:30 Os 4 tipos de notas\n16:00 O que mora na pasta do Claude Code\n18:30 O efeito composto que ninguém fala (e o lixo que se acumula)\n21:00 O fluxo integrado: onde acontece a multiplicação\n23:00 A provocação: o que sobra quando a IA resolver o contexto\n25:30 Manutenção e curva de adaptação real\n\n#SegundoCerebro #Obsidian #ClaudeCode #InteligenciaArtificial #Produtividade #Zettelkasten #PARA #GestaoDeConhecimento #IA #WorkflowIA #MarkdownNotes #KnowledgeManagement #SecondBrain #AIWorkflow #ObsidianBrasil"
+                   },
+                   {
+                       "cat":  "Claude Code + Produtividade",
+                       "title":  "You\u0027re Using the Wrong Claude Code... Karpathy Proved It.",
+                       "author":  "Maestros da IA",
+                       "id":  "temIJPLw0jo",
+                       "desc":  "Prompts e Recursos Grátis em Nossa Comunidade Aberta 👉 https://invitecomunidadeaberta.maestrosdaia.com\nTorne-se um Maestro da IA 👉 https://comunidade.maestrosdaia.com/?utm_source=youtubedescription\u0026utm_medium=youtubedescription\u0026utm_campaign=youtubedescription\u0026utm_content=youtubedescription\n\nDescubra como configurar o Claude Code com Obsidian e criar um segundo cérebro visual para seus agentes de IA -- o método que Karpathy tornou viral.\n\nAndrej Karpathy publicou um rascunho de 800 palavras que causou uma avalanche no mundo da IA. De repente, todo mundo abandonou o Notion e migrou para o Obsidian integrado ao Claude Code. Neste vídeo, você entende por que esse sistema resolve o problema da amnésia das LLMs e aprende o passo a passo completo para configurar sua própria base de conhecimento visual. A diferença entre um agente que precisa consultar documentos e um que já tem tudo integrado é a mesma diferença entre um funcionário júnior e um sênior. Com o graph view do Obsidian, você visualiza espacialmente as conexões entre tudo que seus agentes pesquisam e aprendem.\n\n📌 CAPÍTULOS\n0:00 O rascunho de Karpathy que virou movimento\n1:04 Por que Obsidian com Claude Code explodiu\n2:22 A mudança estrutural: agentes com memória integrada\n4:54 O poder da visualização espacial do conhecimento\n6:31 Tutorial completo: setup do Claude Code com Obsidian\n10:07 Graph View em ação: conexões em tempo real\n13:17 Teste ao vivo: pesquisa e inserção automática\n\n✨ O QUE VOCÊ VAI APRENDER\n✅ Como configurar o Claude Code com Obsidian do zero em minutos\n✅ Por que a memória integrada supera a consulta externa de documentos\n✅ Como usar o graph view para visualizar conexões entre pesquisas\n✅ O comando de injeção que salva pesquisas automaticamente na memória\n✅ Como esse sistema transforma seus agentes de IA em especialistas\n\nEste vídeo contém elementos gerados por IA.\n\n#claudecode #obsidian #inteligenciaartificial"
+                   },
+                   {
+                       "cat":  "Claude Code + Produtividade",
+                       "title":  "Harness: The Evolution of Skills in Claude Code",
+                       "author":  "Well Pires",
+                       "id":  "AzUp3iglg7A",
+                       "desc":  "🔥 Minha Comunidade de IA: https://www.aimakersclub.com.br/\n📚 Meu Curso Gratuito de Claude Code: https://youtu.be/RL5hlnHSmPE?si=Hloo9gQiQ4G5wnF7\n💼 Me Contrate para Automatizar sua Empresa: https://calendly.com/wellpires/discovery-call\n\nResumo do vídeo:\n\nHarness Engineering da Anthropic é o novo método de criar tarefas longas de multi-etapas para os seus agentes de IA sem alucinar. A probabilidade desse mesmo sistema dar certo sem Harness Engineering é de 35%. Isso foi comprovado nos cálculos de Andrej Karpathy, ex-fundador da OpenAI e Tesla AI. Esse é o futuro das Skills do Claude Code em 2026. \n\nVPS Hostinger com desconto: hostinger.com/br/wellpires + cupom WELLPIRES\n\nTodos os documentos utilizados no vídeo: https://mavenai.gumroad.com/l/xxwcb"
+                   },
+                   {
+                       "cat":  "Claude Code + Produtividade",
+                       "title":  "Andrej Karpathy Just 10x\u0027d Everyone\u0027s Claude Code",
+                       "author":  "Nate Herk | AI Automation",
+                       "id":  "sboNwYmH3AY",
+                       "desc":  "Full courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=karpathy-obsidian\nAll my FREE resources: https://www.skool.com/ai-automation-society/about?el=karpathy-obsidian\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nKarpathy\u0027s idea gist: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f\nAI 2027 article: https://ai-2027.com/\n\nAndrej Karpathy just shared his method for building LLM-powered knowledge bases using nothing but markdown files and Claude Code. \n\nIn this video, I walk you through exactly how to set it up in about 5 minutes using Obsidian as a front end. I also show you two of my own wikis, one for YouTube transcripts and one for my personal second brain, and break down how this compares to traditional semantic search RAG.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 What We\u0027re Building\n1:40 Karpathy\u0027s LLM Wiki Idea\n3:12 Why It Matters \u0026 How It Works\n5:39 Setting Up Obsidian \u0026 Claude Code\n8:35 Ingesting Your First Article\n13:02 Querying \u0026 Connecting Projects\n15:36 LLM Wiki vs Traditional RAG\n17:20 Final Thoughts"
+                   },
+                   {
+                       "cat":  "Claude Code + Produtividade",
+                       "title":  "Agentes de IA são FIRULA? Marketing inteiro no Claude Code com Skills",
+                       "author":  "Ratos de IA",
+                       "id":  "5LyNOEOsVcU",
+                       "desc":  "🔗 links das skills mencionadas no episódio: https://ratos.link/somktyt\n🤓 aprenda a usar o Claude Code como sistema operacional pra rodar TUDO do seu negócio no dia a dia: https://ratosdeia.com.br/claudeos/?utm_source=youtube\u0026utm_medium=social\u0026utm_campaign=yt-somkt\n\n---\n\nmostrei como eu rodo uma operação de marketing completa usando Claude Code com skills e pastas, sem agentes. pesquisa de palavras-chave, criação de campanhas no Google Ads e Meta Ads, criativos, relatórios automatizados, carrosséis pro Instagram, landing pages e automação de DM. tudo numa janela só do VSCode.\n\ndepois que os vídeos de time de agentes explodiram aqui no canal, muita gente perguntou como eu realmente faço no dia a dia. a resposta: não uso agentes pra 90% das coisas. uso skills, pastas organizadas e contexto. e nesse vídeo eu mostro exatamente como.\n\n---\n\n⏱️ timestamps:\n00:00 — por que eu não uso agentes no dia a dia\n01:37 — o tweet que me fez gravar esse vídeo (skills vs agentes)\n03:10 — etapa 1: pesquisa de palavras-chave (Google Ads + DataForSEO)\n03:56 — etapa 2: criação e publicação de campanhas no Google Ads\n04:56 — etapa 3: criativos pra Meta Ads (Ogilvy + Schwartz + geração de imagens)\n07:38 — etapa 4: publicação de campanhas no Meta Ads\n09:38 — etapa 5: relatório automatizado (Meta + Google + GA4)\n10:45 — etapa 5.5: tracking (pixel + API de conversões)\n11:03 — etapa 6: carrossel pro Instagram (transcrição → carrossel → publicação)\n13:03 — etapa 7: landing page no ratos.link + deploy automático\n14:09 — etapa 8: automação de DM (substituindo ManyChat)\n15:26 — conclusão: skills x agentes\n\n---\n\n🔗 links mencionados no vídeo:\n\ntodas as skills mencionadas no vídeo (algumas liberadas pra download):\nhttps://ratos.link/somktyt\n\ncurso Claude Code OS (passo a passo completo):\nhttps://ratosdeia.com.br/claudeos/?utm_source=youtube\u0026utm_medium=social\u0026utm_campaign=somkt\n\n---\n\n📩 newsletter, site e outras redes da Ratos de IA: https://ratosdeia.com.br\n\n---\n\n🐀 toda semana a gente traz novidades não óbvias do mundo da IA pra tu ficar por dentro sem precisar acompanhar tudo. te inscreve no canal!\n\n---\n\n#claudecode #marketingcomia #trafegopago #metaads #googleads #skills #agentesdeia #inteligenciaartificial #ia #automacao #ratosdia #dobralabs #claudeai #marketingdigital #empreendedorismo"
+                   },
+                   {
+                       "cat":  "Claude Code + Produtividade",
+                       "title":  "Essa skill do Claude Code faz designs IRRESISTÍVEIS",
+                       "author":  "Deborah Folloni",
+                       "id":  "OuAfWKSyAco",
+                       "desc":  "🎨 Descobri uma SKILL que transforma completamente designs feitos com IA! Neste vídeo eu mostro como usar a skill de frontend design da Anthropic para criar interfaces profissionais e distintas. A diferença entre usar e não usar é ABSURDA - veja o antes e depois!\n\n⏱️ TIMESTAMPS:\n00:00 - Intro: Frontend Skill\n00:48 - O que é uma skill?\n02:07 - Fazendo a LP sem a skill\n03:40 - Diretórios de Skill + Assine a DebGPT de graça!\n04:44 - Fazendo a LP com a skill\n05:02 - Lição de casa: tenha uma mini ID visual\n07:47 - Resultado Final\n\n🎯 O QUE VOCÊ VAI APRENDER:\n✅ O que são skills e como elas funcionam\n✅ A diferença GRITANTE entre design com e sem a skill\n✅ Por que você precisa criar uma mini identidade visual antes\n✅ O passo a passo para usar a skill no seu projeto\n✅ Onde encontrar as melhores skills para instalar\n✅ Resultado: veja a transformação na prática!\n\n💡 POR QUE ISSO IMPORTA:\nSe suas landing pages ficam com aquele visual genérico \"cara de AI\"... este vídeo é para você! A skill de frontend design é a ferramenta que garante designs profissionais, distintos e memoráveis - mesmo que você não seja designer!\n\n🔑 O PROCESSO:\n1️⃣ Crie uma mini identidade visual (logo, cores, fontes)\n2️⃣ Instale a skill de frontend design\n3️⃣ Use prompts direcionados com seus assets da marca\n4️⃣ Deixe o Claude Code criar designs irresistíveis\n\n👻 SOBRE O EPIC:\nO Epic transforma suas ideias soltas em especificações claras, para que o Lovable acerte a implementação de primeira e construa aplicações rápidas e seguras (mesmo que você não saiba nada de programação).\nTeste gratuitamente agora mesmo! https://goepic.dev\n\n📱 ME SIGA NAS REDES:\nInstagram: / dfolloni\nLinkedIn: / dfolloni\nTwitter/X: https://x.com/dfolloni\n\n🗞️ ASSINE MINHA NEWSLETTER (DE GRAÇA)\nSubstack: https://dfolloni.substack.com/\n\n💬 COMENTE AQUI EMBAIXO:\nVocê já usa skills no Claude Code? Qual outra skill você quer que eu mostre? Me conta nos comentários! Leio todos e respondo sempre que posso 👇\n\n🔔 Inscreva-se no canal e ative o sininho para não perder os próximos vídeos!\n\n🙏 Obrigado por assistir! Se este vídeo te ajudou, deixe seu LIKE 👍 e compartilhe com aquele amigo que quer melhorar seus designs!\n\nTe vejo no próximo vídeo! 🚀"
+                   },
+                   {
+                       "cat":  "Edição de Vídeo com IA",
+                       "title":  "Como Editar e fazer Motion Graphics no Claude Code (Remotion)",
+                       "author":  "Fernando Valon",
+                       "id":  "ntHLmj-GqF0",
+                       "desc":  "🎬 Transforme suas ideias em negócios lucrativos! Conheça o Hollywood Na Palma da Sua Mão \nhttps://hollywoodnapalmadasuamao.com.br/HOLLYWOOD-na-palma-da-sua-mao/\n\n\nGitHub link https://gist.github.com/ThariqS/3d446e7c7aa9eb94f468194deb73028f#claudemd \n\nMaster Pack de Edição com Efeitos Visuais, Sonoros e Transições: https://bit.ly/4q1bAL8\n\nOnde baixo músicas? \nhttps://share.epidemicsound.com/fernandovalonOCT25\n\nNeste vídeo, eu mostro como o Claude Code está transformando a maneira de editar, fazer legendas e até motion graphics. Se você está acostumado com a agilidade do CapCut ou a estrutura do After Effects, prepare-se para entender como a IA da Anthropic eleva o jogo ao permitir que você crie animações e edições complexas através de linhas de comando. Eu mostro na prática como integrar o poder do Claude com o Remotion, permitindo que você programe seus vídeos e automatize processos que antes levavam horas. É o encontro perfeito entre a engenharia de software e a criatividade visual, ideal para quem quer escalar a produção sem perder o toque profissional e a estética cinematográfica. Vou te ensinar a ditar o ritmo das suas transições e efeitos usando inteligência artificial para que o seu fluxo de trabalho seja muito mais estratégico e menos manual.\n\n\n\nVídeos citados:\n\nhttps://www.youtube.com/watch?v=Ht_RxaXqBnc\n\nhttps://www.youtube.com/watch?v=IZflKWRMhNI\n\n🖥️ Softwares que uso para edição:\n• Adobe Premiere\n• Adobe After Effects\n\n#claudecode #edicaodevideo #ia #capcut #premierepro #videomaker #remotion #tutorial #vfx"
+                   },
+                   {
+                       "cat":  "Edição de Vídeo com IA",
+                       "title":  "CLAUDE CODE edited my videos all by itself",
+                       "author":  "Mateus Castro IA",
+                       "id":  "cqu3Uj57Cdc",
+                       "desc":  "Eu criei um software que edita vídeo sozinho com IA e não escrevi uma linha de código.\n\nNesse vídeo mostro a lógica completa, etapa por etapa, e deixo o prompt pra você replicar no seu computador hoje.\n\nSe você produz conteúdo e ainda gasta horas ou paga editor toda semana, esse vídeo muda o jogo.\n\nUsei o CLAUDE CODE, o WHISPER da OpenAI e o REMOTION para montar um pipeline de edição automática: o vídeo entra bruto, e sai com legenda animada, corte de silêncio, ilustrações geradas por IA e cenas sincronizadas com a fala. Tudo automático.\n\nO sistema funciona em 6 etapas sequenciais: transcrição do áudio com timestamp, corte inteligente de silêncios, análise de conteúdo com IA, geração de cenas e ilustrações, revisão no preview e renderização final em MP4. A única etapa que precisa de você é a revisão, e às vezes nem essa.\nNão é sobre tecnologia complicada. É sobre pensar em processo primeiro. Você quebra o problema em etapas, escolhe a ferramenta certa pra cada uma, e orquestra tudo. Esse é o método PSG: Processo, Sistema, Gestão — o mesmo que aplico com empresários que querem usar IA de forma prática e lucrativa.\n\nO custo total pra processar um vídeo, contando todas as APIs de IA? Menos de R$0,20. Antes eu pagava até R$100,00 por edição.\n\n🔗 Prompt completo + passo a passo pra recriar este sistema localmente:\nhttps://mateuscastro.com/blog/editor-de-video-automatico-com-ia-claude-code\n\n💬 Faça parte do CNI e receba gratuitamente no WhatsApp conteúdos práticos sobre IA e vendas para negócios: https://mateuscastro.com/cni\n\n🤖 Tenha a mente dos maiores vendedores do mundo no seu comercial: https://mateuscastro.com/kit-agentes-vendas-ia\n\n📸 Instagram: https://www.instagram.com/mateuscastro.ia/\n\n🎵 TikTok: https://www.tiktok.com/@mateuscastro.ia\n\n#claudecode #inteligenciaartificial #automacaodevideos #vendas #processos #empreendedorismo #negocios #IA2025"
+                   },
+                   {
+                       "cat":  "Edição de Vídeo com IA",
+                       "title":  "Como EDITAR VÍDEOS com o CLAUDE CODE (Cortes + Motion)",
+                       "author":  "Rafa Voss",
+                       "id":  "SjlKBdgWrZ4",
+                       "desc":  "Neste vídeo, você vai aprender editar vídeos com Claude Code de forma prática usando dois repositórios open source que mudaram o jogo: Video-Use e HyperFrames.\n\n🔴 Faça sua inscrição no MELHOR CURSO de CLAUDE do MUNDO — ClaudePRO:\n👉 https://www.vossacademy.com.br/claude-pro\n\n--------------------------------------------------------------------------------\n\n📝 SOBRE ESTE CONTEÚDO\n\nEditar vídeo virou conversa. Em vez de arrastar clipes no Premiere ou ficar horas no CapCut, agora dá pra jogar a footage bruta numa pasta, abrir o Claude Code e pedir o vídeo final por chat — corte de filler word, cor, legenda queimada, animação, tudo automatizado. Neste tutorial passo a passo, eu mostro o fluxo completo combinando dois projetos open source que estão bombando no GitHub:\n\n→ Video-Use (do time do browser-use): instala como skill no Claude Code, transcreve a footage com timestamps por palavra via ElevenLabs Scribe, gera uma EDL inteligente, cuida do corte de \"umm\", \"uh\" e silêncios, aplica color grade automático e queima legenda no estilo TikTok. O LLM nunca assiste o vídeo — ele lê o transcript e raciocina em cima disso, o que acelera tudo absurdamente.\n\n→ HyperFrames (do time da HeyGen): renderiza vídeo a partir de HTML, CSS e JS. É tipo um Remotion mais leve e agent-native. Você descreve a animação em linguagem natural, o Claude Code escreve a composição em HTML com timeline e GSAP, e roda `npx hyperframes render` pra exportar MP4 determinístico.\n\nJunto, esses dois repos cobrem o pipeline inteiro: Video-Use cuida do corte e da edição da footage real, HyperFrames cobre as animações, intros, lower thirds e overlays. Conteúdo direto pra criador de conteúdo, marketeiro e qualquer time que produz vídeo em escala.\n\n🔗 Repositórios usados no vídeo:\n👉 Video-Use: https://github.com/browser-use/video-use\n👉 HyperFrames: https://github.com/heygen-com/hyperframes\n\n--------------------------------------------------------------------------------\n\n🤝 PARCEIROS E CONSULTORIA\n\n🎖️ Embaixador Cakto — Crie seus produtos digitais e comece a vender na melhor plataforma de infoprodutos:\n👉 https://www.cakto.me/migracao?utm_source=youtube\u0026utm_medium=parceria\u0026utm_campaign=rafavoss\n\n🚀 Reserve 1 hora com o Rafa Voss (Consultoria):\n👉 https://consultoria-voss.lovable.app/\n\n--------------------------------------------------------------------------------\n\n📺 VÍDEOS RECOMENDADOS\n\n👉 Lovable do Zero: https://youtu.be/fX1SYDRhB2Q\n👉 Claude Cowork: https://www.youtube.com/watch?v=Y9sYXgGxohw\n\n--------------------------------------------------------------------------------\n\n📱 REDES SOCIAIS E HASHTAGS\n\n📸 Me siga no Instagram: @orafavoss\n\n#rafavoss #claudecode #editardevideo #claude #vossacademy"
+                   },
+                   {
+                       "cat":  "Edição de Vídeo com IA",
+                       "title":  "Seedance 2.0 Officially Public! Full Prompting Tutorial (Claude + Higgsfield)",
+                       "author":  "Rourke Heath",
+                       "id":  "tYJQusOS2jI",
+                       "desc":  "Seedance 2.0 available up to 70% off on Higgsfield: https://goto.higgsfield.ai/e1xkKz\n\nClaude Video Prompt Skill: https://drive.google.com/drive/folders/1_Y0nBQH7kQSF5oYYwje6XMWCVHUbidSY?usp=sharing\n\nLearn more on GenHQ: https://join.genhq.io/\n\nSeedance 2.0 is here and the results are unlike anything we\u0027ve seen from an AI video model before. In this video, we\u0027re putting it through its paces on Higgsfield to see just how far you can push it for ultra-realistic visuals and cinematic motion.\n\nIn this video, you\u0027ll learn:\nWhat Seedance 2.0 can actually do: Real-world tests showing off its physics, motion quality, and visual realism.\nHow to use Claude AI for prompting: How this LLM can help you build better prompt structures and get consistently stronger results.\nPrompt breakdowns: Exactly what\u0027s working, what\u0027s not, and how to dial in your prompts for the best output.\nThe Higgsfield workflow: How to use Seedance 2.0 directly inside Higgsfield for a\nsmooth, fast creation process.\n\nWhether you\u0027re a content creator, filmmaker, or AI video enthusiast — this is the workflow you need to see right now.\n\nThank you to Higgsfield for sponsoring today\u0027s video.\n\nNot \"AI video generator tutorial\", Not \"best AI video tools 2025\", Not \"text to video AI guide\", Not \"AI filmmaking for beginners\", Not \"how to use AI to make videos\", Not \"AI video prompt guide\", Not \"realistic AI video creation\", Not \"LLM prompting for video\", But this video shows you exactly how to use Seedance 2.0 on Higgsfield with Claude AI to create ultra-realistic AI video from smarter, structured prompts.\n\nTimestamps:\n\n0:00 Introduction\n0:36 Prompting\n6:11Pairing Seedance with real footage\n10:16 Advertising\n11:25 Storytelling\n17:22 Outro"
+                   },
+                   {
+                       "cat":  "Edição de Vídeo com IA",
+                       "title":  "Turn NotebookLM into Videos with YOUR Face (NO FILMING!)",
+                       "author":  "Jonathan\u0027s Jam",
+                       "id":  "JPP82B7-U0c",
+                       "desc":  "In this tutorial, I show how to turn NotebookLM’s AI-generated podcasts into realistic talking head videos featuring your own face and voice, using the following cutting edge AI tools: SpeakerSplit audio separation, HeyGen avatars, ElevenLabs voice cloning, and CapCut video editing — all synced perfectly for natural dialogue.\n\n🌟 Want early access to my upcoming project plus exclusive bonus content?\nHelp shape what I create next by filling out this quick survey:\nhttps://jonathansjam.com/go/10-question-survey/\n\n=============\n\n*LINKS MENTIONED IN THE VIDEO:*\n\n*SpeakerSplit* for automatic separation of speakers:\nhttps://speakersplit.io/?via=jonathansjam\nGet 10% off with my discount code. *HUBJAM10*\n\n*HeyGen* industry leading personal avatar creation:\nhttps://www.heygen.com/?sid=rewardful\u0026via=jonathansjam\n\n*ElevenLabs* industry leading AI voice software:\nhttps://try.elevenlabs.io/jonathans-jam?sid=ownfacepodcast\n\n*CapCut* free video editor:\nhttps://capcutaffiliateprogram.pxf.io/Jonathans-Jam\n\n*Audacity* open source audio processing software:\nhttps://www.audacityteam.org/\n\n📝 *Show Notes* – all links + tools from the video\nhttps://jonathansjam.com/go/show-notes/\n\n=============\n\n*GIVEAWAY RULES*\n\nNo purchase necessary.\nOpen worldwide, ages 18+.\n\nTo enter: subscribe to this channel and comment SPEAKERSPLIT on this video.\n\nGiveaway starts Monday 6th October and ends Wednesday 16th October.\n\nThree winners will be randomly chosen from the comments and announced on Thursday October 17th.\n\nPrizes: There will be three winners, each of which will receive 60 SpeakerSplit credits (no active SpeakerSplit subscription required).\n\n*Privacy Notice \u0026 YouTube Disclaimer*\n\nWe only collect the info you provide to run this giveaway and contact the winner — nothing will be sold or used for marketing. This giveaway is not sponsored or endorsed by YouTube. By entering, you agree to follow the YouTube Community Guidelines.\n\n=============\n\n*📖 VIDEO CHAPTERS:*\n\n00:00 Introduction\n02:08 Generating a NotebookLM podcast (audio overview)\n03:14 METHOD 1 - Adding your own face to NotebookLM podcast\n03:24 Step 1: Separating speakers with SpeakerSplit\n04:57 Win 60 SpeakerSplit credits! (Competition details)\n05:40 Step 2: Creating a HeyGen \"Digital Twin\" avatar for Host A (myself)\n07:57 Step 3: Make my avatar speak the NotebookLM speech\n08:58 Step 4: Creating Host B, with a pre-existing HeyGen avatar\n10:45 Step 5: Making a side-by-side talking-head video in CapCut\n12:32 Adding your own face vs adding your own face and voice\n13:17 METHOD 2 - Adding your own face and voice to NotebookLM podcast\n14:18 The adding your voice pipeline explained\n15:17 Step 1: Creating a Professional Voice Clone with ElevenLabs\n18:24 Step 2: Syncing your voice clone with ElevenLabs Dubbing Studio\n21:16 Step 3: Creating Host A (myself) with a different \"Digital Twin\" in HeyGen (optional)\n23:15 Step 4: Creating Host B and changing gender\n23:40 Voice Mirroring explained\n25:16 Step 5. Making a side-by-side talking-head video in CapCut\n26:46 A note on Voice Mirroring vs Dubbing Studio\n28:29 A note on side-by-side podcast videos vs same-room videos\n\n=============\n\n*Affiliate disclosure:* Some links may earn me a small commission at no extra cost to you. I only share tools I trust and use.\n\n*All thoughts are my own.* Thanks for supporting the channel!\n\nVecteezy attribution\nhttps://www.vecteezy.com/free-videos/youtube-subscribe-green-screen Youtube Subscribe Green Screen Stock Videos by Vecteezy\n\nhttps://www.vecteezy.com/free-videos/alpha Alpha Stock Videos by Vecteezy\n\n#notebooklm #AIPodcasting #aitovideo #HeyGen #ElevenLabs #AIVoice #AIAvatars #VoiceCloning #AIContentCreation #AIVideo #AgenticAI #DigitalTwin #AIAutomation #PodcastWorkflow #aistudio"
+                   },
+                   {
+                       "cat":  "Monetização com IA",
+                       "title":  "Ganhe R$10.000/mês com LowTickets criados com Claude Code",
+                       "author":  "Guilherme Franklim",
+                       "id":  "nwaiD-HCAAA",
+                       "desc":  "💰 Meu curso ensinando a começar, se estabilizar e escalar no trafego direto: https://www.networkpro.site/?utm_source=ytdsc\n👨🏻‍💻 Roadmap Dev de Oferta: https://www.roadmapdevdeoferta.com/?utm_source=ytdsc\n📂  100 lowtickets + 100 micro saas que eu rodaria: http://200ideiaslucrativas.com/?utm_source=ytdsc \n\n💻 Entre no mey servidor do Discord: http://discord.gg/franklimgui\n💬 Me mande uma mensagem no Instagram: https://www.instagram.com/franklim.gui/"
+                   },
+                   {
+                       "cat":  "Monetização com IA",
+                       "title":  "Essa Ferramenta Acha Clientes pra Você de Graça Todo Mês",
+                       "author":  "Victor Peixoto",
+                       "id":  "9de9i8-1oAg",
+                       "desc":  "🚀 Adquira aqui a nossa Ferramenta de Diagnóstico : \nhttps://metrics.turbopartners.com.br/lp\n\n🚀 Tudo que sua agência precisa pra crescer (Gratuito):\nhttps://metrics.turbopartners.com.br/acesso\n\n🚀 Mentoria Individual Para Escalar Sua Agência:\nhttps://metrics.turbopartners.com.br/mentoria\n\nApify (você já ganha $5 de crédito grátis): \nhttps://apify.com?fpr=victorpeixoto\n\n📌 CAPÍTULOS:\n\n0:00 O segredo para achar clientes de graça\n0:45 O que é o Apify e como ele funciona\n1:30 Tutorial: Extraindo leads do Google Maps\n3:00 Como organizar sua lista de contatos\n5:00 Dicas para não ser bloqueado e escalar vendas\n\n✅ COMO CONSEGUIR CLIENTES TODO MÊS SEM GASTAR NADA\n\nNesse vídeo mostro a ferramenta que uso pra encontrar clientes \nautomaticamente sem ficar buscando na mão, sem gastar dinheiro \ne sem precisar entender de tecnologia.\n\nO QUE VOCÊ VAI APRENDER:\n→ Como achar clientes no Google Maps automaticamente\n→ Como buscar clientes pelo Instagram sem fazer isso na mão\n→ Como pegar dados de empresas pelo CNPJ de graça\n→ Como organizar tudo isso num CRM simples com IA\n→ Como criar uma sequência de mensagens no WhatsApp pra fechar mais\n\nAprenda como extrair leads e automatizar sua prospecção de clientes de forma gratuita. Neste tutorial, mostro como usar o Apify para fazer web scraping no Google Maps e Instagram e gerar listas de contatos qualificadas.\n\nNão precisa ser um expert em tecnologia para usar. Criamos um processo aqui na Turbo onde qualquer membro da equipe consegue extrair centenas de leads por dia. Você pode começar esse mesmo processo de graça hoje.\n\n\n📱 Me siga no Instagram:\nhttps://www.instagram.com/victor.peixoto\n\n🔔 Se inscreva no Canal:\nhttps://bit.ly/inscreva-se-youtube-victor\n\n————————————\n⚠️ Atenção: Esta ferramenta é focada na extração e organização de dados (Leads). Ela não realiza disparos automáticos de mensagens, mas entrega a lista pronta para você usar no seu CRM ou ferramenta de disparo favorita!\n\n👇 Me conta nos comentários: qual serviço você vende?\nPosso criar um tutorial específico pro seu nicho.\n\n\nEste vídeo é para quem busca automação de vendas, ferramentas de marketing digital b2b, como conseguir clientes no automático e tutorial de scraping para iniciantes.\n\n#prospecção #apify #prospecção #leads #vendasb2b #automação"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "Como usar o ANTIGRAVITY com LLMs infinitas de GRAÇA (Tutorial Completo)",
+                       "author":  "Julio | Lucrar com IA",
+                       "id":  "__vSrFlvHuY",
+                       "desc":  "🚀 Antigravity ILIMITADO e GRATUITO para sempre — OpenCode + OpenRouter\n\nCansado de travar no meio do projeto por limite de uso? \n\nNesse vídeo eu mostro como configurar o Antigravity com OpenCode para ter acesso a modelos de IA gratuitamente e sem limitações, usando o OpenRouter como provedor de modelos.\n\nDo absoluto zero: instalação, configuração e uso real dentro do Antigravity — tudo num único lugar.\n\n⚡ O que você vai aprender:\n\n- Como instalar o OpenCode dentro do Antigravity\n- Como resolver o erro de permissão no npm (Mac)\n- Como conectar sua conta do OpenRouter ao OpenCode\n- Como usar o FreeModelsRouter para troca automática de modelos\n- Como escolher os melhores modelos gratuitos para cada tipo de tarefa\nSe você já ficou horas esperando limite resetar, esse vídeo vai te poupar MUITO tempo e DINHEIRO.\n\n🔷 Acesse os materiais e templates mencionados no vídeo dentro da minha comunidade gratuita: https://comunidade.lucrarcomia.com\n\n🔷 Quer implementar automações de IA no seu negócio? Clique nesse link para fazer um orçamento 👉🏻 https://tally.so/r/3EOGBA\n\n🔷 Tem alguma dúvida sobre o serviço? Me manda um e-mail: comercialtekuai@gmail.com\n\n🔷 Use meu link de afiliado da HOSTINGER e ganhe 10% de desconto nos planos anuais. É só usar o cupom \"LUCRARCOMIA\" no checkout e o desconto será aplicado automaticamente.\n\n👉🏻 https://www.hostg.xyz/SHJH7 \n\n🔷 Me segue nas redes sociais para ficar atualizado sobre tudo que está acontecendo no mundo das IA\u0027s\n\nInstagram 👇🏻\nhttps://www.instagram.com/juliosilva.ai/\n\nTiktok 👇🏻\nhttps://www.tiktok.com/@juliosilva.ai\n\n🔷 Gostou do meu conteúdo e quer apoiar o meu trabalho? Use meus links de afiliado abaixo: \n\n- ElevenLabs: https://try.elevenlabs.io/89lwfes5aqyk \n- Tally: https://tally.cello.so/Kdhy3H1CldC\n- Airtable: https://airtable.partnerlinks.io/tou91srifkya\n- Zapier: https://try.zapier.com/htguc7whgmvf\n\n#antigravity #openrouter #opencode #gratuito"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "Ao INVÉS de CONTRATAR DESIGNER Use Isso: CLAUDE DESIGN",
+                       "author":  "Tiago Lemos",
+                       "id":  "R1tqXpmNhls",
+                       "desc":  "Hospedagem HostGator (com Desconto): https://www.hostgator.com.br/49807-77-3-32.html\n\nAprenda a criar landing pages profissionais com Claude Design e colocar no ar em minutos! Nesse tutorial completo, eu mostro todo o processo: desde a criação da copy perfeita até a hospedagem do site.\n\n🔥 O QUE VOCÊ VAI APRENDER:\n✅ Criar landing pages do zero com Claude Design\n✅ Usar prompt especial para copy que converte\n✅ Montar um Linktree personalizado para sua bio\n✅ Adicionar animações e backgrounds em HTML\n✅ Hospedar seu site na HostGator (passo a passo)\n✅ Configurar domínio e subir arquivos\n\n🔗 LINKS:\nComunidade Gratuita: https://chat.whatsapp.com/HroR4q2ne2dJBVcsaN65bF\nPrompts: https://docs.google.com/document/d/1cwNRgNArohw5yWZF14OXGGIU2SdlAgg6dE19NSmKGiI/edit?usp=sharing\n\n📚 RECURSOS MENCIONADOS:\n• Prompt de Copy (disponível na comunidade)\n• Templates de landing page\n• Backgrounds animados em HTML\n\n⏱️ TIMESTAMPS:\n00:00 Inscreva-se\n00:54 Claude Design\n01:38 Criando a Copy Perfeita\n02:55 Resultado Página Monjauro Club\n04:25 Resultado Página Gestor IA\n06:09 Elementos Animados (21st.dev)\n07:28 Criando Linktree\n08:41 Exportando HTML\n09:49 Hospedagem HostGator\n11:16 Subindo Página no AR\n14:54 Performance 98%\n\nclaude design, landing page com ia, como criar landing page, hospedagem de site, hostgator, criar site com ia, linktree grátis, claude ai, inteligência artificial, site sem código, no code, landing page grátis, como hospedar site\n\n#ClaudeDesign #LandingPage #HostGator #InteligenciaArtificial #SiteComIA #NoCode #Hostgator\n\nMe siga:\nInst: @tiagolemosx"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "This AI from Meta Creates Content and Optimizes Your Ads on its Own (Manus 2026)",
+                       "author":  "Filipe Detrey",
+                       "id":  "lQgoPBrrdE0",
+                       "desc":  "Descubra como usar a Manus AI para automatizar seu Instagram e suas campanhas no Meta Ads em 2026. Neste vídeo, você vai aprender como conectar a ferramenta, criar conteúdos automaticamente e ainda receber análises inteligentes das suas campanhas para melhorar o CPA, aumentar a conversão e escalar suas vendas.\n\nUse com 1.000 créditos grátis:\nManus AI: https://manus.im/redeem?c=FD1G7A29\n\nA Manus funciona como um verdadeiro analista de tráfego trabalhando 24 horas por você, trazendo insights em tempo real e ajudando a tomar decisões mais rápidas e lucrativas.\n\nDomine o Facebook Ads e Venda todos os Dias:  👉 https://go.filipedetrey.com/ehytx\nCurso Completo, 100% Atualizado, com Suporte Individual e Comunidade de Alunos. \n\nQuer ajuda para resolver? 👉 Fale comigo: https://go.filipedetrey.com/e3kbt\n\nCurso Expert Ads 2026 (Facebook Ads + Suporte + Comunidade):\n👉 Começar: https://go.filipedetrey.com/ehytx\n\nServiço Desbloqueio Meta Ads:\n👉 Contratar: https://go.filipedetrey.com/e3kbt\n\nGestão de Tráfego Pago:\n👉 Contratar: https://go.filipedetrey.com/wypj8\n\nMentoria de Tráfego:\n👉 Agendar: https://go.filipedetrey.com/6fwty\n\nCurso de Desbloqueio: \n👉 Comece: https://go.filipedetrey.com/e6h8c\n\nCurso de Afiliado Pro 2026: \n👉 Conhecer: https://go.filipedetrey.com/itfzn\n\nCurso Profissão Gestor de Tráfego:\n👉 Começar: https://go.filipedetrey.com/y6iu6\n\n🔴 Telegram: https://go.filipedetrey.com/qgv2m\n🟢 Instagram: https://go.filipedetrey.com/yan77\n\nParceiras:\n📧 E-mail: filipe@detrey.com.br\n\n#ManusIA #AgenteIA #Tecnologia#Igconnecter#metaadsmanager \n\nNo Vídeo:\n00:00 Gostou? Curte aí\n02:00 Inscreva-se no Canal.\n04:00 Ative as notificações."
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "HAS CLAUDE GONE CRAZY? He\u0027s creating content BETTER than humans",
+                       "author":  "Rafael Mota – Sala Ninja IA",
+                       "id":  "TBBOv4U6SgE",
+                       "desc":  "Links Importantes:\n👉 Grupo de Ofertas : https://bit.ly/WhatsappOfertasNinja\n👉 Hospedagem Hostinger : https://bit.ly/HostingerNinja  (CUPOM : SALANINJA)\n👉 Gere criativos ilimitados com IA: https://bit.ly/CriativosInfinitos\n🚀 CRÉDITO GRÁTIS no Lovable abrindo sua conta aqui: https://bit.ly/LovableNinja\n👉 Templates e Plugins Wordpress: https://bit.ly/LojaOficialSalaNinja\n🥷🏻 Material GRÁTIS Da Aula : https://salaninja.com/gerador-de-carrossel-claude/\n\nClaude está revolucionando a criação de conteúdo — e muita gente está chocada com o nível que a IA chegou 🤯 Neste vídeo, você vai descobrir como usar o Claude para criar conteúdos INSANOS para Instagram, TikTok e outras redes sociais em poucos minutos.\n\nSe você quer crescer nas redes sociais, economizar tempo e ainda produzir conteúdos mais criativos, estratégicos e envolventes, esse método pode mudar tudo.\n\nVamos te mostrar como usar inteligência artificial para gerar ideias virais, roteiros, legendas e até estratégias completas de conteúdo — mesmo que você seja iniciante.\n\n🚀 Aprenda agora como transformar o Claude em sua máquina de conteúdo e sair na frente da concorrência!\n\nPalavras-chave: Claude IA, criação de conteúdo com IA, conteúdo para Instagram, inteligência artificial social media, como usar Claude, marketing digital com IA, conteúdo viral, social media dicas, automação de conteúdo\n\nMe Siga no Instagram:\n👉 https://www.instagram.com/rafaelmotapro/"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "Tchau OpenClaw! Criei meu agente pessoal usando o Antigravity do zero",
+                       "author":  "Ratos de IA",
+                       "id":  "c0nJB1y-SQI",
+                       "desc":  "Imagine um assistente que tem acesso total à sua casa, seus segredos e sua forma de trabalhar. 🏠 Se esse assistente for totalmente de terceiros, como o OpenClaw, você aceita um risco sério: quem controla o que pode vazar? Neste vídeo, você vai aprender a construir seu próprio assistente \"sob medida\" do zero com **Google Antigravity**. 🚀\n\nParticipe do nosso grupo de Whats@app\nhttps://linktr.ee/sandeco.macedo\n\nEu sou Sandeco, professor e pesquisador em IA, e hoje vou te entregar o caminho das pedras para você não depender mais de ferramentas externas perigosas. Vamos transformar especificações brutas em um agente funcional conectado ao Telegram, capaz de processar documentos e áudios com total soberania sua.\n\nVídeo sobre criação de skills\nhttps://www.youtube.com/watch?v=yPoSJbLxbS8\n\n---\n**Livros do professor Sandeco:**\nSandeco já publicou 9 livros sobre Inteligência Artificial! 📚 E tem mais: ao adquirir qualquer um deles, você ganha acesso exclusivo a um grupo no WhatsApp, onde pode trocar ideias com outros alunos e participar de discussões incríveis. Além disso, você recebe aulas de mentoria gravadas, nas quais explico GRATUITAMENTE toda a teoria dos livros em vídeo. Incrível, né? 🚀\n\n**Livro de RAG**\nhttps://physia.com.br/rag\n\n**Faça essa trilha:**\n\n1. Prompts em Ação Volume 1 - Engenharia de Prompts para Leigos\nhttps://physia.com.br/prompts\n\n2. Agentes Inteligentes - CrewAI volume 1- Básico\nhttps://physia.com.br/crewai1\n\n3. Python para Inteligência Artificial\nhttps://physia.com.br/python\n\n4. Agentes Inteligentes - CrewAI volume 2 - Intermediário\nhttps://physia.com.br/crewai2\n\n5. Prompts em Ação Vol2 - Guardrails\nhttps://physia.com.br/guardrails\n\n**Em qualquer momento:**\nAgentes de Visão Computacional - Deep Learning\nhttps://physia.com.br/deeplearning\n\nInteligência Artificial Visual com Orange Canvas\nhttps://physia.com.br/orange\n\n*Nota: Todos os livros são para leigos. Somente o CrewAI 2 depende do livro de Python.*\n\n🚀 **Vamos nos conectar?**\n📸 Instagram: https://www.instagram.com/sandeco/\n🐦 Twitter: https://twitter.com/sandeco\n💻 Github: https://github.com/sandeco\n🎥 TikTok: https://www.tiktok.com/@sandeco\n🧵 Threads: https://www.threads.net/@sandeco\n🔗 LinkedIn: https://www.linkedin.com/in/sandeco-macedo-8638b429/"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "O Fim dos Agentes de IA: Conheça os Fluxos Agênticos (Google Antigravity)",
+                       "author":  "Enzo Barbatto",
+                       "id":  "Lsoci3HRD1A",
+                       "desc":  "🎓MasterClass de Antigravity + N8N (Curso Completo do Básico ao Avançado): http://sparo.com.br/masterclass?src=organico\u0026utm_source=youtubeorg\u0026utm_medium=\u0026utm_content=\u0026utm_campaign=DRSL\u0026utm_term=organico \n🌍Nossa comunidade Grátis de n8n: https://www.skool.com/comunidade-de-automacao-com-ia-8164  \n🤖Soluções Personalizadas para a sua Empresa: https://sparo.com.br\n\nO fim dos Agentes de IA tradicionais chegou? Neste vídeo, apresento o Google Antigravity, uma plataforma que permite criar automações e aplicativos complexos apenas com prompts, gerando código Python nativo. Na prática, construímos um \"Fluxo Agêntico\" completo: desde a arquitetura de pastas até um Dashboard que monitora o Reddit, filtra postagens sobre n8n e envia relatórios por e-mail em HTML.\n\nNeste tutorial, você aprenderá: \n00:00 - Introdução: O que é Google Antigravity? \n00:43 - O Projeto: Monitoramento do Reddit \n01:41 - Instalação e Configuração Inicial \n02:54 - Arquitetura Agêntica (Agente.md) \n05:50 - Criando a Automação em Python \n08:52 - Implementando Sistema de Logs \n11:51 - Criando o App (Front-end com IA) \n15:35 - Testando e Corrigindo o App \n17:42 - Adicionando Filtros e Links \n20:33 - Automação de E-mail em HTML \n22:15 - Conclusão: O Futuro da Automação\n\n#GoogleAntigravity #AgentesIA #Automação #Python #LowCode #SparoAutomacoes #FluxosAgenticos\n\nGostou do vídeo? Deixe seu like, inscreva-se no canal e ative o sininho para não perder nenhuma novidade sobre automação e inteligência artificial. Se tiver alguma dúvida, deixe nos comentários abaixo! 👇 https://youtu.be/Lsoci3HRD1A"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "O Novo Modelo do Google + Antigravity | Acabaram de Mudar o RAG para Sempre",
+                       "author":  "Enzo Barbatto",
+                       "id":  "nvC7B9To_mo",
+                       "desc":  "🎓MasterClass de Antigravity + MasterClass de N8N (Curso Completo do Básico ao Avançado): http://sparo.com.br/masterclass?src=organico\u0026utm_source=youtubeorg\u0026utm_medium=\u0026utm_content=\u0026utm_campaign=DRSL\u0026utm_term=organico\n- - - \n🌍Nossa comunidade Grátis: https://www.skool.com/comunidade-de-automacao-com-ia-8164\n🌟Hospede suas automações e aplicativos na VPS da Hostinger (10% OFF usando o cupom SPARO10): https://hostinger.com/SPARO10\n- - - \n💼Quer que a Sparo crie um(a) automação/aplicativo para sua empresa?: https://sparo.com.br\n🤝Trabalhe comigo (Vagas de Automação): Entre em contato pelo chat da nossa comunidade grátis!\n- - - \nNeste vídeo, explico tudo sobre o novo modelo de vetorização multimodal do Google (Gemini) e como ele muda para sempre a criação de agentes RAG! Vai entender o que são embeddings, como funcionam as bases de dados vetoriais (usando o Pinecone) e por que reduzem drasticamente os custos das suas automações. Na prática, mostro passo a passo como criar o seu próprio agente RAG multimodal no Antigravity em menos de 5 minutos, capaz de ler PDFs extensos e imagens para entregar respostas precisas com as fontes exatas.\n\nNeste tutorial, você aprenderá:\n00:00 - O que são Modelos de Vetorização e RAG?\n03:00 - O Novo Modelo Multimodal do Gemini\n06:48 - Criando o seu Agente RAG no Antigravity\n08:52 - Configurando as APIs: Pinecone e Gemini\n12:28 - Testando o App do Agente RAG\n14:14 - MasterClass de Antigravity e N8N\n\n#N8N #Antigravity #Gemini #Automação #RAG #Pinecone #InteligenciaArtificial #SparoAutomacoes #LowCode\n\nGostou do vídeo? Deixe seu like, inscreva-se no canal e ative o sininho para não perder nenhuma novidade sobre automação e inteligência artificial. Se tiver alguma dúvida, deixe nos comentários abaixo! 👇"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "How to use AntiGravity better than 99% of people",
+                       "author":  "Enzo Barbatto",
+                       "id":  "DIqLI5Vgacc",
+                       "desc":  "🎓MasterClass de Antigravity (Curso Completo do Básico ao Avançado): http://sparo.com.br/masterclass?src=organico\u0026utm_source=youtubeorg\u0026utm_medium=\u0026utm_content=\u0026utm_campaign=DRSL\u0026utm_term=organico \n🌍Nossa comunidade Grátis: https://www.skool.com/comunidade-de-automacao-com-ia-8164 \n\nA maioria das pessoas usa o Google Antigravity apenas como um chatbot, desperdiçando 90% do seu potencial. Neste vídeo, eu te mostro as funcionalidades avançadas que vão te colocar à frente de 99% dos usuários: Customizações (Regras e Workflows), o poder dos MCPs para conectar ferramentas como Stripe e n8n, o uso de múltiplos Agentes simultâneos e como ensinar novas Skills à IA. Também abordo dicas essenciais de design, arquitetura e segurança para criar aplicações profissionais.\n\nNeste tutorial, você aprenderá: \n00:00 - Introdução: O Poder do Antigravity \n01:16 - Customizações: Regras e Workflows \n03:12 - Dominando os Servidores MCP \n05:06 - Conectando MCPs Externos (n8n) \n06:05 - Agentes: Múltiplos Fluxos Simultâneos \n07:58 - Skills: Novas Habilidades (Remotion) \n08:52 - Hospedagem e Nuvem \n09:12 - Dicas: Inspirações e Design \n12:40 - Segurança e Boas Práticas\n\n#GoogleAntigravity #AgentesIA #Automação #MCP #LowCode #SparoAutomacoes #DesenvolvimentoWeb\n\nGostou do vídeo? Deixe seu like, inscreva-se no canal e ative o sininho para não perder nenhuma novidade sobre automação e inteligência artificial. Se tiver alguma dúvida, deixe nos comentários abaixo! 👇 https://youtu.be/DIqLI5Vgacc"
+                   },
+                   {
+                       "cat":  "Automação / WhatsApp",
+                       "title":  "Criei um Agente de IA no WhatsApp em 20 Minutos com Claude Code",
+                       "author":  "Eduardo Carezia",
+                       "id":  "XknqMFCb9zg",
+                       "desc":  "Criei um Agente de IA no WhatsApp em 20 Minutos com Claude Code (guru vai chorar)\n\n🎁 [GRÁTIS] Aprenda a usar claude code + antigravity para construir softwares e automações do absoluto zero:\nhttps://lp.automatiza-ai.com/captura?utm_campaign=video73\u0026utm_medium=description\u0026utm_source=youtube\n\nUm agente de IA no WhatsApp que responde clientes 24h, agenda reuniões e\nqualifica leads — sem pagar R$ 200 a R$ 3.000 por mês em plataforma. Nesse\n\ntutorial eu te mostro o setup completo: do zero ao deploy, usando a API\noficial do WhatsApp Business e o Claude Code fazendo o trabalho pesado.\n\nVocê não precisa saber programar. O Claude Code escreve o código, instala\nas dependências, configura o servidor e te mostra cada botão onde clicar.\nSe você consegue seguir um passo a passo, consegue montar esse agente.\n\nO que você vai aprender:\n\n✅ Como configurar a API oficial do WhatsApp Business (Meta Cloud)\n✅ Como instalar e rodar o Claude Code do zero\n✅ Como conectar Claude Code no WhatsApp via MCP server\n✅ Como treinar o agente com suas informações, produtos e tom de voz\n✅ Deploy em produção sem cair em bloqueio do WhatsApp\n✅ Automações extras: Google Agenda, CRM, notificações\n\nEsse tutorial de agente de IA no WhatsApp com Claude Code funciona pra\nqualquer nicho: agência, e-commerce, consultoria, saúde, educação, SaaS.\nSe você tem clientes no Zap, esse agente paga o próprio custo no primeiro\nmês. Deixa nos comentários qual nicho você vai aplicar.\n\n📌 CAPÍTULOS:\n00:00 - Agente de IA no WhatsApp funcionando em 1 prompt\n01:03 - O segredo: setup wizard com Claude Code\n03:45 - Quanto custa criar um agente de IA no WhatsApp\n05:28 - Railway CLI vs MCP no Claude Code\n07:06 - Criando o projeto e login na Railway\n08:38 - Configurando o agente: canais, LLM e memória\n12:23 - Spec-driven development com Claude Code\n14:46 - Claude Code codando sozinho (pausa longa)\n16:04 - App pronto: limpeza da infra e ajuste de UI\n18:06 - Testando o agente de IA no WhatsApp na prática\n19:06 - Método CSS e próximos passos (Google Agenda, CRM)\n\n\n🔗 LINKS ÚTEIS:\n📚 Documentação Claude Code: https://code.claude.com\n🌐 Railway (com meu Afid): https://railway.com?referralCode=eduardocarezia\n\n\n\n\n#AgenteIA #n8n  #ClaudeCode"
+                   },
+                   {
+                       "cat":  "Automação / WhatsApp",
+                       "title":  "Meta Mudou Tudo! Como Criar o Novo App da API WhatsApp",
+                       "author":  "Comunidade ZDG",
+                       "id":  "Mo9tDcvP9Tc",
+                       "desc":  "👇 TODO MATERIAL DE APOIO ESTÁ AQUI 👇\n👨‍🏫  Página de apoio: ➤ https://zdg.dev.br\n\n00:00 Introdução\n00:50 1. Acesso ao Facebook Developers\n02:10 2. Criando o novo aplicativo da Meta\n03:40 3. Configurações básicas: termos e privacidade\n05:00 4. Permissões e recursos do app (nova estrutura)\n06:30 5. Gerando token e enviando mensagem de teste\n08:10 6. Configurando o Webhook da API do WhatsApp\n09:40 7. Criando token permanente no Business Manager\n11:20 8. Integração com sistemas externos\n13:00 Encerramento\n\n🤔 QUAL O MELHOR CAMINHO PARA VOCÊ?\n\nTemos duas soluções, veja qual delas se encaixa no seu perfil:\n🎓 COMUNIDADE ZDG: Aprenda com Ferramentas Open Source\nIdeal para quem quer aprender a construir e ter total controle sobre suas automações, utilizando ferramentas de código aberto (open source). Nós ensinamos o caminho e damos as ferramentas para você construir.\n● O que inclui: Acesso a cursos de integrações e infraestrutura, além de auto-instaladores (Whaticket, Chatwoot, Typebot e N8N) para você mesmo implantar. \n● O suporte é colaborativo, realizado através do nosso grupo de membros no Facebook para troca de experiências e dúvidas.\nSe seu objetivo é APRENDER A FAZER e ter autonomia, comece aqui: \n👉 https://comunidade.zdg.dev.br/\n\n⚡ SISTEMA Z-PRO: Plataforma de Atendimento Robusta\nPara quem busca uma plataforma de atendimento multicanal avançada e em constante evolução, com a estrutura e o suporte para escalar seu negócio.\n● O que inclui: Uma plataforma completa (WhatsApp Oficial, Insta, etc.) com IA, funcionalidade White-Label para revenda e atualizações constantes com novas versões. \n● Como funciona o suporte: Você tem acesso ao nosso time via ferramenta de Helpdesk para tirar dúvidas sobre o uso e a configuração do sistema Z-PRO.\nSe você busca uma solução AVANÇADA, COM ATUALIZAÇÕES E SUPORTE, conheça o Z-PRO: \n👉 https://zdg.dev.br/\n\n🔔 Quer mais vídeos como este? Inscreva-se no canal e ative as notificações!\n\nCONECTE-SE COM A GENTE: \n● Instagram: \nhttps://www.instagram.com/comunidadezdg/ \nhttps://www.instagram.com/sistema.zpro/ \n\n● Fale Conosco no WhatsApp: https://zdg.dev.br/contato\n\nAbraços, 👨‍🚀 Pedrinho da NASA\n#whatsapp #automação #chatbot #opensource #zdg #zdgcomunidade"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "Configurar credenciais do Google no n8n em 5 minutos (2025)",
+                       "author":  "Lucas Lopes",
+                       "id":  "Bah3EsHdqvM",
+                       "desc":  "🌟 Quer dominar de verdade as automações com IA? A comunidade paga é o próximo passo\n👉 https://pay.kiwify.com.br/4L24rRh\n\n💻 Quer implementar agentes de IA no seu negócio? Agende uma call comigo aqui:\n👉 https://impulsales.com.br/\n\n🚀 Como configurar credenciais do Google no n8n em menos de 5 minutos!\nNesse vídeo, te ensino o passo a passo simples pra conectar suas ferramentas Google (Gmail, Agenda, Planilhas) com o n8n — sem complicação, sem enrolação.\n\n⚠️ Se curte automações com IA e no-code, já deixa o like, comenta e se inscreve.\nIsso me ajuda a continuar trazendo conteúdo de verdade, sem blablablá.\n\n📩 Parcerias ou dúvidas comerciais:\nlucas@impulsales.com\n\n🎥 PRÓXIMO VÍDEO RECOMENDADO:\n👉 Masterclass de Agente IA com n8n – automações que vendem pra você\n\n🔔 Não esquece de ativar o sininho pra receber os novos tutoriais e sacadas com IA."
+                   },
+                   {
+                       "cat":  "Claude Code + Produtividade",
+                       "title":  "Como construir o cérebro secundário definitivo com IA (Obsidian + Claude Code)",
+                       "author":  "Lucas Lopes",
+                       "id":  "e67yj93RMlc",
+                       "desc":  "Eu tentei usar o Obsidian umas cinco vezes. Sempre o mesmo roteiro: montava tudo, usava por alguns dias… e largava.\n\nSó começou a funcionar de verdade na sexta — quando eu integrei com o Claude Code.\n\nNesse vídeo, eu mostro exatamente como fiz: um setup com um único comando, quatro atalhos que praticamente cuidam do vault sozinhos, e um fluxo que pega arquivos bagunçados e transforma tudo em notas organizadas dentro do Obsidian.\n\n----\n\n#obsidian #claudecode #secondbrain #obsidiansetup #claudecodeai #aiproductivity #obsidiancli #vaultsetup #claudecodeskills #obsidianai #aiautomation #secondbrainsetup #anthropic #obsidiantutorial #aiworkflow"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "Como usar o Google Antigravity melhor que 99% das pessoas! (4 hacks)",
+                       "author":  "Empreendedor Serial",
+                       "id":  "LnOhoJ6GDqw",
+                       "desc":  "✅ Curso \"Automação com IA e n8n + Comunidade\"\nhttps://aalencar.com.br\n\n✅ Loja online de Fluxos n8n e Chatwoot\nhttps://shop.aalencar.com.br\n\n✅  link com desconto de 10% da Horizons\nhttp://hostinger.com.br/empserial\n\n✅  Baixe os materiais da aula\nhttps://kRtNfq.short.gy/5tWxRi\n\nVocê provavelmente está usando IAs de programação do jeito errado. Enquanto 99% dos desenvolvedores apenas \"brincam\" com prompts básicos no Google Antigravity e AI Studio, existe uma elite técnica construindo verdadeiras fábricas de software com metade do custo.\nNeste vídeo, vou te tirar da \"Matrix\" da programação amadora. Você vai aprender:\n\n🚀 Como dominar o Google Antigravity para além do básico.\n🧠 Hacks avançados de Prompt Engineering que a maioria ignora.\n💰 A técnica exata para reduzir o consumo de tokens em 50% (e economizar dinheiro).\n⚙️ Como transformar sua rotina de AI Coding em um sistema profissional e escalável.\n\nChega de ser apenas mais um usuário. É hora de dominar a máquina."
+                   },
+                   {
+                       "cat":  "Monetização com IA",
+                       "title":  "Criei um Sistema de Membros com IA usando Claude Code",
+                       "author":  "Thalena Lima - IA \u0026 Automações",
+                       "id":  "7qSzdiZDtCo",
+                       "desc":  "Vibe Coding, Claude Code, IA — e se você pudesse construir o seu próprio sistema do zero com essas ferramentas? Foi exatamente isso que a gente fez.\n\n🔗 Conheça nossos serviços → https://lp.lenaai.com.br/?utm_source=organico\u0026utm_medium=youtube\u0026utm_campaign=videos\u0026utm_term=descricao\u0026utm_content=video63\n\n➡️ Conheça meu Treinamento Completo: https://iaexperts.thalena.com.br/?utm_source=organico\u0026utm_medium=youtube\u0026utm_campaign=videos\u0026utm_term=descricao\u0026utm_content=video63\n\nTe apresentamos o Lena Academy: nossa área de membros construída do zero com Vibe Coding, usando Claude Code, Gemini, Supabase, Cloudflare R2 e Magic UI.\n\nO que você vai ver nesse vídeo:\n→ Animações criadas com Gemini + Claude Code\n→ Sistema de login com múltiplos níveis de acesso (gratuito, pago e admin)\n→ Gamificação completa: XP, ranking global, conquistas e sequência de dias\n→ Painel administrativo exclusivo para a equipe\n→ Drag and drop com atualização em tempo real via Supabase\n→ Upload de arquivos com Supabase + Cloudflare R2\n→ Busca rápida com atalho de teclado\n→ PWA — instalável como aplicativo no celular\n→ 100% responsivo\n\n🛠 Ferramentas usadas:\nClaude Code · Gemini · Supabase · Cloudflare R2 · Magic UI · Next.js · Panda Video\n\n⏱️ Capítulos do Vídeo\n00:00 - Introdução e Conceitos\n01:37 - Design e Identidade Visual\n02:04 - Sistema de Login e Acessos \n02:37 - Interface e Experiência do Usuário\n03:13 - Perfil e Gamificação\n06:01 - Painel Administrativo\n10:18 - Publicidade e Estratégia de Vendas\n12:30 - Conteúdo e Acompanhamento \n15:45 - Aplicativo e Responsividade\n\n---\n\n🔔 Se inscreve no canal para continuar aprendendo IA aplicada na prática — toda semana tem vídeo novo.\n\n---\n\n📢 Gostou do conteúdo?\n👍 Deixa o like e se inscreve no canal pra não perder os próximos tutoriais!\n📩 Compartilhe com alguém que precisa desse vídeo: https://youtu.be/7qSzdiZDtCo\n👀 Me siga no instagram: https://www.instagram.com/thalena.lima/\n📅 Toda semana tem vídeo novo sobre IA, automação e produtividade com Inteligência Artificial.\n\nCONTATOS📩 Parcerias ➜ contato@thalena.com.br"
+                   },
+                   {
+                       "cat":  "Agentes de IA",
+                       "title":  "Google Gemini File Search - O Guia DEFINITIVO para Criar Agentes RAG no n8n",
+                       "author":  "Thalena Lima - IA \u0026 Automações",
+                       "id":  "TbwIzb7wVGM",
+                       "desc":  "Google Gemini File Search Revoluciona o Jogo dos Agentes RAG!\n\n🔻🔻 Links Importantes 🔻🔻\n\n📥 Adquira no pacote de template apresentado no vídeo: https://thalena.com.br\n\n➡️ Implemente no seu negócio: https://lp.lenaai.com.br/?utm_source=organico\u0026utm_medium=youtube\u0026utm_campaign=videos\u0026utm_term=descricao\u0026utm_content=video32\n\n➡️ Crie sua VPS própria com desconto exclusivo: https://www.hostg.xyz/SHJ5B\n🎟️ Cupom THALENA → 10% OFF nos planos anuais de VPS\n\nAprenda na prática como usar a nova File Search API do Google (Gemini File Search) para construir agentes RAG mais rápidos, baratos e realmente grounded — e veja o workflow pronto que eu atualizei no n8n para integrar essa funcionalidade ao seu atendimento e automações.\n\n✔️ Neste vídeo eu mostro:\n- O que é o Gemini File Search / Google File Search e por que ele muda o jogo para RAG;\n- Demonstração na interface do Google (AI Studio / File Search): upload, chunking automático, embeddings e respostas com citação das fontes;\n- Como eu implementei isso dentro do n8n: upload via formulário, tratamento binário, criação de File Store, upload do arquivo, query com search_documents e uso dentro de um agente (WhatsApp demo);\n- Custos explicados: ~US$0.15 por 1 milhão de tokens na indexação (cobrança PRINCIPAL é na geração dos embeddings). O Google oferece Freetier e até 1 GB por File Store para testes;\n- Limitações e aviso de privacidade: não recomendo para dados sensíveis/confidenciais sem revisão de compliance;\n- Recursos extras do template: busca de imagens via Data Table do n8n, transferência para atendente humano (webhook), prompts e ajustes do agente.\n\n\n⏱️ Capítulos:\n0:00 — Intro\n1:22 — O que é o Gemini File Search (visão geral)\n2:56 — Demonstração na interface do Google: upload e processamento\n4:29 — Custos e free tier \n10:09 — Visão geral do Workflow n8n (arquitetura)\n14:20 — Demonstração completa: agente rag no WhatsApp\n18:10 — Próximos passos \n\n\n📚 Vídeos Mencionados:\n🔗 Vídeo NotebookLM e Outras Ferramentas: https://youtu.be/Fog3411ps_Q\n\n📢 Gostou do conteúdo?\n👍 Deixa o like e se inscreve no canal pra não perder os próximos tutoriais!\n📩 Compartilhe com alguém que precisa desse vídeo: https://youtu.be/TbwIzb7wVGM\n👀 Me siga no instagram: https://www.instagram.com/thalena.lima/\n\n📅 Toda semana tem vídeo novo sobre IA, automação e produtividade com Inteligência Artificial.\n\n🔔 Se inscreve no canal e ativa o sininho para não perder as próximas novidades!"
+                   },
+                   {
+                       "cat":  "Monetização com IA",
+                       "title":  "CRIANDO produto no CLAUDE e vendendo na CAKTO (na prática)",
+                       "author":  "Cakto",
+                       "id":  "VZm94pTrlZQ",
+                       "desc":  "Aprenda como criar um produto digital do zero e fazer a primeira venda online usando Claude, ChatGPT, Canva e Cakto. Neste vídeo eu mostro na prática como criar um e-book para vender, montar uma página de vendas, subir o produto na Cakto e publicar uma landing page para começar a vender na internet.\n\n✉️ paulo@cakto.com.br\n\nFerramentas e sites usados no vídeo:\nClaude\nChatGPT\nCanva\nCakto: https://cakto.com.br\nGoogle Maps\nVS Code\nOllama: https://ollama.com\nNetlify: https://netlify.com\n\nCadastre-se na Cakto: https://cakto.com.br\nInstagram: @opaulwalks\n\nCapítulos:\n00:00 Como fiz mais de R$ 2.000 na semana\n00:40 Como encontrar produtos que já vendem na Cakto\n01:07 Como escolher um nicho lucrativo\n01:36 Como conectar o Canva no Claude\n02:06 Como vender esse serviço para negócios locais\n02:40 Como criar prompts para e-book e carrossel\n03:23 Como criar um e-book com Claude e Canva\n04:18 Como subir um produto digital na Cakto\n05:36 Como definir nome, descrição e preço\n05:54 Como criar logo e capa com ChatGPT\n06:28 Como organizar o produto na área de membros\n08:31 Como personalizar checkout e banners\n09:08 Como criar uma landing page com IA\n10:25 Como preparar o site no VS Code\n11:06 Como instalar o Claude Code com Ollama\n11:56 Como colocar o link da Cakto nos botões\n13:01 Como publicar o site na Netlify\n14:12 Como corrigir links e HTML final\n15:10 Como divulgar sua oferta\n\n✉️ paulo@cakto.com.br"
+                   },
+                   {
+                       "cat":  "Monetização com IA",
+                       "title":  "I Asked Claude To Make Me As Much Money As Possible",
+                       "author":  "Sabrina Ramonov 🍄",
+                       "id":  "AP-fOOmm02g",
+                       "desc":  "Steal my best AI secret codes \u0026 automations free 👉 https://sabrina.dev\n33M+ views last month with Blotato. Special offer ends 4/30: 5000 credits ($30 value) + 5 Claude content skills 👉 https://blotato.com \n\nI gave Claude 3 prompts — and made $15,000 in 10 days with under $1,000 invested. Here\u0027s exactly how.\n\nMost people are drowning in free business advice but never take action. This video fixes that. I\u0027m sharing the 1K Money Sprint — a step-by-step framework to get your first paying client as fast as humanly possible, using Claude AI and skills you already have. No audience. No portfolio. No excuses.\n\n⚡ What you\u0027ll learn:\n→ The 3 exact Claude prompts that generated $15K in 10 days\n→ How to figure out what to sell using skills you already have\n→ A live demo: building a productized LinkedIn ghostwriting service for SaaS founders\n→ How to use the \"free sample close\" to land clients without a big portfolio\n→ A bonus procrastinator prompt that cuts your to-do list in half — and keeps only the steps that make money\n\nWorks with Claude.ai, Claude Desktop, and Claude Code.\n💡 Your first $1,000 isn\u0027t just money — it\u0027s proof. Let\u0027s get you there.\n\n⏱️ Chapters\n00:00 - The 1K Money Sprint\n00:50 - Setting Up Claude for Maximum Context\n01:12 - Prompt 1: Generate Two Paths to Your First $1,000\n02:55 - Live Demo: Answering Claude\u0027s Clarifying Questions\n04:04 - Reviewing Claude\u0027s Productized Service Ideas\n04:44 - Prompt 2: Finding the Perfect Mentor to Model\n05:54 - Prompt 3: The 20-Day Customer Acquisition Plan\n07:24 - How to Build Your Target Prospecting List\n08:19 - Pitching a \"Free Sample\" to Close Deals\n09:32 - Bonus Prompt: Addressing Procrastination \u0026 Fear\n10:45 - The Psychology of Sales Silence \u0026 Sticky Notes\n11:46 - The Power of Volume and Data in Outreach\n\nTitles for the algo\n- I Asked Claude AI to Make Me Money (Step-by-Step)\n- The 3 Claude Prompts That Made Me $15,000 in 10 Days\n- Stop Overthinking: Get Your First Client with Claude\n- 3 AI Prompts to Launch Your Business in 48 Hours\n- Use Claude to Build a Profitable Service Today\n- I Let AI Build My Action Plan (And It Worked)\n- How to Make Your First $1,000 With Zero Audience\n\n🔗 Resources Mentioned\n→ Claude AI: https://claude.ai\n\nHashtages for the algo \n#claude #ai #chatgpt \n\n--\nI\u0027m Sabrina Ramonov. I\u0027m on a mission to teach 1 million people AI. I\u0027m also the solo founder of Blotato.com. It\u0027s a SaaS app for creators/entrepreneurs to go viral faster with AI, just like me (0 to 500k+ in 6 months solo).\n\nHow I got here…\n\n0: Born in Quezon City, Philippines 🇵🇭\n22 yrs old: Graduated UC Berkeley with degrees in Computer Science and Physics... and $250k in student loans.\n23 yrs old: Started Qurious, as Founder/CEO, doing natural language processing (AI) in healthcare.\n25 yrs old: Closed pilots with billion-dollar pharmaceutical companies, but failed to reach product market fit.\n26 yrs old: Pivoted Qurious a lot, then settled on real-time call guidance for sales and customer support, combining streaming speech recognition (AI) and natural language processing (AI).\n28 yrs old: Made the Forbes 30 Under 30 list, while living in a living room of 2BR San Francisco apartment.\n30 yrs old: Sold 100% of Qurious to Pegasystems (NASDAQ: Pega) in cash and stock deal ($10M+ total).\n31 yrs old: Integrated Qurious with Pegasystems Customer Service to launch Pega Voice AI, now used by 1000s of support agents.\n32 yrs old: Started angel investing in VC/seed funds, crypto, and passion areas 🍄 while recovering from burnout by hiking, skiing, and reading. Dropped 50 lbs to get back in shape.\n33 yrs old: Started making free content to teach 1 million people AI.\n34 yrs old: 0 to 500k+ followers in 6 months with $0 budget, 0 team, $0 paid ads, 0 masterminds.\n\nToday: Started https://Blotato.com to distribute 100+ pieces of content per week. 1000s of creators \u0026 entrepreneurs use Blotato to go viral faster with AI.\n\nGet FREE AI prompts, playbooks, and agents 👉 https://sabrina.dev/p/free"
+                   },
+                   {
+                       "cat":  "Monetização com IA",
+                       "title":  "Venda Landing Pages/Sites de R$1.500 Criadas em 10 Minutos com IA (DINHEIRO COM I.A)",
+                       "author":  "Rob Boliver - Como usar o CANVA",
+                       "id":  "vXnRX65p5B0",
+                       "desc":  "Venda Landing Pages/Sites de R$1.500 Criadas em 10 Minutos com IA (DINHEIRO COM I.A)\n\n\n-- ⚠️ LINKS IMPORTANTES\n\nUse Hostinger e ganhe 10% de desconto 💻⚡\nRápido, simples e funciona de verdade.\n👉 https://hostinger.com/rob10\n\n➡️ I.A grátis pra transformar sua ideia em lucro, sem saber programar.\nhttps://robboliver.digital/\n\n🔵 Ainda não tem Canva? Abra uma conta GRÁTIS AGORA: 👇  \nhttps://partner.canva.com/degraca\n\n✨🎉 EXPERIMENTE O CANVA PRO GRÁTIS POR 30 DIAS! 🎉✨\n👉 https://partner.canva.com/45diasgratis\n\nPrompts mencionados. \n👉https://partner.canva.com/jeEDbb\n\n🔊 Eleven Labs\nA melhor ferramenta de Voz I.A., gratuita para criar narrações realistas e automatizadas.\n👉 https://try.elevenlabs.io/9zpauwsdma8p\n\n🔥MONETIZE COM  O CANVA - SUPER desconto🔥\nO Único CURSO com professor ✅ CERTIFICADO pela própria ferramenta Canva. \n👉  https://www.robboliver.pro/\n\n🚀 Ganhe até R$10.000/mês com Motions Animados, sem prospectar clientes. Conheça o Animotion Pro 👇  \nhttps://robboliver.com.br/animotion-pv-insta/\n\n\n😎 MEUS TEMPLATES DE GRAÇA, JÁ PENSOU❓\nAo usar os meus templates você ajuda o projeto a crescer, USE TODOS ELES 😅\n👉https://partner.canva.com/templatesrobgratis\n\n🎖 Seja membro do canal e ganhe benefícios:\nhttps://www.youtube.com/channel/UCWsePDWLUxK6Kg6VrIS4o7g/join\n\n—— 🔧 + FERRAMENTAS QUE USO E RECOMENDO!\n\n🔥 Essas são as ferramentas que mais me ajudam a gerar renda com o Canva e I.A.!\n👉 https://www.robbolivercreates.com/#ferramentas\n\n——  📺 NÃO DEIXE DE ASSISTIR. \n\n🤑 Playlist DINHEIRO COM O CANVA - APRENDA!\n👉 https://youtube.com/playlist?list=PL6zWSzHHMuNrAX-jMn-QZcV-Yu3DT1aLo\u0026si=IzqzNXJFcEO4J31w\n\n🔵 ATUALIZAÇÕES CANVA - FIQUE POR DENTRO DAS NOVIDADES. \n👉 https://youtube.com/playlist?list=PL6zWSzHHMuNqJOxnFmofw2-hhmM1ak-PZ\u0026si=mF2gjgFW0sTb0Tvm\n\n🔵 AULÔES GRÁTIS - APRENDA MUUUUUITO!\n👉  https://youtube.com/playlist?list=PL6zWSzHHMuNpIUp7xSG3k3SlBff2nzy_i\u0026si=qTP3tZJkedmXiHfo\n\n🔵 TRUQUES QUE PARECEM MÁGICA - ASSISTA!\n👉 https://youtube.com/playlist?list=PL6zWSzHHMuNqsl8wPa4GjQw2gNfUdxbFL\u0026si=YHJhmd1B2M2U40BG\n\n🔵 APRENDA CANVA EM 1 MINUTO - SHORTSCANVA\n👉 https://bit.ly/3ElMdw2\n\n\n\n—— 👨💻 SOBRE MIM. \n\nEu sou Rob UX/UI designer e Embaixador certificado Canva, vivo na europa há muitos anos, onde eu obtive a minha formação, ajudo pessoas e negócios a ter maior alcance através do Canva. \n\nO Canva é uma ferramenta de design poderosa e gratuita que todos podem usar para criar o que você quiser.\n\nEu pessoalmente uso todos os dias!\n\nNesse canal, quero mostrar o Canva para o maior número possível pessoas, e ensinar vocês a criarem visuais e gráficos profissionais para criar sua marca, uso pessoal ou expandir seus negócios.\n\n\n\n📩☎️ CONECTE-SE COM O ROB ☎️📩\n\nMe siga no INSTAGRAM : https://www.instagram.com/rob.boliver/\nContato em Geral: suporte@robboliver.pro\n(EXCLUSIVO⚠️ para contatos comerciais): contato@robboliver.pro\n\n\n⚠️ Nota importante: As ideias compartilhadas neste vídeo são possibilidades reais baseadas em ferramentas disponíveis e tendências atuais.\nOs resultados variam conforme sua dedicação, criatividade e consistência — mas tudo aqui foi pensado para ser acessível e aplicável mesmo por iniciantes.\n\n\n\n#Robboliver #comousarocanva   #canvacomousar"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "Duas IAs Criaram Esse App SOZINHAS: Eu só assisti (Google Stitch + Antigravity é INSANO)",
+                       "author":  "Matheus Battisti - Hora de Codar",
+                       "id":  "Mt4dH9MqYEw",
+                       "desc":  "Neste vídeo eu mostro o pipeline mais completo de vibe coding que existe hoje: Google Stitch desenhando o app inteiro e Antigravity construindo tudo sozinho lendo o design via MCP. Sem copiar código, sem exportar arquivo. Uma IA desenha, outra constrói.\n\n🔥 LANÇOU Conheça a Formação Agentes de IA: https://app.horadecodar.com.br/lp/formacao-agentes-de-ia-n8n?utm_source=yt_ag_stitch_ideation\n\n✅ Hospedagem para n8n que eu indico: https://hostinger.com.br/matheusbattisti (use o cupom HORADECODAR para ter +10% de desconto)\n\n📘 Guia Engenharia de Prompt: https://app.horadecodar.com.br/ebookpages/guia-engenharia-de-prompt\n\nO app que criei se chama BookTalk, uma plataforma social de resenhas de livros com 7 telas completas: login com design clean, feed principal com cards de resenhas mostrando capa do livro, nota e autor da resenha, página individual do livro com sinopse, rating médio e lista de resenhas, editor de resenha com campo de texto, rating com estrelas e upload de foto, página de resenha completa com seção de comentários, perfil do usuário com bio, lista de resenhas e estatísticas de leitura, e tela de explorar com categorias de livros e barra de busca. Tudo isso funcionando com autenticação, banco de dados e responsividade.\n\nComeço pelo Google Stitch, que é a ferramenta do Google Labs que transforma prompts em interfaces completas. O Google comprou o Galileo AI e rebatizou como Stitch, e agora roda com Gemini 3. Mostro as novidades mais importantes: o Idea Agent que faz um brainstorming de interfaces antes de gerar qualquer coisa, os Prototypes que conectam telas em fluxos interativos navegáveis, e o MCP Server que permite que outras ferramentas de IA leiam seu design em tempo real. E o Stitch é gratuito com 350 gerações por mês no modo Standard.\n\nMostro todo o processo de ideação ao vivo. Abro o Idea Agent, descrevo o conceito do BookTalk e ele sugere variações de conceito, paleta de cores e estrutura antes de gerar uma única tela. Depois gero as telas com prompts específicos usando o Gemini 3, faço ajustes pontuais com o Annotate e conecto todas as telas num protótipo interativo com os Prototypes.\nDepois vem a parte mais insana do vídeo: conectar o Stitch no Antigravity via MCP. MCP é o Model Context Protocol, um canal de comunicação entre ferramentas de IA. O Stitch MCP Server expõe todo o design system para o Antigravity: telas, cores, tipografia, componentes. Mostro a configuração passo a passo e o momento em que o Antigravity começa a ler cada tela do Stitch e construir componente por componente.\n\nO Antigravity constrói o projeto inteiro: estrutura de pastas, componentes React e Next.js seguindo o design, rotas para cada tela, feed de resenhas funcionando com dados, sistema de rating com estrelas, página do livro com resenhas, sistema de comentários, autenticação com login e cadastro, banco de dados para resenhas e comentários, upload de imagem e busca por livros. Faço a comparação lado a lado entre a tela do Stitch e a tela rodando no app real, que é o momento mais forte do vídeo.\n\nNo final compartilho dicas práticas: quanto mais detalhado o prompt no Stitch, melhor o resultado no Antigravity. Use o Annotate pra refinar detalhes antes de mandar pro MCP. Planeje suas telas antes de gastar gerações no Stitch. E o MCP mantém tudo sincronizado, se você mudar algo no Stitch o Antigravity pode ler a atualização.\n\nSe você quer criar apps completos sem escrever código, esse pipeline de Google Stitch + Antigravity via MCP é o caminho mais eficiente que existe hoje.\n\nEntre no nosso servidor de Discord e me siga nas redes:\n\n🟣 Discord Hora de Codar: https://discord.gg/Veq4mvsWwk\n🔴 Instagram: https://www.instagram.com/horadecodar/\n🔷 Telegram: https://t.me/horadecodar\n\nTIMESTAMPS\n\n00:00 Porque Antigravity e Stitch?\n01:13 Como funciona o Workflow de Google Stitch + Antigravity\n03:11 Acessando o Google Stitch e criando projeto com Ideate\n06:36 Conhecendo o Antigravity\n07:25 Ajustes finais no projeto no Stitch\n11:00 Conectando o Antigravity ao Stitch via MCP\n12:56 Criando o projeto no Antigravity baseado no layout do Stitch\n16:09 Testando versão inicial do projeto\n17:43 Pedindo ajustes ao Antigravity\n19:45 Conclusão e próximos passos com Antigravity e Google Stitch"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "As NOVAS Skills do Antigravity são INSANAS",
+                       "author":  "Chiara Costa",
+                       "id":  "syRsWFgjFY0",
+                       "desc":  "🎓 Curso Vibe Coding na Prática ➜\nhttps://link.paginasnapratica.com.br/197\n\n💬 *Comunidade Gratuita* Vibe Coding Base ➜ https://www.skool.com/vibe-coding-base-3189\n\n🔗 *LINKS ÚTEIS:*\n📥 Download gratuito das Skills mostradas no vídeo ➜ https://www.skool.com/vibe-coding-base-3189\n🧰 Antigravity Kit (repositório de Skills gratuitas) ➜ https://github.com/vudovn/antigravity-kit\n📄 Documentação oficial do Antigravity sobre Skills ➜ https://antigravity.google/docs/skills\n📸 Extensão GoPage (captura de tela de página inteira) ➜ https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl\n\n✅ Hospedagem Hostinger com 10% de desconto em QUALQUER plano ➜ https://www.hostg.xyz/SHIil\nAplique no checkout o cupom: PNP\n\nDescubra as Skills do Antigravity, o recurso que multiplica sua produtividade por 10. Skills são documentos Markdown que funcionam como mega prompts especializados para automatizar tarefas repetitivas e gerar resultados de altíssima qualidade.\n\nNeste vídeo você aprende o que são Skills, a diferença entre skills globais e locais, como criar as suas próprias e também mostro na prática as 3 Skills que mais uso no dia a dia.\n\nSe você usa vibe coding e quer multiplicar a qualidade e velocidade da sua produção a inteligência artificial, esse vídeo vai mudar a forma como você usa o Antigravity.\n\n📌 O que você vai aprender nesse vídeo:\n00:00 - O recurso que 90% das pessoas não conhecem\n00:45 - O que são Skills e como funcionam\n02:10 - Formato Markdown e estrutura de uma Skill\n03:45 - Skill #1\n06:30 - Demonstração: extraindo a identidade visual da Apple\n08:00 - Criando uma landing page com a identidade visual extraída\n10:15 - Skills Globais vs Skills Locais: entenda a diferença\n12:00 - Onde ficam armazenadas as Skills (Mac e Windows)\n13:00 - Skill #2\n15:30 - Criando uma Skill local na prática\n17:00 - Skill #3\n18:00 - Como compartilhar e baixar Skills gratuitas\n19:00 - Antigravity Kit: repositório de Skills prontas\n\n*CONTATOS*\n📩 Parcerias ➜ contato@paginasnapratica.com.br\n💼 Orçamentos para serviços ➜ https://projetos.vibecodingnapratica.com.br/f/solicitacao-de-servicos"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "Aulão Openclaw com Bruno Okamoto",
+                       "author":  "Bruno Okamoto",
+                       "id":  "sjyFkm73lmM",
+                       "desc":  "🚨 Aulão Ao Vivo – Tira Dúvidas Openclaw com o Bruno\nNesta quinta-feira (05/03) teremos um encontro ao vivo para tirar dúvidas sobre Openclaw diretamente comigo.\n🗓 Quinta-feira – 05/03\n ⏰ 16:30 às 18:00\nSe você:\n• Travou na instalação\n • Está achando complexo\n • Quer entender melhor alguma parte\n • Ou já começou a aplicar e quer acelerar\nEssa é a hora.\nNada de dúvida acumulada.\n Nada de tentar resolver sozinho.\nÉ espaço aberto para perguntar ao vivo e sair com clareza."
+                   },
+                   {
+                       "cat":  "Agentes de IA",
+                       "title":  "COMO CRIAR teu TIME DE AGENTES de IA do zero no Claude Code (o passo a passo que pediram)",
+                       "author":  "Ratos de IA",
+                       "id":  "f6-RL16UYlg",
+                       "desc":  "quer entender como usar o Claude Code pra rodar TUDO no teu negócio? conheça: https://ratosdeia.com.br/claudeos/?ref=yt-desc-tutorial\n\n🐀  esse é um tutorial PASSO A PASSO de como criar um TIME DE AGENTES DE IA pra marketing no claude code — do zero, instalando o opensquad até o primeiro carrossel saindo pronto.\n\na galera pediu muito esse tutorial depois do vídeo onde a gente mostrou o time de agentes rodando. então aqui está: desde a instalação do claude code e do vs code, até criar o squad personalizado pra tua empresa, com nomes, personalidades e um fluxo completo de aprovação. sem precisar de experiência técnica.\n\n---\n\n⏱️ timestamps:\n00:00 — abertura\n00:27 — instalando o claude code\n01:02 — usando o claude code no vs code\n02:56 — instalando a extensão do claude code no vs code\n03:28 — conhecendo o opensquad (repositório do renato asse)\n04:32 — criando uma pasta isolada pra testar\n06:06 — instalando o opensquad via claude code\n07:57 — rodando o /opensquad pela primeira vez\n08:24 — configurando a empresa no onboarding\n10:21 — criando o squad (time de agentes)\n14:23 — sherlock investigando instagram e youtube\n16:34 — adicionando skills extras ao squad\n18:49 — apresentando o squad criado (5 agentes)\n20:10 — rodando o squad do zero\n24:44 — dica: nova conversa quando o contexto encher\n26:43 — renata radar pesquisando notícias\n27:37 — carlos carrossel escrevendo os textos\n29:49 — daniela design criando os slides\n31:16 — resultado final e considerações\n33:25 — opensquad vs skills próprias — quando usar cada um\n\n---\n\n🔗 links mencionados no vídeo:\n\n- Repositório OpenSquad\n- Como instalar Claude Code\n- VSCode grátis\n- Vídeo anterior mencionado\n👉 deixei todos os links reunidos aqui: https://ratos.link/cctayt\n\n---\n\n📩 newsletter, site e outras redes da Ratos de IA: https://ratosdeia.com.br\n\n🐀 toda semana a gente traz novidades não óbvias do mundo da IA pra tu ficar por dentro sem precisar acompanhar tudo. te inscreve no canal!\n\n---\n\n#agentesdeia #timodeagentes #claudecode #opensquad #ia #inteligenciaartificial #ratosdia #dobralabs #comocriaragentesia #aiagents #automacaoia #tutorialia #claudecodetutorial #agentesdeinteligenciaartificial #vibecoding"
+                   },
+                   {
+                       "cat":  "Monetização com IA",
+                       "title":  "CLONE produtos em 24h: Nova IA CHOCA mercado",
+                       "author":  "Software House Exponencial",
+                       "id":  "ROwDPAPhZHI",
+                       "desc":  "🚀 **Imagina clonar seu sistema em minutos com IA?** Neste vídeo, exploramos como a Inteligência Artificial está revolucionando a engenharia reversa, trazendo tanto oportunidades quanto riscos. Se você é desenvolvedor ou tem um produto digital, este conteúdo é para você! \n\nEntre para a maior comunidade de Software Houses do Brasil e vamos liderar a inovação no mercado de Software em 2026\nhttps://expxplay.com.br\n\n🎬 **O que você vai aprender:**  \n- O novo paradigma da engenharia reversa e como a IA mudou tudo.  \n- Demonstração prática de como a IA clona sistemas em segundos.  \n- Os riscos reais para negócios e como se proteger.  \n\n🔐 **Se você gostou do vídeo, não esquece de deixar um like e comentar \u0027Preciso revisar minha segurança 🔒\u0027! Inscreva-se para mais conteúdo sobre tecnologia e segurança!**  \n\n🌐 **Conecte-se conosco:**  \nInstagram:@thuliobittencourt\n\n#InteligenciaArtificial #EngenhariaReversa #SegurançaDigital #Desenvolvimento #Tecnologia"
+                   },
+                   {
+                       "cat":  "Monetização com IA",
+                       "title":  "Claude Code + Nano Banana 2 = Insane $10,000 Websites",
+                       "author":  "Jack Roberts",
+                       "id":  "TZUTe7s11-I",
+                       "desc":  "📈 ALL Systems: https://bit.ly/4kol0y5\n🎁 FREE Resources: https://bit.ly/4lI98Ih\n🎙️ My Goofy pod: https://bit.ly/46nLQ3U\n\n*Overview*\nYou can now build beautiful responsive websites with 3D animations in minutes using Claude Code and Nano Banana 2. I\u0027m showing you exactly how to create premium websites that are mobile optimised, SEO ready, and look nothing like AI slop - perfect for selling to clients or building your own business.\n\nCORE Software\n🚀 AntiGravity: https://antigravity.google/\n🔥 Type with your voice: https://glaido.com\n📁 GitHub: https://github.com/\n☁️ Claude: https://claude.ai/\n\n*What Next?*\nGrab all the Claude skills and resources from the classroom link above - everything you need to start building these websites is waiting for you. Now get out there and build something ridiculously cool."
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "Intensivão de Claude Code + Antigravity - Construindo seu Primeiro APP em Menos de 58 minutos",
+                       "author":  "Eduardo Carezia - Automatiza AI",
+                       "id":  "LZU_IFwtm1A",
+                       "desc":  "🎁[GRÁTIS] Aprenda a usar claude code + antigravity para construir softwares e automações do absoluto zero!\n👉https://lp.automatiza-ai.com/captura?utm_source=youtube\u0026utm_medium=description\u0026utm_campaign=liveappem58minutos\n\nEntre pra Comunidade que Mais Fatura com I.A. no Brasil:\n\n👉https://lp.automatiza-ai.com/?utm_source=youtube\u0026utm_medium=description\u0026utm_campaign=live210326"
+                   },
+                   {
+                       "cat":  "Claude Code + Produtividade",
+                       "title":  "I Let OpenClaw Handle My Emails and Tasks (Full Setup)",
+                       "author":  "Nathan Sebhastian",
+                       "id":  "MBpsdnB5YJ0",
+                       "desc":  "In this video, I\u0027m going to share how you can connect your Telegram and Google account with KiloClaw so that it can do more for you.\n\nKiloClaw is a fully managed, hosted version of OpenClaw.\nWith just one click, you can have your own personal AI agent. No mac mini required, no installing OpenClaw on your own server, managing infrastructure, or worrying about errors.\n\nCheck it out: https://kilo.ai/kiloclaw\n\n⭐️ Resources:\n**************\n\n☀️ Subscribe: https://www.youtube.com/@CodeWithNathan97?sub_confirmation=1\n👍 Join my channel: https://www.youtube.com/channel/UCvS59S24crXmGfIEiejcr9g/join\n🗞️ Newsletter: https://codewithnathan.com/newsletter\n✉️ Contact me: nathan [at] codewithnathan.com\n---"
+                   },
+                   {
+                       "cat":  "Monetização com IA",
+                       "title":  "Make Instagram Carousels in N8N and Make.com",
+                       "author":  "Sabrina Ramonov 🍄",
+                       "id":  "NYlBiLywsNU",
+                       "desc":  "Want to build an Instagram carousel factory? Kevin walks us through fully automated Instagram carousels and TikTok slideshows for three industries — real estate, life coaching, and restaurants — using Blotato + n8n + Make.com.\n\nDrop one keyword into one note (\"real estate\", \"life coach\", or \"restaurant\") and the same workflow flips to that industry. Want it to work for plumbers, accountants, influencers, or AI educators? Same keyword pattern, same template. We show two implementations side-by-side: one in Make.com (using the iterator/aggregator pattern) and one in n8n (using a smart wait-loop that beats the fixed-sleep approach for long renders).\n\nINSIDE THE BUILD\n• Blotato\u0027s \"Create a Visual\" module — templates, fonts, profile images, call-to-action buttons, custom images\n• Two generation modes — slide-by-slide config vs hands-off prompt mode\n• OpenAI auto-prompting — writing the prompt that writes the carousel prompt\n• Airtable record aggregation so every generated image lands in the same row\n• Make.com\u0027s 60-second sleep module vs n8n\u0027s 5-second polling wait-loop (huge advantage when you scale to 5–10 minute video renders)\n• Three template styles demoed: billboard infographic, steampunk infographic, minimalistic slideshow\n\nWHO THIS IS FOR\nAnyone running content at scale — small business owners, influencers, AI educators, real estate agents, life coaches, restaurant owners, plumbers, accountants.\n\nTOOLS USED\nBlotato — AI carousel + visual generation\nn8n — wait-loop automation flavour\nMake.com — iterator/aggregator automation flavour\nOpenAI — prompt writing\nAirtable — content storage and industry tagging\n\nBEGINNER TIP FROM KEVIN\nDon\u0027t over-engineer your prompt. Give Blotato an idea and let it do the heavy lifting. Same with OpenAI — feed it your business context and let it write the carousel prompt for you. Nine times out of ten it just works on the first try.\n\nBONUS — AUTO-POST IT\nOnce the carousel is generated, you can post it directly to Instagram, TikTok, Pinterest, Facebook, or LinkedIn by adding ONE more node: Blotato\u0027s \"Create Post\". We\u0027ve covered the post side in past videos.\n\nCHAPTERS\n00:00 Intro: Auto-Generate Instagram Carousels for 3 Industries\n00:25 Meet Kevin (AI Automations from Malta)\n00:48 Make.com vs n8n: Quick Compare\n01:07 Importing the Make.com Blueprint\n01:25 Industry Selector: One Keyword Flips the Whole Workflow\n01:42 Real Estate Run #1 in Make.com\n02:02 How the Airtable Record Gets Built\n02:25 Inside Blotato\u0027s \"Create a Visual\" Module\n02:43 Real Estate Output: 5 Homebuyer Mistakes\n03:51 Works for Plumbers, Accountants, Influencers, AI Educators\n04:13 Blotato Template Tour\n04:35 Slide-by-Slide vs Prompt-Based Generation\n04:58 Using OpenAI to Auto-Write the Prompt\n05:37 Adding Business Context to the Prompt\n06:28 OpenAI\u0027s Output for the Life Coach Carousel\n06:54 The Airtable Aggregator Module Explained\n07:22 Optional: Auto-Post to Instagram, TikTok, Pinterest, Facebook, LinkedIn\n07:52 Life Coach Carousel Output\n08:18 Restaurant Run with Custom Image\n09:09 Restaurant Output: 5 Menus to Try Tonight\n10:14 Switching to n8n\n10:44 n8n\u0027s Wait Loop vs Make.com\u0027s Sleep Module\n11:34 Real Estate Run in n8n\n12:01 Why the Wait Loop Wins for Long Renders\n12:41 n8n Output: Billboard-Style Infographic\n13:42 Life Coach Run: Steampunk Infographic\n14:07 Wait Time Recommendation (~1 minute)\n14:53 Restaurant n8n Output (Minimalistic Slideshow)\n15:45 How Blotato Maps Your Prompt to a Template\n16:25 Template Range: Elegant to Minimal\n17:04 Beginner Tip: Don\u0027t Over-Engineer the Prompt\n17:25 Wrap-Up + Download Templates\n18:01 Bonus: Auto-Post via Blotato Create Post Node\n\nALTERNATIVE TITLES FOR THE ALGO\nStop Making Instagram Carousels Manually — Blotato + n8n + Make.com Tutorial\nI Automated Instagram Carousels for 3 Industries with Blotato (n8n \u0026 Make.com)\nRealtors: Auto-Generate Instagram Carousels with Blotato (n8n + Make.com)\nThe Blotato Stack That Makes Instagram Carousels For You (n8n + Make.com)\nBuild an Instagram Carousel Factory with Blotato + n8n + Make.com\n\n#ai #claude #chatgpt\n--\n\nI\u0027m Sabrina Ramonov. I\u0027m on a mission to teach 1 million people AI. I\u0027m also the solo founder of Blotato.com. It\u0027s a SaaS app for creators/entrepreneurs to go viral faster with AI, just like me (0 to 500k+ in 6 months solo).\n\n\nToday: Started https://Blotato.com to distribute 100+ pieces of content per week. 1000s of creators \u0026 entrepreneurs use Blotato to go viral faster with AI.\n\nGet FREE AI prompts, playbooks, and agents 👉 https://sabrina.dev/p/free"
+                   },
+                   {
+                       "cat":  "Automação / WhatsApp",
+                       "title":  "N8N + WhatsApp: Agente de AGENDAMENTOS com Google Calendar! ! Tutorial Completo Passo a Passo 2026",
+                       "author":  "Guilherme Lazarotto - Tecnologia \u0026 Automação",
+                       "id":  "eQSJLHSz3WU",
+                       "desc":  "Aprenda a conectar o Google Calendar no N8N para fazer agendamentos!\n🟦 Meu Curso N8N Fácil: https://guilhermelaz.com.br/curso\n\nNesse vídeo você vai aprender do zero a configurar a credencial OAuth2 do Google no N8N, criar as ferramentas de agendamento no agente de IA e montar um prompt estruturado para evitar conflitos de horários.\nFunciona com qualquer fluxo de agente de IA usando Evolution, UAZAPI, WAHA ou API Oficial.\n\n🟪 VPS Hostinger: https://hostinger.com.br/guilhermelaz\n👆🏻 Use o cupom de desconto GUILHERMELAZ para 10% de desconto EXTRA! 👆🏻\n\n💡 Ofertas e recomendações:\n🟦 Meu Curso N8N Fácil: https://guilhermelaz.com.br/curso\n🟪 VPS Hostinger: https://hostinger.com.br/guilhermelaz\n\nLinks do vídeo:\n🔗 Google Cloud Console: https://console.cloud.google.com\n\n🔗 Callov (sistema de agendamentos da comunidade): https://callov.com\n🔗 Cal.com (alternativa open source): https://cal.com\n\n➡️ Vídeo como montar o fluxo de agente de IA: https://youtu.be/CR1RF7LSZrM (Só se você não tiver NADA ainda!)\n\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n\nPasso a Passo do Vídeo:\n\n00:00 Introdução\n\nNesse vídeo você vai aprender a integrar as ferramentas do Google Calendar no seu agente de IA do N8N integrado ao Whatsapp para realizar agendamentos!\n\nPara seguir o passo a passo, recomendo que você já tenha montado o seu fluxo de agente de IA! Caso ainda não tenha, tem vários vídeos aqui no canal ensinando, o mais atualizado é este: https://youtu.be/CR1RF7LSZrM\n\nAlém deste, tem vários outros aqui no canal!\n\n00:51 Conectando a agenda no N8N\n\nPara conectar a agenda no N8N, primeiro adicione qualquer node do Google Calendar no seu fluxo e dentro dele clique em \"Set Up credential\".\n\nNessas configurações teremos que informar o \"client id\" e o \"client secret\" de uma tela de login OAuth2 criada no site da Google Cloud: https://console.cloud.google.com\n\nPode configurar o faturamento sem medo caso ele peça, pois ele não vai te cobrar nada.\n\nNa Google Cloud, crie um novo projeto.\nDentro do novo projeto, clique em \"APIs e serviços\", depois vá em \"Tela de permissão OAuth\", preencha as configurações deste app de login e crie.\n\nDepois vá em \"Clientes\" e crie um novo. Defina as configurações como:\nTipo = Aplicativo WEB\nNome = N8N\nE em \"URIs de redirecionamento autorizados\" clique em adicionar e preencha com o seguinte:\n\nSE você estiver no localhost (docker local no seu PC), digite:\nhttp://localhost\n\nSE você estiver na VPS, vá na tela do N8N que estávamos, copie a URL que está lá em  \"Set Up Credential\" e cole no campo.\n\nApós isso, dê um criar e por último vá na aba \"Público alvo\" ao lado esquerdo e clique em  \"Publicar app\".\n\nDessa forma você poderá fazer login com a conta do Google lá na tela do N8N!\n\n05:52 Hostinger VPS\n\nSe você não assinou um servidor VPS ainda e planeja assinar, considere assinar na Hostinger: https://hostinger.com.br/guilhermelaz\n\nUsando o cupom de desconto GUILHERMELAZ você ganha um descontinho e ainda ajuda o canal ♥️! Muito obrigado.\n\n06:12 Configurando o node de criar eventos\n\nPara criar eventos, selecione a agenda em que quer criar no menu dropdown do node e lá no fim, configure o seguinte:\n\nStart: Deixe a IA decidir\nEnd: Deixe a IA decidir\n\nDescription do campo:\nData e hora de início no formato Datetime. TZ -03:00.\n\nEm \"Add Field\" coloque os campos \"description\" e \"summary\" e deixe a IA preencher eles para você também.\n\nDescription do campo:\nBreve descrição do serviço e Id do cliente.\n\nDica: Aqui você pode pedir nome, cpf, ou outros dados que quiser também, você que decide!\n\n08:18 Prompt para agendar corretamente\n\nEssa parte é muito importante! Precisamos informar a data e hora atual para o agente, para que ele consiga realizar os agendamentos de forma correta. O prompt que utilizei no vídeo foi este: https://gist.github.com/guilhermelaz/4ada2b3939fb9eb104c583780b1c7056\n\n(Acesse o link e copie, não coube aqui haha)\n\n11:58 Buscar e cancelar agendamentos\n\nPara cancelar agendamentos, precisamos obter o ID deles através de uma consulta, então para isso temos que configurar no mínimo mais 2 nodes:\n\nGoogle Calendar - Get Many Events\nGoogle Calendar - Delete event\n\n13:51 Testes, bugs e melhorias\n\nNessa parte do vídeo dou várias dicas legais de como corrigir possíveis problemas que possam vir a acontecer no seu fluxo! Erros, bugs, alucinações do agente, etc.\n\n16:00 Ferramenta extra: verificar disponibilidade\n\nEssa é uma função mais recente que foi adicionada no node do Google Calendar, com ela você pode verificar se um intervalo de tempo está ocupado ou não. Adicionando ela e ajustando o prompt você consegue evitar conflitos de horário!\n\n17:08 Final\n\nFinalização do vídeo e dicas extras!\nCRM Callov desenvolvido por um membro da comunidade N8N Fácil: https://callov.com\n\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n📸 Me siga no Instagram: @oguilhermelazarotto\n\nEntre nos grupos da comunidade Tecnologia \u0026 Automação:\n📱 https://guilhermelaz.com.br/grupoWhatsapp\n📞 https://guilhermelaz.com.br/discordAutomacao"
+                   },
+                   {
+                       "cat":  "Monetização com IA",
+                       "title":  "Como eu construí uma agência de 1 pessoa com Claude Code em 2 dias",
+                       "author":  "Well Pires ",
+                       "id":  "U4-lKJ41aMs",
+                       "desc":  "🔥 Minha Comunidade de IA: https://www.aimakersclub.com.br/\n📚 Meu Curso Gratuito de Claude Code: https://youtu.be/RL5hlnHSmPE?si=Hloo9gQiQ4G5wnF7\n💼 Me Contrate para Automatizar sua Empresa: https://calendly.com/wellpires/discovery-call\n\nResumo do vídeo:\n\nMinha empresa gastava mais de R$2.000/mês com softwares de diferentes naturezas. Claude Code substituiu todos eles dentro da minha operação. Toda a coisa levou 2 dias pra construir. Nesse vídeo, eu mostro quais alavancas do meu negócio foram impulsionadas com IA, quais funções eu consegui substituir com agentes e quais ferramentas eu usei para construir tudo. Espero que curtam o vídeo :))\n\nVPS Hostinger com desconto: https://www.hostg.xyz/SHJKS + cupom WELLPIRES"
+                   },
+                   {
+                       "cat":  "Monetização com IA",
+                       "title":  "Clone Any Youtube channel with CLAUDE CODE | No coding needed)",
+                       "author":  "Jacksons AI",
+                       "id":  "MJmoSxSPeRY",
+                       "desc":  "In this video, I’ll show you how I use Claude Code to model and recreate successful channels in any niche,\n\nWe go through the full A-to-Z pipeline: from setting up your channel, designing your banner, and generating logo ideas with AI prompts, all the way to scripting, creating videos, and even generating high-converting thumbnail prompts using Claude Code.\n\nWhat you’ll learn (save this):\n• How to model and adapt any niche using Claude Code\n• Creating your channel branding (banner + logo prompts)\n• Generating scripts quickly with AI\n• Creating videos without traditional editing\n• Getting AI-generated thumbnail prompts that convert\n• Building a repeatable content system\n• Turning a complete beginner setup into a pro workflow\n\nThis is a full start-to-finish breakdown you can follow step by step.\n\nWhether you’re starting from zero or already creating content, this will show you how to streamline everything and build like a pro using AI.\n\nBy the end, you’ll have a complete system you can reuse to launch and grow channels in any niche—faster, easier, and more efficiently.\n\n\n\nJoin my private community: https://www.skool.com/automation-bootcamp-cashcoach\n\n\nGet freebies and updates: https://www.skool.com/automation-network-9294\n\nPrompt shop: COMING SOON\n\nFree telegram group:  https://tinyurl.com/Jacksonsai\n\n\nComment \"Prompt\" to receive the prompt packet used 🎁📌\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDISCLAIMER (Earnings \u0026 Affiliate Info)\nEarnings or statistics shown in this video are examples from my own experience with YouTube automation and are not guarantees of what you’ll earn. Results differ based on niche, content quality, RPM/CPM, audience engagement, consistency, effort, and other factors. This is not financial, tax, legal, or professional advice—consult the appropriate experts before making business decisions.\n\nThis description may contain affiliate links, and if you use them, I may earn a commission at no extra cost to you. I also link to my own Skool community, which I own and run. Offers, pricing, and availability can change.\n\nBy watching, you agree that you’re responsible for your own choices and that you’ll use YouTube according to its community guidelines and monetization policies:https://www.youtube.com/howyoutubeworks/our-policies/"
+                   },
+                   {
+                       "cat":  "Ferramentas / Setup",
+                       "title":  "Como criar sites animados com IA (Claude Design + Claude Code)",
+                       "author":  "Chiara Costa",
+                       "id":  "TmY9ipQLLC8",
+                       "desc":  "✅ Hospedagem Hostinger com 10% de desconto em QUALQUER plano ➜ https://www.hostg.xyz/SHJER\nAplique no checkout o cupom: *PNP*\n\n⚡ Curso Vibe Coding na Prática\nCrie sites, apps e automações com IA sem saber programar ➜ https://link.vibecodingnapratica.com.br/208\n---\n\n🔗 *LINKS ÚTEIS*:\n🎨 Claude Design ➜ https://claude.ai/design\n💻 Claude Code Desktop ➜ https://claude.com/download\n🖼️ Dribbble (referências de design) ➜ https://dribbble.com\n📚 Awesome Design MD (design systems de grandes empresas) ➜ https://github.com/VoltAgent/awesome-design-md\n🎬 Motion Sites (vídeos animados para background) ➜ https://motionsites.ai/\n🤖 GPT Copy para Sites (comunidade School) ➜ https://www.skool.com/vibe-coding-base-3189\n\nNeste vídeo você aprende a criar um site animado do zero usando Claude Design e Claude Code, duas ferramentas de inteligência artificial que juntas entregam um resultado visual impressionante. O processo começa pela criação de um design system personalizado com base em referências reais de mercado, garantindo que o site tenha identidade visual coerente antes de qualquer linha de código.\n\nAlém do design, você vai ver como usar um GPT especializado em copy para estruturar todos os textos da página, das headlines aos depoimentos, antes mesmo de abrir o editor. Essa combinação de boa copy com bom design é o que separa um site bonito de um site que converte.\n\nPara quem quer publicar projetos web com vibe coding e inteligência artificial, o vídeo cobre ainda a etapa de deploy na Hostinger usando Node.js Web App, com dicas para economizar tokens e uma hero com vídeo animado usando a biblioteca GSAP.\n\n---\n\n📌 *O que você vai aprender nesse vídeo:*\n00:00 - Introdução: site animado com Claude Design e Claude Code\n00:33 - Como buscar referências de design (Dribbble, Pinterest, Awesome Design MD)\n02:04 - Criando o design system no Claude Design com inspiração no Miro\n02:48 - Usando GPT de copy para estruturar os textos da landing page\n04:06 - Revisando e aprovando o design system gerado\n05:14 - Criando o protótipo com design system publicado\n06:01 - Ajustando o prompt e enviando a copy para o Claude Design\n08:05 - Gerando o site no Claude Code com Next.js e animações GSAP\n11:01 - Ajustando dark mode e corrigindo problemas visuais\n11:40 - Adicionando vídeo animado na hero com Motion Sites\n12:51 - Publicando o site na Hostinger (Node.js Web App)\n14:53 - Deploy concluído e conectando domínio personalizado\n\n(Timestamps estimados, ajuste conforme a edição final do vídeo)\n\n---\n\n*CONTATOS*\n📩 Parcerias ➜ contato@paginasnapratica.com.br\n💼 Orçamentos para serviços ➜ https://projetos.vibecodingnapratica.com.br/f/solicitacao-de-servicos"
+                   }
+               ],
+    "canais":  [
+                   {
+                       "nome":  "Guilherme Franklim",
+                       "handle":  "@franklimgui",
+                       "iniciais":  "GF",
+                       "cor":  "#e8ff5a",
+                       "corBg":  "rgba(232,255,90,0.12)",
+                       "desc":  "Marketing digital, vendas, IA, tráfego pago, automações e estratégias que realmente geram resultado.",
+                       "url":  "https://www.youtube.com/@franklimgui/videos"
+                   },
+                   {
+                       "nome":  "Aly IA Lab",
+                       "handle":  "@AlyIALab",
+                       "iniciais":  "AL",
+                       "cor":  "#a78bfa",
+                       "corBg":  "rgba(167,139,250,0.12)",
+                       "desc":  "Ferramentas de IA testadas na prática — do iniciante ao avançado, para trabalho e rotina diária.",
+                       "url":  "https://www.youtube.com/@AlyIALab/videos"
+                   },
+                   {
+                       "nome":  "Erick Castilio",
+                       "handle":  "@erickcastilio",
+                       "iniciais":  "EC",
+                       "cor":  "#34d399",
+                       "corBg":  "rgba(52,211,153,0.12)",
+                       "desc":  "n8n, IA e automação para negócios — conteúdo prático sobre como aplicar automações em empresas reais.",
+                       "url":  "https://www.youtube.com/@erickcastilio"
+                   },
+                   {
+                       "nome":  "Felipe Borges — Fala IA!",
+                       "handle":  "@FelipeBorgesFalaIA",
+                       "iniciais":  "FB",
+                       "cor":  "#60a5fa",
+                       "corBg":  "rgba(96,165,250,0.12)",
+                       "desc":  "Agentes de IA, automação e estratégias de aquisição de clientes — tutoriais práticos e cases reais.",
+                       "url":  "https://www.youtube.com/@FelipeBorgesFalaIA/videos"
+                   },
+                   {
+                       "nome":  "Rafael Mota – Sala Ninja IA",
+                       "handle":  "@SalaNinja",
+                       "iniciais":  "SN",
+                       "cor":  "#fb923c",
+                       "corBg":  "rgba(251,146,60,0.12)",
+                       "desc":  "Sites, lojas e ferramentas de IA na prática — Claude Code, Vibe Coding, automações e WordPress com IA.",
+                       "url":  "https://www.youtube.com/@SalaNinja/videos"
+                   },
+                   {
+                       "nome":  "Ratos de IA",
+                       "handle":  "@ratosdeia",
+                       "iniciais":  "RI",
+                       "cor":  "#f472b6",
+                       "corBg":  "rgba(244,114,182,0.12)",
+                       "desc":  "Resumo semanal do que rolou com IA — novidades, ferramentas e dicas que impactam negócios e trabalho.",
+                       "url":  "https://www.youtube.com/@ratosdeia"
+                   },
+                   {
+                       "nome":  "Nate Herk | AI Automation",
+                       "handle":  "@nateherk",
+                       "iniciais":  "NH",
+                       "cor":  "#86efac",
+                       "corBg":  "rgba(134,239,172,0.12)",
+                       "desc":  "Automações com IA para negócios — workflows, n8n e Claude Code para economizar tempo e escalar operações.",
+                       "url":  "https://www.youtube.com/@nateherk"
+                   },
+                   {
+                       "nome":  "Érico Renato | Automação Digital e IA",
+                       "handle":  "@ericorenato.automacao",
+                       "iniciais":  "ER",
+                       "cor":  "#67e8f9",
+                       "corBg":  "rgba(103,232,249,0.12)",
+                       "desc":  "n8n, Make, Claude, agentes de IA e automação de processos digitais para negócios reais.",
+                       "url":  "https://www.youtube.com/@ericorenato.automacao"
+                   },
+                   {
+                       "nome":  "Rourke Heath",
+                       "handle":  "@RourkeHeath",
+                       "iniciais":  "RH",
+                       "cor":  "#fbbf24",
+                       "corBg":  "rgba(251,191,36,0.12)",
+                       "desc":  "IA generativa, geração de vídeo e tutoriais de ferramentas como Seedance, Higgsfield e Claude.",
+                       "url":  "https://www.youtube.com/@RourkeHeath"
+                   },
+                   {
+                       "nome":  "Se Mexa",
+                       "handle":  "@semexabr",
+                       "iniciais":  "SM",
+                       "cor":  "#c084fc",
+                       "corBg":  "rgba(192,132,252,0.12)",
+                       "desc":  "Como trabalhar na internet com IA — canais dark, canais de autoridade e ferramentas para criadores de conteúdo.",
+                       "url":  "https://www.youtube.com/@semexabr/videos"
+                   },
+                   {
+                       "nome":  "Cris Tecnologia",
+                       "handle":  "@cristecnologia",
+                       "iniciais":  "CT",
+                       "cor":  "#f9a8d4",
+                       "corBg":  "rgba(249,168,212,0.12)",
+                       "desc":  "Tudo sobre inteligências artificiais — novidades, ferramentas e como usar IA no dia a dia.",
+                       "url":  "https://www.youtube.com/@cristecnologia"
+                   },
+                   {
+                       "nome":  "Willian IA",
+                       "handle":  "@willian.design",
+                       "iniciais":  "WI",
+                       "cor":  "#6ee7b7",
+                       "corBg":  "rgba(110,231,183,0.12)",
+                       "desc":  "Design e IA — criação visual com inteligência artificial para projetos profissionais.",
+                       "url":  "https://www.youtube.com/@willian.design/videos"
+                   },
+                   {
+                       "nome":  "Deborah Folloni",
+                       "handle":  "@deborahfolloni",
+                       "iniciais":  "DF",
+                       "cor":  "#fd8a8a",
+                       "corBg":  "rgba(253,138,138,0.12)",
+                       "desc":  "Vibe Coding, Claude Code, Lovable e ferramentas no-code/AI — Forbes Under 30, fundadora goepic.dev.",
+                       "url":  "https://www.youtube.com/@deborahfolloni/videos"
+                   },
+                   {
+                       "nome":  "James Kelly",
+                       "handle":  "@JamesKellyStudio",
+                       "iniciais":  "JK",
+                       "cor":  "#93c5fd",
+                       "corBg":  "rgba(147,197,253,0.12)",
+                       "desc":  "Estúdio profissional para criadores de conteúdo — posicionamento, setup e produção para YouTube.",
+                       "url":  "https://www.youtube.com/@JamesKellyStudio/videos"
+                   },
+                   {
+                       "nome":  "ABRAhub Studio",
+                       "handle":  "@abrahubstudio",
+                       "iniciais":  "AB",
+                       "cor":  "#fcd34d",
+                       "corBg":  "rgba(252,211,77,0.12)",
+                       "desc":  "Transforme prompts em vídeos, vídeos em views e views em dinheiro — produção de conteúdo com IA.",
+                       "url":  "https://www.youtube.com/@abrahubstudio/videos"
+                   },
+                   {
+                       "nome":  "Enzo Barbatto",
+                       "handle":  "@EnzoSparo",
+                       "iniciais":  "EB",
+                       "cor":  "#6d9dff",
+                       "corBg":  "rgba(109,157,255,0.12)",
+                       "desc":  "Automatize seu negócio sem programar — curadoria das melhores automações com n8n, Antigravity e IA.",
+                       "url":  "https://www.youtube.com/@EnzoSparo"
+                   },
+                   {
+                       "nome":  "Sandeco Channel",
+                       "handle":  "@canalsandeco",
+                       "iniciais":  "SC",
+                       "cor":  "#a3e635",
+                       "corBg":  "rgba(163,230,53,0.12)",
+                       "desc":  "IA descomplicada — Machine Learning, Deep Learning, ChatGPT, Gemini e agentes de IA na prática.",
+                       "url":  "https://www.youtube.com/@canalsandeco"
+                   },
+                   {
+                       "nome":  "Matheus | IA Coding",
+                       "handle":  "@oMatheusdaIA",
+                       "iniciais":  "MC",
+                       "cor":  "#22c55e",
+                       "corBg":  "rgba(34,197,94,0.12)",
+                       "desc":  "🚀 Crie apps e automatize tarefas com IA!Aqui você aprende a criar aplicativos sem código, usar IA para otimizar processos e lançar seu SaaS em menos tempo p...",
+                       "url":  "https://www.youtube.com/@oMatheusdaIA"
+                   },
+                   {
+                       "nome":  "Thalena Lima - IA \u0026 Automações",
+                       "handle":  "@thalena-lima",
+                       "iniciais":  "TL",
+                       "cor":  "#ef4444",
+                       "corBg":  "rgba(239,68,68,0.12)",
+                       "desc":  "O canal que vai transformar o seu negócio com Inteligência Artificial e Automação!Aqui você aprende, na prática, como aplicar IA e automações para escalar re...",
+                       "url":  "https://www.youtube.com/@thalena-lima"
+                   },
+                   {
+                       "nome":  "IronIA Artificial",
+                       "handle":  "@IronIAArtificial",
+                       "iniciais":  "IA",
+                       "cor":  "#14b8a6",
+                       "corBg":  "rgba(20,184,166,0.12)",
+                       "desc":  "Domine Inteligência Artificial e saia na frente da concorrência!No IronIA Artificial, você aprende a usar IA de forma prática para:✅ Economizar horas de trab...",
+                       "url":  "https://www.youtube.com/@IronIAArtificial"
+                   },
+                   {
+                       "nome":  "Cakto",
+                       "handle":  "@Caktocanal",
+                       "iniciais":  "CK",
+                       "cor":  "#ff7a59",
+                       "corBg":  "rgba(255,122,89,0.12)",
+                       "desc":  "Compartilhe seus vídeos com amigos, familiares e todo o mundo",
+                       "url":  "https://www.youtube.com/@Caktocanal"
+                   },
+                   {
+                       "nome":  "Sabrina Ramonov 🍄",
+                       "handle":  "@sabrina_ramonov",
+                       "iniciais":  "SR",
+                       "cor":  "#38bdf8",
+                       "corBg":  "rgba(56,189,248,0.12)",
+                       "desc":  "👇 FREE AI Prompts, Playbooks, \u0026 Agents👇I\u0027m Sabrina Ramonov. I\u0027m on a mission to teach 1 million people AI. I\u0027m also the solo founder of Blotato.com. It\u0027s a...",
+                       "url":  "https://www.youtube.com/@sabrina_ramonov"
+                   },
+                   {
+                       "nome":  "Nathan Sebhastian",
+                       "handle":  "@NathanSebhastian",
+                       "iniciais":  "NS",
+                       "cor":  "#f59e0b",
+                       "corBg":  "rgba(245,158,11,0.12)",
+                       "desc":  "My name is Nathan. I am a software developer with 10 years of experience.I help you learn how to code and use AI tools so that you can build great products, ...",
+                       "url":  "https://www.youtube.com/@NathanSebhastian"
+                   },
+                   {
+                       "nome":  "Matheus Battisti - Hora de Codar",
+                       "handle":  "@MatheusBattisti",
+                       "iniciais":  "MB",
+                       "cor":  "#0ea5e9",
+                       "corBg":  "rgba(14,165,233,0.12)",
+                       "desc":  "Seja bem-vindo ao meu canal! =)Para conhecer meus treinamentos, acesse: https://app.horadecodar.com.br/",
+                       "url":  "https://www.youtube.com/@MatheusBattisti"
+                   },
+                   {
+                       "nome":  "Metics Media",
+                       "handle":  "@MeticsMedia",
+                       "iniciais":  "ME",
+                       "cor":  "#84cc16",
+                       "corBg":  "rgba(132,204,22,0.12)",
+                       "desc":  "Welcome to Metics Media – your go-to source for in-depth tutorials on the best website builders and online platforms. Whether you\u0027re creating your first webs...",
+                       "url":  "https://www.youtube.com/@MeticsMedia"
+                   },
+                   {
+                       "nome":  "Maestros da IA",
+                       "handle":  "@maestrosdaia",
+                       "iniciais":  "MI",
+                       "cor":  "#f97316",
+                       "corBg":  "rgba(249,115,22,0.12)",
+                       "desc":  "👋 Olá! Somos os Maestros da IA — um canal feito para quem quer dominar a automação e a inteligência artificial no dia a dia dos negócios, mesmo sem saber pr...",
+                       "url":  "https://www.youtube.com/@maestrosdaia"
+                   },
+                   {
+                       "nome":  "Well Pires",
+                       "handle":  "@WellPiresAI",
+                       "iniciais":  "WP",
+                       "cor":  "#06b6d4",
+                       "corBg":  "rgba(6,182,212,0.12)",
+                       "desc":  "Criador por natureza, impulsionado por IA. Minha missão é tornar a criação de sistemas muito mais prática e rápida para todos, usando IA para: Automação, Des...",
+                       "url":  "https://www.youtube.com/@WellPiresAI"
+                   }
+               ]
 }
