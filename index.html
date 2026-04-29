@@ -285,7 +285,8 @@
     border-radius: 2px;
     width: min(860px, 95vw);
     max-height: 90vh;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     animation: fadeUp 0.2s ease;
@@ -319,6 +320,7 @@
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
+    flex-shrink: 0;
   }
   .modal-body iframe {
     position: absolute;
