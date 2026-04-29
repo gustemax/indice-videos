@@ -440,6 +440,14 @@
     margin-bottom: 1rem;
   }
   .count-bar b { color: var(--accent); }
+
+  .section-meta {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 1rem;
+  }
+  .section-meta b { color: var(--accent); }
 </style>
 </head>
 <body>
@@ -468,6 +476,7 @@
 <!-- CANAIS -->
 <div class="container">
   <div class="section-label">Canais para acompanhar</div>
+  <div class="section-meta" id="channels-count-bar"></div>
   <div class="channels-grid" id="canais-grid"></div>
 </div>
 
@@ -516,6 +525,7 @@ const modalAuthor= document.getElementById("modal-author");
 const modalLink  = document.getElementById("modal-yt-link");
 const closeBtn   = document.getElementById("close-btn");
 const canaisGrid = document.getElementById("canais-grid");
+const channelsCountBar = document.getElementById("channels-count-bar");
 
 function buildFilters() {
   filtersEl.innerHTML = "";
@@ -574,6 +584,7 @@ function render() {
 }
 
 function renderCanais(canais) {
+  channelsCountBar.innerHTML = `Total de <b>${canais.length}</b> canais`;
   canaisGrid.innerHTML = "";
   canais.forEach(c => {
     const a = document.createElement("a");
