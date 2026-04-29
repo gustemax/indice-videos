@@ -5,21 +5,30 @@
     { "cat": "Agentes de IA", "title": "Montei uma EMPRESA Inteira de Agentes de IA (Paperclip + Claude Code)", "author": "Matheus Battisti", "id": "Ap_5wtWWEC0" },
     { "cat": "Agentes de IA", "title": "HERMES DO ZERO! Instalação e Configuração Tutorial Completo", "author": "Aly IA Lab", "id": "Uc8NNrrovD4" },
     { "cat": "Agentes de IA", "title": "Create your own AIOX — Claude Code, Ralph, BMAD and XOIA", "author": "Érico Renato | Automação Digital e IA", "id": "G2KcYWSyIbI" },
+    { "cat": "Agentes de IA", "title": "Gemini's New File Search Just Leveled Up RAG Agents (10x Cheaper)", "author": "Nate Herk | AI Automation", "id": "irg-2IfAjpo" },
     { "cat": "Claude Code + Produtividade", "title": "Second AI Brain: Gain SUPER POWERS (Claude Code + Obsidian)", "author": "Ana Jords", "id": "8NOxb2WV95I" },
     { "cat": "Claude Code + Produtividade", "title": "You're Using the Wrong Claude Code... Karpathy Proved It.", "author": "Maestros da IA", "id": "temIJPLw0jo" },
     { "cat": "Claude Code + Produtividade", "title": "Harness: The Evolution of Skills in Claude Code", "author": "Well Pires", "id": "AzUp3iglg7A" },
     { "cat": "Claude Code + Produtividade", "title": "Andrej Karpathy Just 10x'd Everyone's Claude Code", "author": "Nate Herk | AI Automation", "id": "sboNwYmH3AY" },
     { "cat": "Claude Code + Produtividade", "title": "Agentes de IA são FIRULA? Marketing inteiro no Claude Code com Skills", "author": "Ratos de IA", "id": "5LyNOEOsVcU" },
+    { "cat": "Claude Code + Produtividade", "title": "Essa skill do Claude Code faz designs IRRESISTÍVEIS", "author": "Deborah Folloni", "id": "OuAfWKSyAco" },
     { "cat": "Edição de Vídeo com IA", "title": "Como Editar e fazer Motion Graphics no Claude Code (Remotion)", "author": "Fernando Valon", "id": "ntHLmj-GqF0" },
     { "cat": "Edição de Vídeo com IA", "title": "CLAUDE CODE edited my videos all by itself", "author": "Mateus Castro IA", "id": "cqu3Uj57Cdc" },
     { "cat": "Edição de Vídeo com IA", "title": "Como EDITAR VÍDEOS com o CLAUDE CODE (Cortes + Motion)", "author": "Rafa Voss", "id": "SjlKBdgWrZ4" },
     { "cat": "Edição de Vídeo com IA", "title": "Seedance 2.0 Officially Public! Full Prompting Tutorial (Claude + Higgsfield)", "author": "Rourke Heath", "id": "tYJQusOS2jI" },
+    { "cat": "Edição de Vídeo com IA", "title": "Turn NotebookLM into Videos with YOUR Face (NO FILMING!)", "author": "Jonathan's Jam", "id": "JPP82B7-U0c" },
     { "cat": "Monetização com IA", "title": "Ganhe R$10.000/mês com LowTickets criados com Claude Code", "author": "Guilherme Franklim", "id": "nwaiD-HCAAA" },
+    { "cat": "Monetização com IA", "title": "Essa Ferramenta Acha Clientes pra Você de Graça Todo Mês", "author": "Victor Peixoto", "id": "9de9i8-1oAg" },
     { "cat": "Ferramentas / Setup", "title": "Como usar o ANTIGRAVITY com LLMs infinitas de GRAÇA (Tutorial Completo)", "author": "Julio | Lucrar com IA", "id": "__vSrFlvHuY" },
     { "cat": "Ferramentas / Setup", "title": "Ao INVÉS de CONTRATAR DESIGNER Use Isso: CLAUDE DESIGN", "author": "Tiago Lemos", "id": "R1tqXpmNhls" },
     { "cat": "Ferramentas / Setup", "title": "This AI from Meta Creates Content and Optimizes Your Ads on its Own (Manus 2026)", "author": "Filipe Detrey", "id": "lQgoPBrrdE0" },
     { "cat": "Ferramentas / Setup", "title": "HAS CLAUDE GONE CRAZY? He's creating content BETTER than humans", "author": "Rafael Mota – Sala Ninja IA", "id": "TBBOv4U6SgE" },
-    { "cat": "Automação / WhatsApp", "title": "Criei um Agente de IA no WhatsApp em 20 Minutos com Claude Code", "author": "Eduardo Carezia", "id": "XknqMFCb9zg" }
+    { "cat": "Ferramentas / Setup", "title": "Tchau OpenClaw! Criei meu agente pessoal usando o Antigravity do zero", "author": "Ratos de IA", "id": "c0nJB1y-SQI" },
+    { "cat": "Ferramentas / Setup", "title": "O Fim dos Agentes de IA: Conheça os Fluxos Agênticos (Google Antigravity)", "author": "Enzo Barbatto", "id": "Lsoci3HRD1A" },
+    { "cat": "Ferramentas / Setup", "title": "O Novo Modelo do Google + Antigravity | Acabaram de Mudar o RAG para Sempre", "author": "Enzo Barbatto", "id": "nvC7B9To_mo" },
+    { "cat": "Ferramentas / Setup", "title": "How to use AntiGravity better than 99% of people", "author": "Enzo Barbatto", "id": "DIqLI5Vgacc" },
+    { "cat": "Automação / WhatsApp", "title": "Criei um Agente de IA no WhatsApp em 20 Minutos com Claude Code", "author": "Eduardo Carezia", "id": "XknqMFCb9zg" },
+    { "cat": "Automação / WhatsApp", "title": "Meta Mudou Tudo! Como Criar o Novo App da API WhatsApp", "author": "Comunidade ZDG", "id": "Mo9tDcvP9Tc" }
   ],
   "canais": [
     {
@@ -102,6 +111,78 @@
       "corBg": "rgba(251,191,36,0.12)",
       "desc": "IA generativa, geração de vídeo e tutoriais de ferramentas como Seedance, Higgsfield e Claude.",
       "url": "https://www.youtube.com/@RourkeHeath"
+    },
+    {
+      "nome": "Se Mexa",
+      "handle": "@semexabr",
+      "iniciais": "SM",
+      "cor": "#c084fc",
+      "corBg": "rgba(192,132,252,0.12)",
+      "desc": "Como trabalhar na internet com IA — canais dark, canais de autoridade e ferramentas para criadores de conteúdo.",
+      "url": "https://www.youtube.com/@semexabr/videos"
+    },
+    {
+      "nome": "Cris Tecnologia",
+      "handle": "@cristecnologia",
+      "iniciais": "CT",
+      "cor": "#f9a8d4",
+      "corBg": "rgba(249,168,212,0.12)",
+      "desc": "Tudo sobre inteligências artificiais — novidades, ferramentas e como usar IA no dia a dia.",
+      "url": "https://www.youtube.com/@cristecnologia"
+    },
+    {
+      "nome": "Willian IA",
+      "handle": "@willian.design",
+      "iniciais": "WI",
+      "cor": "#6ee7b7",
+      "corBg": "rgba(110,231,183,0.12)",
+      "desc": "Design e IA — criação visual com inteligência artificial para projetos profissionais.",
+      "url": "https://www.youtube.com/@willian.design/videos"
+    },
+    {
+      "nome": "Deborah Folloni",
+      "handle": "@deborahfolloni",
+      "iniciais": "DF",
+      "cor": "#fd8a8a",
+      "corBg": "rgba(253,138,138,0.12)",
+      "desc": "Vibe Coding, Claude Code, Lovable e ferramentas no-code/AI — Forbes Under 30, fundadora goepic.dev.",
+      "url": "https://www.youtube.com/@deborahfolloni/videos"
+    },
+    {
+      "nome": "James Kelly",
+      "handle": "@JamesKellyStudio",
+      "iniciais": "JK",
+      "cor": "#93c5fd",
+      "corBg": "rgba(147,197,253,0.12)",
+      "desc": "Estúdio profissional para criadores de conteúdo — posicionamento, setup e produção para YouTube.",
+      "url": "https://www.youtube.com/@JamesKellyStudio/videos"
+    },
+    {
+      "nome": "ABRAhub Studio",
+      "handle": "@abrahubstudio",
+      "iniciais": "AB",
+      "cor": "#fcd34d",
+      "corBg": "rgba(252,211,77,0.12)",
+      "desc": "Transforme prompts em vídeos, vídeos em views e views em dinheiro — produção de conteúdo com IA.",
+      "url": "https://www.youtube.com/@abrahubstudio/videos"
+    },
+    {
+      "nome": "Enzo Barbatto",
+      "handle": "@EnzoSparo",
+      "iniciais": "EB",
+      "cor": "#6d9dff",
+      "corBg": "rgba(109,157,255,0.12)",
+      "desc": "Automatize seu negócio sem programar — curadoria das melhores automações com n8n, Antigravity e IA.",
+      "url": "https://www.youtube.com/@EnzoSparo"
+    },
+    {
+      "nome": "Sandeco Channel",
+      "handle": "@canalsandeco",
+      "iniciais": "SC",
+      "cor": "#a3e635",
+      "corBg": "rgba(163,230,53,0.12)",
+      "desc": "IA descomplicada — Machine Learning, Deep Learning, ChatGPT, Gemini e agentes de IA na prática.",
+      "url": "https://www.youtube.com/@canalsandeco"
     }
   ]
 }
