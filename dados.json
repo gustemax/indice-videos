@@ -258,6 +258,42 @@
       "corBg": "rgba(245,158,11,0.12)",
       "desc": "My name is Nathan. I am a software developer with 10 years of experience.I help you learn how to code and use AI tools so that you can build great products, ...",
       "url": "https://www.youtube.com/@NathanSebhastian"
+    },
+    {
+      "nome": "Matheus Battisti - Hora de Codar",
+      "handle": "@MatheusBattisti",
+      "iniciais": "MB",
+      "cor": "#0ea5e9",
+      "corBg": "rgba(14,165,233,0.12)",
+      "desc": "Seja bem-vindo ao meu canal! =)Para conhecer meus treinamentos, acesse: https://app.horadecodar.com.br/",
+      "url": "https://www.youtube.com/@MatheusBattisti"
+    },
+    {
+      "nome": "Metics Media",
+      "handle": "@MeticsMedia",
+      "iniciais": "ME",
+      "cor": "#84cc16",
+      "corBg": "rgba(132,204,22,0.12)",
+      "desc": "Welcome to Metics Media – your go-to source for in-depth tutorials on the best website builders and online platforms. Whether you're creating your first webs...",
+      "url": "https://www.youtube.com/@MeticsMedia"
+    },
+    {
+      "nome": "Maestros da IA",
+      "handle": "@maestrosdaia",
+      "iniciais": "MI",
+      "cor": "#f97316",
+      "corBg": "rgba(249,115,22,0.12)",
+      "desc": "👋 Olá! Somos os Maestros da IA — um canal feito para quem quer dominar a automação e a inteligência artificial no dia a dia dos negócios, mesmo sem saber pr...",
+      "url": "https://www.youtube.com/@maestrosdaia"
+    },
+    {
+      "nome": "Well Pires",
+      "handle": "@WellPiresAI",
+      "iniciais": "WP",
+      "cor": "#06b6d4",
+      "corBg": "rgba(6,182,212,0.12)",
+      "desc": "Criador por natureza, impulsionado por IA. Minha missão é tornar a criação de sistemas muito mais prática e rápida para todos, usando IA para: Automação, Des...",
+      "url": "https://www.youtube.com/@WellPiresAI"
     }
   ]
 }
