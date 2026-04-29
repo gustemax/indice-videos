@@ -1,0 +1,107 @@
+{
+  "videos": [
+    { "cat": "Agentes de IA", "title": "PAPERCLIP: Crie uma Empresa de Agentes de IA em Minutos", "author": "Aly IA Lab", "id": "JdAf01NzaQo" },
+    { "cat": "Agentes de IA", "title": "Paperclip AI Tutorial: How to Build a Zero-Human Company", "author": "Metics Media", "id": "XXplTbQR9to" },
+    { "cat": "Agentes de IA", "title": "Montei uma EMPRESA Inteira de Agentes de IA (Paperclip + Claude Code)", "author": "Matheus Battisti", "id": "Ap_5wtWWEC0" },
+    { "cat": "Agentes de IA", "title": "HERMES DO ZERO! Instalação e Configuração Tutorial Completo", "author": "Aly IA Lab", "id": "Uc8NNrrovD4" },
+    { "cat": "Agentes de IA", "title": "Create your own AIOX — Claude Code, Ralph, BMAD and XOIA", "author": "Érico Renato | Automação Digital e IA", "id": "G2KcYWSyIbI" },
+    { "cat": "Claude Code + Produtividade", "title": "Second AI Brain: Gain SUPER POWERS (Claude Code + Obsidian)", "author": "Ana Jords", "id": "8NOxb2WV95I" },
+    { "cat": "Claude Code + Produtividade", "title": "You're Using the Wrong Claude Code... Karpathy Proved It.", "author": "Maestros da IA", "id": "temIJPLw0jo" },
+    { "cat": "Claude Code + Produtividade", "title": "Harness: The Evolution of Skills in Claude Code", "author": "Well Pires", "id": "AzUp3iglg7A" },
+    { "cat": "Claude Code + Produtividade", "title": "Andrej Karpathy Just 10x'd Everyone's Claude Code", "author": "Nate Herk | AI Automation", "id": "sboNwYmH3AY" },
+    { "cat": "Claude Code + Produtividade", "title": "Agentes de IA são FIRULA? Marketing inteiro no Claude Code com Skills", "author": "Ratos de IA", "id": "5LyNOEOsVcU" },
+    { "cat": "Edição de Vídeo com IA", "title": "Como Editar e fazer Motion Graphics no Claude Code (Remotion)", "author": "Fernando Valon", "id": "ntHLmj-GqF0" },
+    { "cat": "Edição de Vídeo com IA", "title": "CLAUDE CODE edited my videos all by itself", "author": "Mateus Castro IA", "id": "cqu3Uj57Cdc" },
+    { "cat": "Edição de Vídeo com IA", "title": "Como EDITAR VÍDEOS com o CLAUDE CODE (Cortes + Motion)", "author": "Rafa Voss", "id": "SjlKBdgWrZ4" },
+    { "cat": "Edição de Vídeo com IA", "title": "Seedance 2.0 Officially Public! Full Prompting Tutorial (Claude + Higgsfield)", "author": "Rourke Heath", "id": "tYJQusOS2jI" },
+    { "cat": "Monetização com IA", "title": "Ganhe R$10.000/mês com LowTickets criados com Claude Code", "author": "Guilherme Franklim", "id": "nwaiD-HCAAA" },
+    { "cat": "Ferramentas / Setup", "title": "Como usar o ANTIGRAVITY com LLMs infinitas de GRAÇA (Tutorial Completo)", "author": "Julio | Lucrar com IA", "id": "__vSrFlvHuY" },
+    { "cat": "Ferramentas / Setup", "title": "Ao INVÉS de CONTRATAR DESIGNER Use Isso: CLAUDE DESIGN", "author": "Tiago Lemos", "id": "R1tqXpmNhls" },
+    { "cat": "Ferramentas / Setup", "title": "This AI from Meta Creates Content and Optimizes Your Ads on its Own (Manus 2026)", "author": "Filipe Detrey", "id": "lQgoPBrrdE0" },
+    { "cat": "Ferramentas / Setup", "title": "HAS CLAUDE GONE CRAZY? He's creating content BETTER than humans", "author": "Rafael Mota – Sala Ninja IA", "id": "TBBOv4U6SgE" },
+    { "cat": "Automação / WhatsApp", "title": "Criei um Agente de IA no WhatsApp em 20 Minutos com Claude Code", "author": "Eduardo Carezia", "id": "XknqMFCb9zg" }
+  ],
+  "canais": [
+    {
+      "nome": "Guilherme Franklim",
+      "handle": "@franklimgui",
+      "iniciais": "GF",
+      "cor": "#e8ff5a",
+      "corBg": "rgba(232,255,90,0.12)",
+      "desc": "Marketing digital, vendas, IA, tráfego pago, automações e estratégias que realmente geram resultado.",
+      "url": "https://www.youtube.com/@franklimgui/videos"
+    },
+    {
+      "nome": "Aly IA Lab",
+      "handle": "@AlyIALab",
+      "iniciais": "AL",
+      "cor": "#a78bfa",
+      "corBg": "rgba(167,139,250,0.12)",
+      "desc": "Ferramentas de IA testadas na prática — do iniciante ao avançado, para trabalho e rotina diária.",
+      "url": "https://www.youtube.com/@AlyIALab/videos"
+    },
+    {
+      "nome": "Erick Castilio",
+      "handle": "@erickcastilio",
+      "iniciais": "EC",
+      "cor": "#34d399",
+      "corBg": "rgba(52,211,153,0.12)",
+      "desc": "n8n, IA e automação para negócios — conteúdo prático sobre como aplicar automações em empresas reais.",
+      "url": "https://www.youtube.com/@erickcastilio"
+    },
+    {
+      "nome": "Felipe Borges — Fala IA!",
+      "handle": "@FelipeBorgesFalaIA",
+      "iniciais": "FB",
+      "cor": "#60a5fa",
+      "corBg": "rgba(96,165,250,0.12)",
+      "desc": "Agentes de IA, automação e estratégias de aquisição de clientes — tutoriais práticos e cases reais.",
+      "url": "https://www.youtube.com/@FelipeBorgesFalaIA/videos"
+    },
+    {
+      "nome": "Rafael Mota – Sala Ninja IA",
+      "handle": "@SalaNinja",
+      "iniciais": "SN",
+      "cor": "#fb923c",
+      "corBg": "rgba(251,146,60,0.12)",
+      "desc": "Sites, lojas e ferramentas de IA na prática — Claude Code, Vibe Coding, automações e WordPress com IA.",
+      "url": "https://www.youtube.com/@SalaNinja/videos"
+    },
+    {
+      "nome": "Ratos de IA",
+      "handle": "@ratosdeia",
+      "iniciais": "RI",
+      "cor": "#f472b6",
+      "corBg": "rgba(244,114,182,0.12)",
+      "desc": "Resumo semanal do que rolou com IA — novidades, ferramentas e dicas que impactam negócios e trabalho.",
+      "url": "https://www.youtube.com/@ratosdeia"
+    },
+    {
+      "nome": "Nate Herk | AI Automation",
+      "handle": "@nateherk",
+      "iniciais": "NH",
+      "cor": "#86efac",
+      "corBg": "rgba(134,239,172,0.12)",
+      "desc": "Automações com IA para negócios — workflows, n8n e Claude Code para economizar tempo e escalar operações.",
+      "url": "https://www.youtube.com/@nateherk"
+    },
+    {
+      "nome": "Érico Renato | Automação Digital e IA",
+      "handle": "@ericorenato.automacao",
+      "iniciais": "ER",
+      "cor": "#67e8f9",
+      "corBg": "rgba(103,232,249,0.12)",
+      "desc": "n8n, Make, Claude, agentes de IA e automação de processos digitais para negócios reais.",
+      "url": "https://www.youtube.com/@ericorenato.automacao"
+    },
+    {
+      "nome": "Rourke Heath",
+      "handle": "@RourkeHeath",
+      "iniciais": "RH",
+      "cor": "#fbbf24",
+      "corBg": "rgba(251,191,36,0.12)",
+      "desc": "IA generativa, geração de vídeo e tutoriais de ferramentas como Seedance, Higgsfield e Claude.",
+      "url": "https://www.youtube.com/@RourkeHeath"
+    }
+  ]
+}
