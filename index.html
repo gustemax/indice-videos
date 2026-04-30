@@ -641,6 +641,40 @@
     margin-bottom: 1rem;
   }
   .count-bar b { color: var(--accent); }
+  .active-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 1rem;
+  }
+  .active-filter-chip {
+    padding: 6px 10px;
+    border: 1px solid var(--border2);
+    border-radius: 2px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: var(--surface);
+  }
+  .clear-filters-btn {
+    padding: 6px 10px;
+    border: 1px solid var(--border2);
+    border-radius: 2px;
+    background: transparent;
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .clear-filters-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
 
   .section-meta {
     font-family: 'DM Mono', monospace;
@@ -695,6 +729,7 @@
   </div>
 
   <div class="filters" id="filters"></div>
+  <div class="active-filters" id="active-filters"></div>
   <div class="count-bar" id="count-bar"></div>
   <div class="grid" id="grid"></div>
 </div>
@@ -759,6 +794,7 @@ let currentModalVideoId = null;
 const watchedVideoIds = new Set();
 
 const filtersEl  = document.getElementById("filters");
+const activeFiltersEl = document.getElementById("active-filters");
 const gridEl     = document.getElementById("grid");
 const countBar   = document.getElementById("count-bar");
 const totalCount = document.getElementById("total-count");
@@ -854,8 +890,16 @@ function getRelatedChannels(filteredVideos) {
 }
 
 function parseDateValue(value) {
-  const time = Date.parse(value || "");
-  return Number.isNaN(time) ? null : time;
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec((value || "").trim());
+  if (!match) return null;
+
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+
+  if (!year || !month || !day) return null;
+
+  return Date.UTC(year, month - 1, day);
 }
 
 function formatPublishedDate(value) {
@@ -907,6 +951,7 @@ function render() {
   const unwatchedTotal = videos.length - watchedTotal;
 
   countBar.innerHTML = `Exibindo <b>${sortedVideos.length}</b> de ${videos.length} vídeos • Assistidos: <b>${watchedTotal}</b> • Não assistidos: <b>${unwatchedTotal}</b>`;
+  renderActiveFilters();
   gridEl.innerHTML = "";
   renderCanais(relatedChannels);
 
@@ -953,6 +998,39 @@ function render() {
     card.onclick = () => openModal(v);
     gridEl.appendChild(card);
   });
+}
+
+function renderActiveFilters() {
+  const chips = [];
+  if (searchVal.trim()) chips.push(`Busca: ${searchVal.trim()}`);
+  if (activeFilter !== "Todos") chips.push(`Categoria: ${activeFilter}`);
+  if (watchFilter === "watched") chips.push("Status: Assistidos");
+  if (watchFilter === "unwatched") chips.push("Status: Não assistidos");
+  if (sortMode === "published_desc") chips.push("Ordem: Publicação mais novos");
+  if (sortMode === "published_asc") chips.push("Ordem: Publicação mais antigos");
+  if (sortMode === "added_desc") chips.push("Ordem: Inclusão mais recentes");
+  if (sortMode === "added_asc") chips.push("Ordem: Inclusão mais antigos");
+
+  if (!chips.length) {
+    activeFiltersEl.innerHTML = "";
+    return;
+  }
+
+  activeFiltersEl.innerHTML = chips
+    .map(chip => `<span class="active-filter-chip">${chip}</span>`)
+    .join("") + '<button class="clear-filters-btn" id="clear-filters-btn" type="button">Limpar filtros</button>';
+
+  document.getElementById("clear-filters-btn").onclick = () => {
+    activeFilter = "Todos";
+    searchVal = "";
+    watchFilter = "all";
+    sortMode = "published_desc";
+    searchEl.value = "";
+    sortSelect.value = "published_desc";
+    watchStatusSelect.value = "all";
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.toggle("active", b.textContent === "Todos"));
+    render();
+  };
 }
 
 function renderCanais(canais) {
