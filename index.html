@@ -765,7 +765,7 @@ function updateDescriptionState() {
 }
 
 function openModal(v) {
-  const links = extractLinks(v.desc);
+  const links = Array.isArray(v.links) && v.links.length ? v.links : extractLinks(v.desc);
   isDescriptionExpanded = false;
   modalTitle.textContent  = v.title;
   modalAuthor.textContent = v.author;
