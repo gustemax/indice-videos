@@ -890,7 +890,8 @@ function getRelatedChannels(filteredVideos) {
 }
 
 function parseDateValue(value) {
-  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec((value || "").trim());
+  const normalized = normalizePublishedAt(value);
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(normalized);
   if (!match) return null;
 
   const year = Number(match[1]);
@@ -900,6 +901,19 @@ function parseDateValue(value) {
   if (!year || !month || !day) return null;
 
   return Date.UTC(year, month - 1, day);
+}
+
+function normalizePublishedAt(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return "";
+
+  const isoDateMatch = raw.match(/\d{4}-\d{2}-\d{2}/);
+  if (isoDateMatch) return isoDateMatch[0];
+
+  const parsedTime = Date.parse(raw);
+  if (Number.isNaN(parsedTime)) return "";
+
+  return new Date(parsedTime).toISOString().slice(0, 10);
 }
 
 function formatPublishedDate(value) {
@@ -1138,11 +1152,18 @@ watchStatusSelect.addEventListener("change", (e) => { watchFilter = e.target.val
 
 // Carrega dados do JSON externo
 loadWatchedVideos();
-fetch("dados.json")
+fetch("dados.json", { cache: "no-store" })
   .then(r => r.json())
   .then(data => {
     videos = data.videos.map((video, index) => ({
       ...video,
+      publishedAt: normalizePublishedAt(
+        video.publishedAt ||
+        video.published_at ||
+        video.publishDate ||
+        video.datePublished ||
+        video.uploadDate
+      ),
       __addedIndex: index
     }));
     canais = data.canais;
