@@ -115,7 +115,6 @@
 
   /* SEARCH */
   .search-wrap {
-    margin-bottom: 2rem;
     position: relative;
   }
   .search-wrap input {
@@ -140,6 +139,54 @@
     font-size: 14px;
     pointer-events: none;
   }
+  .search-controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 250px 220px;
+    gap: 12px;
+    margin-bottom: 2rem;
+    align-items: start;
+  }
+  .sort-wrap {
+    display: grid;
+    gap: 6px;
+  }
+  .sort-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .sort-wrap select {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    padding: 12px 14px;
+    border-radius: 2px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .sort-wrap select:focus { border-color: var(--accent); }
+  .status-wrap {
+    display: grid;
+    gap: 6px;
+  }
+  .status-wrap select {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    padding: 12px 14px;
+    border-radius: 2px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .status-wrap select:focus { border-color: var(--accent); }
 
   /* GRID */
   .grid {
@@ -218,6 +265,19 @@
     font-size: 11px;
     color: var(--muted);
   }
+  .card-meta-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    align-items: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .card-date {
+    white-space: nowrap;
+    text-align: right;
+  }
 
   .card-thumb {
     width: 100%;
@@ -252,6 +312,21 @@
     padding-left: 3px;
   }
   .card:hover .play-overlay { opacity: 1; }
+  .card-watched-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: rgba(232,255,90,0.92);
+    color: #0d0d0d;
+    font-weight: 600;
+  }
 
   .card-link {
     font-family: 'DM Mono', monospace;
@@ -266,6 +341,32 @@
     transition: color 0.15s;
   }
   .card-link:hover { color: var(--accent); }
+  .card-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.25rem;
+  }
+  .watch-toggle-btn {
+    padding: 6px 10px;
+    border: 1px solid var(--border2);
+    background: transparent;
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .watch-toggle-btn:hover {
+    border-color: var(--text);
+    color: var(--text);
+  }
+  .watch-toggle-btn.watched {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(232,255,90,0.08);
+  }
 
   /* MODAL PLAYER */
   .modal-overlay {
@@ -331,7 +432,7 @@
   .modal-footer {
     padding: 0.75rem 1.25rem;
     border-top: 1px solid var(--border);
-    display: flex; gap: 1rem; align-items: center;
+    display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap;
   }
   .modal-footer a {
     font-family: 'DM Mono', monospace;
@@ -341,6 +442,12 @@
     transition: color 0.15s;
   }
   .modal-footer a:hover { color: var(--accent); }
+  .modal-footer-actions {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
   .modal-info {
     padding: 1.25rem;
@@ -542,6 +649,12 @@
     margin-bottom: 1rem;
   }
   .section-meta b { color: var(--accent); }
+
+  @media (max-width: 760px) {
+    .search-controls {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
 </head>
 <body>
@@ -557,9 +670,28 @@
 </header>
 
 <div class="container">
-  <div class="search-wrap">
-    <span class="search-icon">⌕</span>
-    <input type="text" id="search" placeholder="Buscar por título, canal ou categoria...">
+  <div class="search-controls">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="text" id="search" placeholder="Buscar por título, canal ou categoria...">
+    </div>
+    <div class="sort-wrap">
+      <label class="sort-label" for="sort-select">Ordenar por</label>
+      <select id="sort-select">
+        <option value="published_desc">Publicação: mais novos</option>
+        <option value="published_asc">Publicação: mais antigos</option>
+        <option value="added_desc">Inclusão na lista: mais recentes</option>
+        <option value="added_asc">Inclusão na lista: mais antigos</option>
+      </select>
+    </div>
+    <div class="status-wrap">
+      <label class="sort-label" for="watch-status-select">Status</label>
+      <select id="watch-status-select">
+        <option value="all">Todos</option>
+        <option value="watched">Assistidos</option>
+        <option value="unwatched">Não assistidos</option>
+      </select>
+    </div>
   </div>
 
   <div class="filters" id="filters"></div>
@@ -600,6 +732,9 @@
     </div>
     <div class="modal-footer">
       <a id="modal-yt-link" href="#" target="_blank">↗ Abrir no YouTube</a>
+      <div class="modal-footer-actions">
+        <button class="watch-toggle-btn" id="modal-watch-toggle" type="button">Marcar como assistido</button>
+      </div>
     </div>
   </div>
 </div>
@@ -618,12 +753,18 @@ let videos = [];
 let canais = [];
 let activeFilter = "Todos";
 let searchVal = "";
+let sortMode = "published_desc";
+let watchFilter = "all";
+let currentModalVideoId = null;
+const watchedVideoIds = new Set();
 
 const filtersEl  = document.getElementById("filters");
 const gridEl     = document.getElementById("grid");
 const countBar   = document.getElementById("count-bar");
 const totalCount = document.getElementById("total-count");
 const searchEl   = document.getElementById("search");
+const sortSelect = document.getElementById("sort-select");
+const watchStatusSelect = document.getElementById("watch-status-select");
 const overlay    = document.getElementById("modal-overlay");
 const iframe     = document.getElementById("modal-iframe");
 const modalTitle = document.getElementById("modal-title");
@@ -632,10 +773,42 @@ const modalLink  = document.getElementById("modal-yt-link");
 const modalDescription = document.getElementById("modal-description");
 const modalDescriptionToggle = document.getElementById("modal-description-toggle");
 const modalLinks = document.getElementById("modal-links");
+const modalWatchToggle = document.getElementById("modal-watch-toggle");
 const closeBtn   = document.getElementById("close-btn");
 const canaisGrid = document.getElementById("canais-grid");
 const channelsCountBar = document.getElementById("channels-count-bar");
 let isDescriptionExpanded = false;
+
+function loadWatchedVideos() {
+  try {
+    const raw = localStorage.getItem("watchedVideosIA");
+    const parsed = JSON.parse(raw || "[]");
+    if (Array.isArray(parsed)) {
+      parsed.forEach(id => watchedVideoIds.add(id));
+    }
+  } catch {}
+}
+
+function persistWatchedVideos() {
+  localStorage.setItem("watchedVideosIA", JSON.stringify([...watchedVideoIds]));
+}
+
+function isWatched(videoId) {
+  return watchedVideoIds.has(videoId);
+}
+
+function toggleWatched(videoId, forceValue) {
+  const shouldWatch = typeof forceValue === "boolean" ? forceValue : !isWatched(videoId);
+  if (shouldWatch) watchedVideoIds.add(videoId);
+  else watchedVideoIds.delete(videoId);
+  persistWatchedVideos();
+}
+
+function updateModalWatchButton(videoId) {
+  const watched = isWatched(videoId);
+  modalWatchToggle.classList.toggle("watched", watched);
+  modalWatchToggle.textContent = watched ? "Marcar como não assistido" : "Marcar como assistido";
+}
 
 function buildFilters() {
   filtersEl.innerHTML = "";
@@ -680,26 +853,71 @@ function getRelatedChannels(filteredVideos) {
   });
 }
 
+function parseDateValue(value) {
+  const time = Date.parse(value || "");
+  return Number.isNaN(time) ? null : time;
+}
+
+function formatPublishedDate(value) {
+  const time = parseDateValue(value);
+  if (time === null) return "Data indisponível";
+  return new Intl.DateTimeFormat("pt-BR", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric"
+  }).format(new Date(time));
+}
+
+function sortVideos(list) {
+  const sorted = [...list];
+
+  sorted.sort((a, b) => {
+    if (sortMode === "added_desc") return b.__addedIndex - a.__addedIndex;
+    if (sortMode === "added_asc") return a.__addedIndex - b.__addedIndex;
+
+    const dateA = parseDateValue(a.publishedAt);
+    const dateB = parseDateValue(b.publishedAt);
+
+    if (dateA === null && dateB === null) return b.__addedIndex - a.__addedIndex;
+    if (dateA === null) return 1;
+    if (dateB === null) return -1;
+
+    if (sortMode === "published_asc") {
+      return dateA - dateB || b.__addedIndex - a.__addedIndex;
+    }
+
+    return dateB - dateA || b.__addedIndex - a.__addedIndex;
+  });
+
+  return sorted;
+}
+
 function render() {
   const q = searchVal.toLowerCase();
   const filtered = videos.filter(v => {
     const matchCat    = activeFilter === "Todos" || v.cat === activeFilter;
     const matchSearch = !q || v.title.toLowerCase().includes(q) || v.author.toLowerCase().includes(q) || v.cat.toLowerCase().includes(q);
-    return matchCat && matchSearch;
+    const watched = isWatched(v.id);
+    const matchWatch = watchFilter === "all" || (watchFilter === "watched" && watched) || (watchFilter === "unwatched" && !watched);
+    return matchCat && matchSearch && matchWatch;
   });
-  const relatedChannels = getRelatedChannels(filtered);
+  const sortedVideos = sortVideos(filtered);
+  const relatedChannels = getRelatedChannels(sortedVideos);
+  const watchedTotal = videos.filter(v => isWatched(v.id)).length;
+  const unwatchedTotal = videos.length - watchedTotal;
 
-  countBar.innerHTML = `Exibindo <b>${filtered.length}</b> de ${videos.length} vídeos`;
+  countBar.innerHTML = `Exibindo <b>${sortedVideos.length}</b> de ${videos.length} vídeos • Assistidos: <b>${watchedTotal}</b> • Não assistidos: <b>${unwatchedTotal}</b>`;
   gridEl.innerHTML = "";
   renderCanais(relatedChannels);
 
-  if (!filtered.length) {
+  if (!sortedVideos.length) {
     gridEl.innerHTML = '<div class="empty">Nenhum vídeo encontrado.</div>';
     return;
   }
 
-  filtered.forEach(v => {
+  sortedVideos.forEach(v => {
     const st = catStyles[v.cat] || { color: "#888", bg: "rgba(136,136,136,0.12)" };
+    const watched = isWatched(v.id);
     const card = document.createElement("div");
     card.className = "card";
     card.style.setProperty("--cat-color", st.color);
@@ -707,16 +925,31 @@ function render() {
       <div class="card-thumb-wrap">
         <img class="card-thumb" src="https://img.youtube.com/vi/${v.id}/mqdefault.jpg" alt="${v.title}" loading="lazy">
         <div class="play-overlay"><span>▶</span></div>
+        ${watched ? '<div class="card-watched-badge">Assistido</div>' : ''}
       </div>
       <div class="card-top">
         <span class="cat-badge" style="background:${st.bg};color:${st.color}">${v.cat}</span>
       </div>
       <div class="card-title">${v.title}</div>
-      <div class="card-author">${v.author}</div>
+      <div class="card-meta-row">
+        <div class="card-author">${v.author}</div>
+        <div class="card-date">${formatPublishedDate(v.publishedAt)}</div>
+      </div>
       <a class="card-link" href="https://youtube.com/watch?v=${v.id}" target="_blank" onclick="event.stopPropagation()">
         ↗ youtube.com/watch?v=${v.id}
       </a>
+      <div class="card-actions">
+        <button class="watch-toggle-btn ${watched ? "watched" : ""}" type="button" data-watch-toggle="${v.id}">
+          ${watched ? "Assistido" : "Marcar assistido"}
+        </button>
+      </div>
     `;
+    card.querySelector("[data-watch-toggle]").onclick = (event) => {
+      event.stopPropagation();
+      toggleWatched(v.id);
+      if (currentModalVideoId === v.id) updateModalWatchButton(v.id);
+      render();
+    };
     card.onclick = () => openModal(v);
     gridEl.appendChild(card);
   });
@@ -767,6 +1000,7 @@ function updateDescriptionState() {
 function openModal(v) {
   const links = Array.isArray(v.links) && v.links.length ? v.links : extractLinks(v.desc);
   isDescriptionExpanded = false;
+  currentModalVideoId = v.id;
   modalTitle.textContent  = v.title;
   modalAuthor.textContent = v.author;
   iframe.src = `https://www.youtube.com/embed/${v.id}?autoplay=1`;
@@ -795,6 +1029,7 @@ function openModal(v) {
     modalLinks.innerHTML = '<div class="modal-info-empty">Não há links complementares na descrição.</div>';
   }
 
+  updateModalWatchButton(v.id);
   overlay.classList.add("open");
   document.body.style.overflow = "hidden";
 }
@@ -803,22 +1038,35 @@ function closeModal() {
   overlay.classList.remove("open");
   iframe.src = "";
   document.body.style.overflow = "";
+  currentModalVideoId = null;
 }
 
 modalDescriptionToggle.onclick = () => {
   isDescriptionExpanded = !isDescriptionExpanded;
   updateDescriptionState();
 };
+modalWatchToggle.onclick = () => {
+  if (!currentModalVideoId) return;
+  toggleWatched(currentModalVideoId);
+  updateModalWatchButton(currentModalVideoId);
+  render();
+};
 closeBtn.onclick = closeModal;
 overlay.onclick  = (e) => { if (e.target === overlay) closeModal(); };
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
 searchEl.addEventListener("input", (e) => { searchVal = e.target.value; render(); });
+sortSelect.addEventListener("change", (e) => { sortMode = e.target.value; render(); });
+watchStatusSelect.addEventListener("change", (e) => { watchFilter = e.target.value; render(); });
 
 // Carrega dados do JSON externo
+loadWatchedVideos();
 fetch("dados.json")
   .then(r => r.json())
   .then(data => {
-    videos = data.videos;
+    videos = data.videos.map((video, index) => ({
+      ...video,
+      __addedIndex: index
+    }));
     canais = data.canais;
     totalCount.textContent = videos.length;
     buildFilters();
