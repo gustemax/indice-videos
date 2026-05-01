@@ -866,7 +866,9 @@ function normalizeText(str) {
   return (str || "")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
     .toLowerCase()
+    .replace(/\s+/g, " ")
     .trim();
 }
 
@@ -878,6 +880,21 @@ function matchesChannelSearch(channel, normalizedQuery) {
     channel.handle,
     channel.desc,
     channel.url
+  ].map(normalizeText);
+
+  return values.some(value => value.includes(normalizedQuery));
+}
+
+function matchesVideoSearch(video, normalizedQuery) {
+  if (!normalizedQuery) return true;
+
+  const values = [
+    video.title,
+    video.author,
+    video.cat,
+    video.id,
+    video.desc,
+    ...(Array.isArray(video.links) ? video.links : [])
   ].map(normalizeText);
 
   return values.some(value => value.includes(normalizedQuery));
@@ -977,7 +994,7 @@ function render() {
   const q = normalizeText(searchVal);
   const filtered = videos.filter(v => {
     const matchCat    = activeFilter === "Todos" || v.cat === activeFilter;
-    const matchSearch = !q || [v.title, v.author, v.cat].some(value => normalizeText(value).includes(q));
+    const matchSearch = matchesVideoSearch(v, q);
     const watched = isWatched(v.id);
     const matchWatch = watchFilter === "all" || (watchFilter === "watched" && watched) || (watchFilter === "unwatched" && !watched);
     return matchCat && matchSearch && matchWatch;
