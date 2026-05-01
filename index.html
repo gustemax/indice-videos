@@ -870,23 +870,46 @@ function normalizeText(str) {
     .trim();
 }
 
+function matchesChannelSearch(channel, normalizedQuery) {
+  if (!normalizedQuery) return true;
+
+  const values = [
+    channel.nome,
+    channel.handle,
+    channel.desc,
+    channel.url
+  ].map(normalizeText);
+
+  return values.some(value => value.includes(normalizedQuery));
+}
+
 function getRelatedChannels(filteredVideos) {
-  if (!searchVal.trim()) return canais;
+  const normalizedQuery = normalizeText(searchVal);
+  if (!normalizedQuery) return canais;
 
   const authors = filteredVideos.map(v => normalizeText(v.author));
+  const related = [];
+  const seenHandles = new Set();
 
-  return canais.filter(c => {
+  canais.forEach(c => {
     const channelName = normalizeText(c.nome);
     const channelHandle = normalizeText(c.handle);
-
-    return authors.some(author =>
+    const matchesQuery = matchesChannelSearch(c, normalizedQuery);
+    const matchesAuthor = authors.some(author =>
       author === channelName ||
       author.includes(channelName) ||
       channelName.includes(author) ||
       author.includes(channelHandle.replace("@", "")) ||
       channelHandle.includes(author)
     );
+
+    if ((matchesQuery || matchesAuthor) && !seenHandles.has(c.handle)) {
+      seenHandles.add(c.handle);
+      related.push(c);
+    }
   });
+
+  return related;
 }
 
 function parseDateValue(value) {
@@ -951,10 +974,10 @@ function sortVideos(list) {
 }
 
 function render() {
-  const q = searchVal.toLowerCase();
+  const q = normalizeText(searchVal);
   const filtered = videos.filter(v => {
     const matchCat    = activeFilter === "Todos" || v.cat === activeFilter;
-    const matchSearch = !q || v.title.toLowerCase().includes(q) || v.author.toLowerCase().includes(q) || v.cat.toLowerCase().includes(q);
+    const matchSearch = !q || [v.title, v.author, v.cat].some(value => normalizeText(value).includes(q));
     const watched = isWatched(v.id);
     const matchWatch = watchFilter === "all" || (watchFilter === "watched" && watched) || (watchFilter === "unwatched" && !watched);
     return matchCat && matchSearch && matchWatch;
